@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Redline · C4TC Freddie kiosk | PRC round 2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <div class="logo">R</div>
+    <div class="titleblock">
+      <div class="docrow">
+        <span class="doctitle" id="docTitle">C4TC Freddie kiosk | PRC round 2</span>
+        <span class="savestate" id="saveState"><i class="dot"></i><em>Saved</em></span>
+      </div>
+      <nav class="menubar" id="menubar">
+        <button data-menu="file">File</button>
+        <button data-menu="edit">Edit</button>
+        <button data-menu="view">View</button>
+        <button data-menu="insert">Insert</button>
+        <button data-menu="slide">Slide</button>
+        <button data-menu="arrange">Arrange</button>
+        <button data-menu="tools">Tools</button>
+        <button data-menu="help">Help</button>
+      </nav>
+    </div>
+  </div>
+  <div class="topright">
+    <div class="avatars">
+      <span class="av av1">NC</span><span class="av av2">CK</span><span class="av av3">DG</span>
+    </div>
+    <button class="btn ghost" id="presentBtn">
+      <svg viewBox="0 0 20 20" width="13" height="13"><path d="M6 4.5v11l9-5.5z" fill="currentColor"/></svg>
+      Present
+    </button>
+    <button class="btn solid" id="shareBtn">Share</button>
+  </div>
+</header>
+
+<div class="toolbar">
+  <div class="tgroup">
+    <button class="tbtn" id="undoBtn" title="Undo (⌘Z)"><svg viewBox="0 0 20 20"><path d="M7.5 4.5 3.5 8.5l4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M3.5 8.5H12a4 4 0 0 1 0 8H9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+    <button class="tbtn" id="redoBtn" title="Redo (⇧⌘Z)"><svg viewBox="0 0 20 20"><path d="M12.5 4.5l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M16.5 8.5H8a4 4 0 0 0 0 8h3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+    <button class="tbtn" id="printBtn" title="Print"><svg viewBox="0 0 20 20"><rect x="5" y="3" width="10" height="4.5" rx="1" fill="none" stroke="currentColor" stroke-width="1.5"/><rect x="3.5" y="7.5" width="13" height="6" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.5"/><rect x="6" y="12" width="8" height="5" rx="1" fill="#fff" stroke="currentColor" stroke-width="1.5"/></svg></button>
+  </div>
+  <span class="tsep"></span>
+  <div class="tgroup">
+    <button class="tbtn wide" id="zoomBtn" title="Zoom">100% <svg viewBox="0 0 20 20" width="10" height="10"><path d="M5 8l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+  </div>
+  <span class="tsep"></span>
+  <div class="tgroup" id="toolGroup">
+    <button class="tbtn tool active" data-tool="select" title="Select"><svg viewBox="0 0 20 20"><path d="M6 3.5 15 11l-4.2.6 2.4 4.4-2 1-2.3-4.5L6 15z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></button>
+    <button class="tbtn tool" data-tool="text" title="Text box"><svg viewBox="0 0 20 20"><rect x="3" y="3.5" width="14" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M7 7.5h6M10 7.5v6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+    <button class="tbtn tool" data-tool="image" title="Image"><svg viewBox="0 0 20 20"><rect x="3" y="4" width="14" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="7.5" cy="8.5" r="1.4" fill="currentColor"/><path d="M4 14.5 8.5 10l3.5 3.5 2-2 2 3" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></button>
+    <button class="tbtn tool" data-tool="shape" title="Shape"><svg viewBox="0 0 20 20"><rect x="3.5" y="6" width="9" height="9" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="13.5" cy="8" r="3.6" fill="#fff" stroke="currentColor" stroke-width="1.5"/></svg></button>
+    <button class="tbtn tool" data-tool="line" title="Line"><svg viewBox="0 0 20 20"><path d="M4 16 16 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M12.5 4H16v3.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    <button class="tbtn tool" data-tool="annotation" title="Annotation box"><svg viewBox="0 0 20 20"><rect x="3" y="5" width="14" height="8" rx="1" fill="none" stroke="#b04a4a" stroke-width="1.6"/><path d="M10 13v3.5" stroke="#b04a4a" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+    <button class="tbtn tool" data-tool="comment" title="Comment anchor"><svg viewBox="0 0 20 20"><path d="M3.5 5.5A2 2 0 0 1 5.5 3.5h9a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H9l-3.5 3v-3h-.5a2 2 0 0 1-2-2z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></button>
+  </div>
+  <span class="tsep"></span>
+  <div class="tgroup">
+    <button class="chipbtn" id="bgBtn"><span class="swatch" style="background:#dcead9"></span> Background</button>
+    <button class="chipbtn" id="layoutBtn"><span class="swatch ring"></span> Layout <svg viewBox="0 0 20 20" width="10" height="10"><path d="M5 8l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    <button class="chipbtn" id="themeBtn"><span class="spark">✦</span> Theme</button>
+  </div>
+  <div class="tright">
+    <button class="btn ghost sm" id="veevaBtn"><span class="vbadge">V</span> Veeva checklist</button>
+    <button class="btn solid sm" id="aiBtn">Change with AI</button>
+    <button class="btn outline sm" id="diffBtn">Check manual changes</button>
+  </div>
+</div>
+
+<main class="workspace">
+  <aside class="filmstrip">
+    <div class="addslide">
+      <button id="addSlideBtn" title="New slide">+</button>
+      <button id="addSlideCaret"><svg viewBox="0 0 20 20" width="11" height="11"><path d="M5 8l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    </div>
+    <div id="thumbs"></div>
+  </aside>
+
+  <section class="canvas" id="canvasArea">
+    <div class="slidewrap" id="slideWrap">
+      <div class="slide" id="slideRoot"></div>
+    </div>
+  </section>
+
+  <aside class="rail">
+    <div class="tabs">
+      <button class="tab active" data-tab="checklist">Update checklist <span class="count" id="chkCount">3</span></button>
+      <button class="tab" data-tab="comments">Comments <span class="count" id="cmtCount">3</span></button>
+    </div>
+    <div class="railscroll" id="railChecklist">
+      <div class="currentrow">
+        <span class="eyebrow">Current slide</span>
+        <span class="chip chip-green" id="slideChip">Slide 1</span>
+      </div>
+      <h2 class="railtitle" id="railTitle">Storyboard sequence checks</h2>
+      <p class="raildesc">Import reviewer comments or paste one below. Redline maps each comment to the exact slide object and keeps the checklist tied to the next upload.</p>
+      <div class="feedbackcard">
+        <label>Feedback</label>
+        <textarea id="feedbackInput" spellcheck="false"></textarea>
+        <div class="fbmeta"><span id="fbSource">Source: PRC round 2</span><span id="fbAuthor">D'Andra Gill</span></div>
+      </div>
+      <button class="cta" id="buildBtn">Build update checklist</button>
+      <div id="checklistItems"></div>
+      <div id="applyAllWrap"></div>
+      <div class="sechead">
+        <h3>What to annotate</h3>
+        <span class="muted" id="annScope">Saved for C4TC · Storyboard</span>
+      </div>
+      <div id="annToggles"></div>
+      <div class="sechead">
+        <h3>Format checks</h3>
+        <span class="muted" id="checksCount">3 of 4 passed</span>
+      </div>
+      <div id="formatChecks"></div>
+    </div>
+    <div class="railscroll hidden" id="railComments"></div>
+  </aside>
+</main>
+
+<div id="menuLayer"></div>
+<div id="modalLayer"></div>
+<div id="presentLayer" class="hidden">
+  <div class="pstage"><div class="pslide" id="presentSlide"></div></div>
+  <div class="pnav">
+    <button id="pPrev">‹</button>
+    <span id="pCounter">1 / 3</span>
+    <button id="pNext">›</button>
+    <button id="pExit">Exit</button>
+  </div>
+</div>
+<div id="toast"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
