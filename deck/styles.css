@@ -442,7 +442,6 @@ h2{font-size:50px;font-weight:800;letter-spacing:-.03em;line-height:1.08;margin-
 .chap.rt{left:auto;right:70px;color:var(--faint)}
 .mtag{display:inline-flex;align-items:center;font-size:10.5px;font-weight:600;color:var(--faint);border:1px solid var(--hairline-2);border-radius:999px;padding:3px 10px;white-space:nowrap}
 .tagrow{display:flex;gap:8px;align-items:center;margin-top:2px}
-.todo{color:var(--brand-red);font-weight:700;font-size:12px}
 
 /* S4 workflow map */
 .flow{display:flex;align-items:stretch;margin-bottom:22px}
@@ -538,15 +537,6 @@ h2{font-size:50px;font-weight:800;letter-spacing:-.03em;line-height:1.08;margin-
 .csgrid .cs:nth-child(3) h5{background:var(--pill-sage-bg);color:var(--pill-sage-tx)}
 .csgrid .cs:nth-child(4) h5{background:var(--pill-yellow-bg);color:var(--pill-yellow-tx)}
 .cs p{font-size:16.5px;line-height:1.5;color:var(--ink);font-weight:500}
-
-/* S27 demo strip */
-.demostrip{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:44px;width:1200px}
-.demostrip div{border:1px solid var(--hairline-2);border-radius:16px;padding:16px 18px;text-align:left;background:var(--surface);box-shadow:0 8px 24px rgba(0,0,0,.05)}
-.demostrip b{display:block;font-size:15px;font-weight:800;margin-bottom:5px;color:var(--pill-lavender-tx)}
-.demostrip div:nth-child(2) b{color:var(--pill-blue-tx)}
-.demostrip div:nth-child(3) b{color:var(--pill-yellow-tx)}
-.demostrip div:nth-child(4) b{color:var(--pill-sage-tx)}
-.demostrip p{font-size:12.5px;color:var(--ink-4);line-height:1.45}
 
 /* S28 build plan */
 .planhead{display:grid;grid-template-columns:repeat(3,250px);gap:16px;margin-bottom:24px}
@@ -948,43 +938,17 @@ h2{font-size:50px;font-weight:800;letter-spacing:-.03em;line-height:1.08;margin-
 .provwin .provimg .todobox{border:1.5px dashed var(--brand-red);padding:14px 18px;color:var(--brand-red);font-weight:600;background:var(--surface)}
 .provlink{margin-top:14px;font-size:13px;font-weight:700}
 .provlink a{color:var(--ink);text-decoration:none;border-bottom:1.5px solid var(--ink);padding-bottom:2px}
-.demostrip.nocard{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:28px;padding-top:22px;border-top:1px solid var(--hairline-2)}
-.demostrip.nocard div{background:transparent;box-shadow:none;padding:0 18px;border:0;border-radius:0;border-left:1px solid var(--hairline-2)}
-.demostrip.nocard div:first-child{border-left:0;padding-left:0}
-.demostrip.nocard div b{font-size:13.5px;font-weight:800}
-.demostrip.nocard div p{font-size:12px;color:var(--muted);margin-top:6px;line-height:1.4}
 
 /* ---------- v3: S29 de-card ---------- */
 .planstats{display:flex;gap:56px;margin-top:44px;padding-top:38px;border-top:1px solid var(--hairline-2)}
-.planstats div b{display:flex;align-items:center;gap:14px;font-size:40px;font-weight:800;letter-spacing:-.02em;line-height:1;color:var(--ink)}
-.pstat{display:inline-block;padding:14px 22px;border-radius:16px}
-.pstat.py{background:var(--pill-yellow-bg);color:var(--pill-yellow-tx)}
-.pstat.pb{background:var(--pill-blue-bg);color:var(--pill-blue-tx)}
-.pstat.pl{background:var(--pill-lavender-bg);color:var(--pill-lavender-tx)}
+.planstats div b{display:block;font-size:60px;font-weight:800;letter-spacing:-.03em;line-height:.95;color:var(--ink)}
 .planstats div p{font-size:14px;color:var(--muted);margin-top:12px;font-weight:500}
-
-/* ---------- v3: S30 flagship build timeline ---------- */
-.bld2{margin-top:36px}
-.bldpills{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
-.bldpills .tp{height:54px;font-size:13.5px;font-weight:700}
-.bldnotes{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:10px}
-.bn{font-size:12px;line-height:1.45;color:var(--muted);font-weight:500;text-align:center;padding:0 22px}
-.bn::before{content:'';display:block;width:2px;height:8px;background:var(--hairline-4);margin:0 auto 7px;border-radius:2px}
-.bldchecks{margin-top:44px;padding-top:32px;border-top:1px solid var(--hairline-2);display:grid;grid-template-columns:1fr 1fr;gap:38px}
-.bldcheckcol h6{font-size:11px;font-weight:800;color:var(--faint);margin-bottom:14px}
-.bldcheckcol .cknt{display:flex;gap:12px;align-items:flex-start;padding:11px 0;border-top:1px solid var(--hairline);font-size:13px;color:var(--ink);font-weight:500;line-height:1.45}
-.bldcheckcol .cknt:first-of-type{border-top:0}
-.bldcheckcol .cknt span.dot{color:var(--pill-sage-tx);font-weight:800;flex-shrink:0;margin-top:1px}
-.bldcheckcol.own .cknt{border-color:var(--hairline-2)}
-.bldcheckcol.own .cknt span.dot{display:none}
-.bldownline{margin-top:24px;font-size:22px;font-weight:800;letter-spacing:-.02em;color:var(--ink)}
 
 /* ---------- v3: S31 investment de-card ---------- */
 .tierdecl{display:grid;grid-template-columns:1fr 1fr;gap:52px;margin-top:32px;border-top:1px solid var(--hairline-2);padding-top:32px}
 .tierdecl.mid{padding-top:22px}
 .tierhead{display:flex;flex-direction:column;align-items:flex-start;gap:12px;margin-bottom:14px;padding-bottom:16px;border-bottom:1px solid var(--hairline-2)}
 .tierhead b{font-size:28px;font-weight:800;letter-spacing:-.02em}
-.tiername{display:flex;align-items:center;gap:10px}
 .tierhead .tprice2{font-size:14.5px;font-weight:700;border-radius:999px;padding:8px 16px}
 .tprice2.py{background:var(--pill-yellow-bg);color:var(--pill-yellow-tx)}
 .tprice2.pl{background:var(--pill-lavender-bg);color:var(--pill-lavender-tx)}
@@ -1008,11 +972,9 @@ h2{font-size:50px;font-weight:800;letter-spacing:-.03em;line-height:1.08;margin-
 .jobs.nocard .job p{font-size:13.5px;color:var(--muted);line-height:1.5;font-weight:500}
 
 /* ---------- v3: S25 three seats on the workflow line ---------- */
-.seatline{margin-top:64px;position:relative;padding-top:2px}
-.seatline::before{content:'';position:absolute;left:0;right:0;top:0;height:2.5px;background:var(--ink)}
+.seatline{margin-top:64px}
 .seatzones{display:grid;grid-template-columns:1fr 1fr 1fr;gap:52px}
-.seatzone{position:relative;padding-top:34px}
-.seatzone::before{content:'';position:absolute;top:-7px;left:0;width:14px;height:14px;border-radius:50%;background:var(--ink);box-shadow:0 0 0 4px var(--paper)}
+.seatzone{position:relative}
 .seatzone i{font-style:normal;display:block;font-size:11px;font-weight:800;color:var(--faint);margin-bottom:12px}
 .seatzone b{display:block;font-size:26px;font-weight:800;letter-spacing:-.02em;margin-bottom:12px;color:var(--ink)}
 .seatzone p{font-size:14.5px;color:var(--muted);line-height:1.55;font-weight:500;max-width:340px}

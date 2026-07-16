@@ -1,4 +1,4 @@
-# Redline v3 speaker notes · 24 slides
+# Redline v3 speaker notes · 23 slides
 
 One deck, three questions to answer by the end: is it safe, is it worth it, are we ready.
 Real reviewer names are spoken out loud only, never on screen. The slides say Reviewer A–D.
@@ -69,19 +69,16 @@ Quick pass. Same line the deck opened with. Each person in the room should find 
 The highest-stakes moment of the day. Open with the twenty-pages story, 60 seconds — this is its home now: the full T&C flow request, night before, from LA. Twenty pages, every reference broken, rebuilt in about fifteen minutes, zero accuracy flags. One live project, not yet an aggregate benchmark; that honesty is the credibility play. Then the live run. Pre-run script is in presenter-prep.md. Demo asset names live here, not on slides:
 - Asset 1: [Cal selects from Nikki's attachments]
 - Asset 2: [Cal selects from Nikki's attachments]
-Run the four beats on the strip: build, annotate, read, reconcile. If the model is slow, say so plainly: "this step takes about a minute. That minute replaces an afternoon." When the deck is forwarded, the link keeps working; sanitized data only behind it.
+Run the four beats verbally — build, annotate, read, reconcile; they're no longer printed on the slide. If the model is slow, say so plainly: "this step takes about a minute. That minute replaces an afternoon." When the deck is forwarded, the link keeps working; sanitized data only behind it.
 
 **Bridge coming out of the demo:** "That was the Engine. The Editor changes the assets themselves."
 
 ## 22 · What it takes to build
-Friday question three: are we ready. Six to eight weeks, fixed. Four AI engineers, two designers. The calibration sprint is included, not extra. "Nikki already sent most of what we need for weeks one and two."
-
-## 23 · How we measure success
-Walk the timeline: calibration, build, acceptance, and what they walk away with at the terminus. The five checks are each verifiable at acceptance; their team runs the acceptance, not ours. Land on the last line: you own the product.
+Friday question three: are we ready. Six to eight weeks, fixed. Four AI engineers, two designers. The calibration sprint is included, not extra. "Nikki already sent most of what we need for weeks one and two." If acceptance criteria come up, cover them verbally: their team runs acceptance, not ours, and they own the product at handoff.
 
 **Bridge into pricing (say this leaving the slide):** "So here's what it costs to buy those hours back." If ROI math comes up, do it live on a whiteboard with their numbers.
 
-## 24 · Investment
+## 23 · Investment
 Two tiers. The Engine, $400K, works from what you give it: the current submission, this round's feedback, your guidelines. The Editor, $500K, ingests the full PRC archive and compounds per client, manages the calendar, and edits the assets themselves. One-time build either way; they own it.
 
 **Agency OS line (verbal only, after pricing, only if the room pulls that direction):** "There's a bigger, agency-wide version of this behind the pilot. We'll earn the right to that conversation after Redline ships."

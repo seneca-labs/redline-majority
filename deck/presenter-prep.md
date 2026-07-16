@@ -16,8 +16,8 @@ The demo pre-run is the single highest-stakes item of the week. Slides are secon
 
 - [ ] Open the deck locally (deck/index.html), not over the network.
 - [ ] Arrow keys advance. Home/End jump. Verify the fit on the actual display/projector resolution beforehand.
-- [ ] PDF backup on the desktop: Redline-Majority.pdf (24 pages). Confirm it opens.
-- [ ] Confirm the tier name with the team (The Editor is currently applied on slides 14 and 24).
+- [ ] PDF backup on the desktop: Redline-Majority.pdf is a stale 24-page cut; the live deck is now 23 slides. Regenerate only if you want a fresh copy.
+- [ ] Confirm the tier name with the team (The Editor is currently applied on slides 14 and 23).
 - [ ] Kickoff and first-live-submission dates get set in the room; there is no next-steps slide, close verbally.
 
 ## The room
@@ -38,4 +38,4 @@ The demo pre-run is the single highest-stakes item of the week. Slides are secon
 | "Why not just wait for Veeva/Google to build this?" | This is built on your workflow, your review history, your committee's patterns. That is the part no platform vendor has. |
 | "What if the committee changes?" | The system learns patterns, not people. New reviewer, new rounds, new patterns, validated by your team before anything becomes a rule (slide 16). |
 | "What happens after year one?" | The product is yours. Optional care plan from year two for retraining and rule updates, or run it as-is. |
-| "$400K is a lot." | Do the math live on a whiteboard with their own war-story numbers: submissions a month, hours of mechanics per round, the resubmit loop. Then slide 23: what they own at acceptance. |
+| "$400K is a lot." | Do the math live on a whiteboard with their own war-story numbers: submissions a month, hours of mechanics per round, the resubmit loop. Then land ownership verbally: one-time build, they own the product at acceptance (no dedicated slide for this anymore). |

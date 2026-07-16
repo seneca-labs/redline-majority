@@ -158,3 +158,9 @@ Statuses: implemented · partial · skipped · superseded (a v3 instruction over
 | Slide 22 color only over the numbers (Cal directive) | implemented | 22 | Pills wrap 6–8 / 4 / 2 only; "weeks", "AI engineers", "designers" in ink outside the boxes |
 | PDF pipeline 29 → 24 | implemented | work/ | make-pdf.mjs and assemble-pdf.mjs both had hardcoded 29 (first rebuild produced a 29-page PDF with 5 stale pages); fixed, stale p25–p29 deleted |
 | Slide 11 window shortened (Cal directive) | implemented | 11 | content grid height 470→380px; rail rows fade as designed |
+| Slide 22 stat colors removed (Cal directive, reverses number-pill round) | implemented | 22 | plain 60px ink stats restored |
+| "what you described" chip removed from Investment (Cal directive) | implemented | 23 | tiername/chip markup + orphaned CSS deleted |
+| "How we measure success" slide removed (Cal directive) | implemented | — | deck 24→23; bld2/bldchecks CSS deleted; notes+prep renumbered |
+| Demo strip + demo-URL TODO removed from demo slide (Cal directive) | implemented | 21 | screenshot TODO box remains, Cal-gated |
+| Seat line + dots removed (Cal directive) | implemented | 20 | seatline/seatzone ::before pseudo-elements deleted |
+| Capture scripts 24→23; PDF generation stopped per Cal | implemented | — | Desktop PDF now stale 24-page cut by design |
