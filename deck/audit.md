@@ -157,3 +157,4 @@ Statuses: implemented · partial · skipped · superseded (a v3 instruction over
 | Slide 11 deck studio matches slide 9 (Cal directive) | implemented | 11 | Full chrome transplanted: crumb bar with avatars + Share/Comment, Menus toolbar, page-thumbnail rail, centered canvas on paper; suggested-changes rail restyled flat like slide 9's annotate rail |
 | Slide 22 color only over the numbers (Cal directive) | implemented | 22 | Pills wrap 6–8 / 4 / 2 only; "weeks", "AI engineers", "designers" in ink outside the boxes |
 | PDF pipeline 29 → 24 | implemented | work/ | make-pdf.mjs and assemble-pdf.mjs both had hardcoded 29 (first rebuild produced a 29-page PDF with 5 stale pages); fixed, stale p25–p29 deleted |
+| Slide 11 window shortened (Cal directive) | implemented | 11 | content grid height 470→380px; rail rows fade as designed |
