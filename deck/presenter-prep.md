@@ -18,6 +18,7 @@ The demo pre-run is the single highest-stakes item of the week. Slides are secon
 - [ ] Arrow keys advance. Home/End jump. Verify the fit on the actual display/projector resolution beforehand.
 - [ ] PDF backup on the desktop: Redline-Majority.pdf (29 pages). Confirm it opens.
 - [ ] Confirm the case-study facts and the engagement name on slide 24 with the team, then remove the [TODO].
+- [ ] Drop the annotated postcard export at deck/assets/provided/deck-page-annotated.png — slide 24 picks it up automatically and the [AWAITING ASSET] box disappears. Optional: preread-flags.png in the same folder replaces the slide 12 thumbnail.
 - [ ] Confirm the money-slide assumptions on slide 28 (~2 submissions a month, ~40 hours of mechanics, payback point) or replace them with real numbers, then remove the [TODO].
 - [ ] Confirm the tier name on slides 16 and 29 (The Editor is currently applied), then remove the [TODO].
 - [ ] Kickoff and first-live-submission dates get set in the room; there is no next-steps slide, close verbally.

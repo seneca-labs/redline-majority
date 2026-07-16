@@ -33,13 +33,13 @@ Point at the tray: transcripts and briefs go in alongside the assets. "The kicko
 The canvas is the real Care For The Culture postcard, the actual asset from the Feed engagement. Everything around it is the working product surface: comments, annotation layers, the page-renumber panel. If asked: pages renumber themselves when something is inserted; 54 references updated in one pass.
 
 ## 10 · Grounded changes and annotations
-The point is the right rail: every suggested change is a row with a source chip. Round 1 sticky 27, a house rule, the claims library. Click a row and the original source opens next to the page. Nothing is a black box; that's what "grounded" means. The progress bar at top is the working session in one number.
+The point is the right rail: every suggested change is a row with a source chip. Round 1 sticky 27, a house rule, the claims library. Click a row and it expands to show the original source right there in the rail — the sticky text, the round, who wrote it. Nothing is a black box; that's what "grounded" means. The progress bar at top is the working session in one number.
 
 ## 11 · Reads it the way your committee will
 SPOKEN ONLY: this is where you can name the real reviewers: "you told us who flags spacing on kiosk rounds; the system learned that pattern." On screen it's Reviewer A · Regulatory, deliberately. Their names never live in a deck.
 
 ## 12 · Shows what may be flagged, and why
-The flags are pinned on the pages, and the fix is already drafted in place: old text struck, new text inline, waiting for approval. Say it plainly: "it doesn't hand you a list of problems, it hands you the corrected material." SPOKEN ONLY: real reviewer names verbal, never on screen. The pill language matters: "likely flag," not a percentage. We don't pretend to predict the committee; we prepare for it.
+The page carries small numbered marks at each flagged element; the panel on the right holds the flag in focus, and the fix is already drafted: old text struck, new text inline, waiting for approval. Say it plainly: "it doesn't hand you a list of problems, it hands you the corrected material." SPOKEN ONLY: real reviewer names verbal, never on screen. The pill language matters: "likely flag," not a percentage. We don't pretend to predict the committee; we prepare for it.
 
 ## 13 · Preps the checklist
 "Formatted for Veeva, ready to paste." Not synced. Pasted, by your submitter, with full context. Owners on every row.
@@ -75,7 +75,7 @@ Friday question one: is it safe. The product's own annotation marks answering th
 Quick pass. Same line the deck opened with. Each person in the room should find their seat on it.
 
 ## 24 · Already demonstrated under real PRC pressure
-Tell the twenty-pages story here, 60 seconds; this is its only home now. The full T&C flow request, night before, from LA. Twenty pages, every reference broken, rebuilt in about fifteen minutes, zero accuracy flags. The before/after pair on the right is that page. Honest framing is on the slide: one live project, not yet an aggregate benchmark. That honesty is the credibility play.
+Tell the twenty-pages story here, 60 seconds; this is its only home now. The full T&C flow request, night before, from LA. Twenty pages, every reference broken, rebuilt in about fifteen minutes, zero accuracy flags. The annotated page on the right is the real thing — Cal drops the export at assets/provided/deck-page-annotated.png. Honest framing is on the slide: one live project, not yet an aggregate benchmark. That honesty is the credibility play.
 
 ## 25 · Proven to work (THE DEMO)
 The highest-stakes moment of the day. The slide is the setup and the artifact's afterlife; the live run in the room still happens. Pre-run script is in presenter-prep.md. Demo asset names live here, not on slides:
@@ -92,7 +92,7 @@ Friday question three: are we ready. Six weeks, fixed. Four AI engineers, two de
 Walk the timeline: calibration, build, acceptance, and what they walk away with at the terminus. The five checks are each verifiable at week six; their team runs the acceptance, not ours. Land on the last line: you own the product.
 
 ## 28 · What one submission costs
-Let the strikethroughs do the talking; the red mark is the product's own gesture. "Everything struck through is what Redline absorbs. What's left un-struck is the job." The numbers are conservative assumptions, stated on the slide; invite the room to correct them: "give us your real numbers and we'll redo this line live."
+Let the ledger do the talking. "Every gray line with the Redline pill is what Redline absorbs. What's left in full ink is the job: creative judgment, the client relationship, final sign-off." The numbers are conservative assumptions, stated on the slide; invite the room to correct them: "give us your real numbers and we'll redo this line live."
 
 **Bridge into pricing (say this leaving the slide):** "So here's what those hours cost to buy back."
 
