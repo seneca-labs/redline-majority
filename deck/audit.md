@@ -134,3 +134,26 @@ Statuses: implemented · partial · skipped · superseded (a v3 instruction over
 | Slide 18 icons from ~/Downloads/slide 18 | implemented | 18 | Real logos processed (checkerboard-cleaned, cropped, 128px PNGs) into deck/assets/logos/. Gmail added to the Teams/Zoom/Meet row as "Transcripts and threads" since Cal supplied it |
 | Nothing all-caps across the deck | implemented | all | 13 text-transform:uppercase rules + 3 inline labels removed; "IMPORTANT SAFETY INFORMATION" in postcard ISI → title case |
 | No extra letter-spacing (e.g. "Wade, with Majority") | implemented | all | All 44 positive letter-spacing declarations removed; negative display tracking on large headlines kept |
+
+## Revision round from Calvary · 2026-07-16 (29 → 24 slides)
+
+| Item | Status | Where | Notes |
+|---|---|---|---|
+| Slides 4/5 timelines rebuilt as pill-bar Gantt (reference image) | implemented | 4, 5 | Two-row grid: notes above, 10 rounded pills below; rose pills for pain stages, sage on the won timeline; loop arc sits below the pills (resubmit → PRC review) and touches no text; no strikethroughs anywhere |
+| Redline band on slide 5 | implemented | 5 | Static .tband2 in flow (no absolute positioning), yellow token colors |
+| Slide 9 canvas = provided annotated postcard export | implemented | 9 | assets/provided/deckpage-annotated.png (US-UNBC-4235); fake comment pins removed since the image carries its own annotations |
+| Merge old 10 + 12 | implemented | 11 | Keeps 12's title "Shows what may be flagged, and why"; second lead paragraph is Cal's dictated sentence verbatim; old 10's grounded-changes rail transplanted with provided page-flagged.png (FEED OPT-IN, US-UNBC-4289) as canvas; rail rows rewritten to match the image content |
+| Merge old 13 + 14 | implemented | 12 | Title "Track the feedback"; two-paragraph subtext per Cal's dictation; checklist beat moved to verbal note |
+| Remove old 17 (check-changes), 24 (case study), 28 (submission costs) | implemented | — | Deck is 24 sections; twenty-pages story moved to slide 21 verbal notes; ROI math moves to whiteboard per prep doc |
+| All app icons Lucide at 2.5px stroke | implemented | all | .ic stroke-width 1.5 → 2.5; 18 inline stroke-width="2" → "2.5"; cover wordmark rect (3) untouched |
+| Slide 15 "What it becomes" as sage area cards, no metrics | implemented | 15 | Four light-green rounded cards matching "Where it comes from" shape; phrased as what Redline turns the archive into, no mock numbers |
+| Slide 17 format tiles from provided assets | implemented | 17 | banner/print/storyboard/kiosk/concept images placed (sips-resized); Social keeps CSS art — no asset provided |
+| Slide 22 stats in token-colored rounded boxes; 6–8 weeks | implemented | 22 | 6–8 weeks (yellow), 4 AI engineers (blue), 2 designers (lavender) |
+| Weeks 6–8 consistency on success slide | implemented | 23 | "Weeks 6–8 · Acceptance" + "The bar at acceptance" — Cal didn't ask, but "Week 6" would contradict slide 22 |
+| Slide 24 price pills under tier names; colored checks | implemented | 24 | tierhead stacked: name row, then price pill (yellow Engine / lavender Editor); li ✓ marks colored per tier; both tident lines removed incl. the tier-name [TODO] |
+| Seats copy | implemented | 20 | Project lead "Manages the process"; Creative row = Cal's dictated sentence |
+| Docs renumbered | implemented | speaker-notes, presenter-prep | 24-slide numbering; demo prep → §21; postcard-export and preread-flags prep items removed (assets now baked in / slot removed) |
+| Success-slide timeline as pills (Cal: "this still looks bad") | implemented | 23 | Dots-on-a-line bldwrap replaced with the slide-4/5 pill language: yellow calibration, blue build, sage acceptance, ink terminus; notes below with tick connectors |
+| Slide 11 deck studio matches slide 9 (Cal directive) | implemented | 11 | Full chrome transplanted: crumb bar with avatars + Share/Comment, Menus toolbar, page-thumbnail rail, centered canvas on paper; suggested-changes rail restyled flat like slide 9's annotate rail |
+| Slide 22 color only over the numbers (Cal directive) | implemented | 22 | Pills wrap 6–8 / 4 / 2 only; "weeks", "AI engineers", "designers" in ink outside the boxes |
+| PDF pipeline 29 → 24 | implemented | work/ | make-pdf.mjs and assemble-pdf.mjs both had hardcoded 29 (first rebuild produced a 29-page PDF with 5 stale pages); fixed, stale p25–p29 deleted |
