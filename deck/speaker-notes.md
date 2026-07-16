@@ -1,4 +1,4 @@
-# Redline v2 speaker notes
+# Redline v3 speaker notes · 29 slides
 
 One deck, three questions to answer by the end: is it safe, is it worth it, are we ready.
 Real reviewer names are spoken out loud only, never on screen. The slides say Reviewer A–D.
@@ -11,88 +11,93 @@ Open on the room, not the slide. "Last time we showed you what we'd been buildin
 ## 2 · Agenda
 Fast. "Six stops. The one that matters most is number four: we're going to run one of your real submissions live."
 
-## 3 · The night we added twenty pages
-Tell it as a story, 60 seconds. The full T&C flow request, night before, from LA. Twenty pages, every reference broken, rebuilt in about fifteen minutes, zero accuracy flags. Land on: "That's not a slide claim. You watched it happen."
+## 3 · What we heard
+This is the promise ledger, from the first call and Nikki's follow-up. Read two or three lines, not all six. "Everything on this list is in this deck. Hold us to it." We come back to it at the end if anyone wants to check.
 
-## 4 · Your workflow
-"This is your workflow, in your words, from our calls." Walk left to right. Pause on each red node. Those are the five problems you told us about, attached to the exact stage where each one costs you. Redline lives inside this loop; it doesn't replace it.
+## 4 · The workflow we're productizing
+"This is your workflow, in your words." Walk the line left to right. The red notes below the line are the five problems you told us about, at the exact stage where each one costs you. Point at the return arc: the resubmit loop is where weeks disappear.
 
-## 5 · What you asked for
-"Everything you asked for on that call is in this deck." This is the promise ledger. We come back to it at the end if anyone wants to check.
+## 5 · The same workflow, with Redline in it
+Same line, same stages. Advance from slide 4 and let the room see the diff: the red is gone, the band underneath is what Redline now carries. Say the boundary out loud: human approval and the Veeva submission stay with your team. This is the payoff of the opening arc; give it a beat.
 
 ## 6 · What Redline is
-The headline is the whole posture: it runs the submission and revision workflow, and a human approves before anything touches Veeva. Read the boundary strip out loud: Redline prepares, your team reviews, a named human approves, Veeva remains the system of record.
+The headline is the whole posture: it runs the submission and revision workflow, and a human approves before anything touches Veeva. The nav is their nouns: submissions, worklist, clients, calendar. Read the boundary strip out loud: Redline prepares, your team reviews, a named human approves, Veeva remains the system of record.
 
-## 7 · Architecture
-"Drive and Slides stay where work lives. Veeva remains the system of record. Redline does the work between them." Redline is the canonical submission record, not a plugin, not a layer on Google. If asked about live sync: import/export is editable and connected; conflicts are surfaced, not silently merged.
+## 7 · Three jobs
+Chapter map for the next dozen slides. Build, prepare, reconcile. Say it once, move on.
 
-## 8 · Three jobs
-Chapter map for the next ten slides. Build, prepare, reconcile. Say it once, move on.
+## 8 · Upload your asset and its context
+Point at the tray: transcripts and briefs go in alongside the assets. "The kickoff call is context, not a memory." Formats include Product and Other; if it prints, renders, or scrolls, it can come in.
 
-## 9–11 · Build (create, built, annotate)
-These screens show the Feed-demonstrated capability wearing the Redline interface. The zoom callout on 11 is the point: annotations arrive drafted, not drawn. Your team approves or adjusts.
+## 9 · Redline builds the deck for you
+The canvas is the real Care For The Culture postcard, the actual asset from the Feed engagement. Everything around it is the working product surface: comments, annotation layers, the page-renumber panel. If asked: pages renumber themselves when something is inserted; 54 references updated in one pass.
 
-## 12 · Reads it the way your committee will
-SPOKEN ONLY: this is where you can name the real reviewers: "you told us D'Andra flags spacing on kiosk rounds; the system learned that pattern." On screen it's Reviewer A · Regulatory, deliberately. Their names never live in a deck.
+## 10 · Grounded changes and annotations
+The point is the right rail: every suggested change is a row with a source chip. Round 1 sticky 27, a house rule, the claims library. Click a row and the original source opens next to the page. Nothing is a black box; that's what "grounded" means. The progress bar at top is the working session in one number.
 
-## 13 · Shows what may be flagged, and why
-Every flag has its reasoning and its precedent. SPOKEN ONLY: same rule. Real names verbal, never on screen. The pill language matters: "likely flag," not a percentage. We don't pretend to predict the committee; we prepare for it.
+## 11 · Reads it the way your committee will
+SPOKEN ONLY: this is where you can name the real reviewers: "you told us who flags spacing on kiosk rounds; the system learned that pattern." On screen it's Reviewer A · Regulatory, deliberately. Their names never live in a deck.
 
-## 14 · The checklist
+## 12 · Shows what may be flagged, and why
+The flags are pinned on the pages, and the fix is already drafted in place: old text struck, new text inline, waiting for approval. Say it plainly: "it doesn't hand you a list of problems, it hands you the corrected material." SPOKEN ONLY: real reviewer names verbal, never on screen. The pill language matters: "likely flag," not a percentage. We don't pretend to predict the committee; we prepare for it.
+
+## 13 · Preps the checklist
 "Formatted for Veeva, ready to paste." Not synced. Pasted, by your submitter, with full context. Owners on every row.
 
-## 15–16 · Reconcile (worklist, sticky-to-answer)
-Every comment tracked. Sticky 14 becomes a drafted response with its source. The zoom callout on 16: one click, the whole response set pastes into Veeva in one pass.
+## 14 · Track the feedback
+Every comment from every source lands in one worklist with an owner and a state. Nothing lives on a sticky that only one person can decode.
 
-## 17 · Carries approved changes
-Studio-tier tag is on the slide. Say it: "this one is the Studio." One approved note lands in the deck, the asset, every banner size. Bigger creative calls route to designers as a precise to-do.
+## 15 · From sticky to answer
+Sticky 14 becomes a drafted response with its source. The zoom callout: one click, the whole response set pastes into Veeva in one pass.
 
-## 18 · Checks every requested change
+## 16 · Carries approved changes (THE EDITOR)
+Editor-tier tag is on the slide. Say it: "this one is the Editor." One instruction in chat, and the change lands in the deck, the asset, every banner size, references intact. Bigger creative calls route to your designers as a precise to-do.
+
+## 17 · Checks every requested change
 The number is three misses caught, not a percentage verified. What's addressed is confirmed; what isn't gets caught here, not by the client.
 
-## 19 · Starts with what Majority already knows
-Nothing becomes a reusable rule without a human validating it. Only approved folders are indexed.
+## 18 · Starts with what Majority already knows
+Drive and Slides stay where work lives. Veeva remains the system of record. Only approved folders are indexed, and nothing becomes a reusable rule without a human validating it.
 
-## 20 · Learns the review patterns that matter
-SPOKEN ONLY: real reviewer names allowed verbally here: "Reviewer A is who you know it is." On screen, anonymous by design; that's a feature to point at, not around: "notice we don't put your reviewers' names in decks. Neither will Redline."
+## 19 · Learns the review patterns that matter
+SPOKEN ONLY: real reviewer names allowed verbally here. On screen, anonymous by design; that's a feature to point at, not around: "notice we don't put your reviewers' names in decks. Neither will Redline." The knowledge base sits under the client in the nav: isolation you can see.
 
-## 21 · Adapts to every format
+## 20 · Adapts to every format
 One line to add verbally: platform UX templates stay current automatically, so screenshots never get flagged as the wrong version.
 
-## 22 · Before / after
-Rhythm break. Don't narrate much. "The page they watched us rebuild."
+## 21 · Redline drafts. Your team decides.
+Slow down here. This is the answer to "does it replace people." It doesn't. It removes the mechanics. Read the landing line and stop: nothing ships without your sign-off.
 
-## 23 · Redline drafts. Your team decides.
-Slow down here. This is the answer to "does it replace people." It doesn't. It removes the mechanics.
+## 22 · Built to survive your MSA review
+Friday question one: is it safe. The product's own annotation marks answering the legal objection is the joke and the point; let them notice it. Read the seven annotations plainly, don't improvise claims beyond them. Close with: "Bring your MSA. We built for that conversation."
 
-## 24 · Built to survive your MSA review
-This is Friday question one: is it safe. Read the list plainly. Close with: "Bring your MSA. We built for that conversation." Don't improvise claims beyond the seven on screen.
+## 23 · One workflow, three seats
+Quick pass. Same line the deck opened with. Each person in the room should find their seat on it.
 
-## 25 · One workflow, three seats
-Quick pass. Each person in the room should find their seat on this slide.
+## 24 · Already demonstrated under real PRC pressure
+Tell the twenty-pages story here, 60 seconds; this is its only home now. The full T&C flow request, night before, from LA. Twenty pages, every reference broken, rebuilt in about fifteen minutes, zero accuracy flags. The before/after pair on the right is that page. Honest framing is on the slide: one live project, not yet an aggregate benchmark. That honesty is the credibility play.
 
-## 26 · Case study
-Honest framing is on the slide: demonstrated during the engagement, one live project, not yet an aggregate benchmark. That honesty is the credibility play.
-
-## 27 · Quote
-Let it sit for three seconds before speaking. "Your words, from our first call."
-
-## 28 · Let's run one of yours (THE DEMO)
-The highest-stakes moment of the day. Pre-run script is in presenter-prep.md. Demo asset names live here, not on slides:
+## 25 · Proven to work (THE DEMO)
+The highest-stakes moment of the day. The slide is the setup and the artifact's afterlife; the live run in the room still happens. Pre-run script is in presenter-prep.md. Demo asset names live here, not on slides:
 - Asset 1: [Cal selects from Nikki's attachments]
 - Asset 2: [Cal selects from Nikki's attachments]
-Run the four beats on the strip: build, annotate, read, reconcile. If the model is slow, say so plainly: "this step takes about a minute. That minute replaces an afternoon."
+Run the four beats on the strip: build, annotate, read, reconcile. If the model is slow, say so plainly: "this step takes about a minute. That minute replaces an afternoon." When the deck is forwarded, the link keeps working; sanitized data only behind it.
 
-**Bridge to what follows (say this coming out of the demo):** "That was the Engine. The Studio adds bounded creative changes inside the assets themselves."
+**Bridge coming out of the demo:** "That was the Engine. The Editor changes the assets themselves."
 
-## 29 · What it takes to build
+## 26 · What it takes to build
 Friday question three: are we ready. Six weeks, fixed. Four AI engineers, two designers. The calibration sprint is included, not extra. "Nikki already sent most of what we need for weeks one and two."
 
-## 30 · How we measure success
-Read the left column plainly: five checks, each one verifiable at week six. Then the right column: what they own at the end. This slide sets the bar before the price appears. If they want ROI math, do it on a whiteboard with their numbers: submissions per year, hours per submission, blended rate.
+## 27 · How we measure success
+Walk the timeline: calibration, build, acceptance, and what they walk away with at the terminus. The five checks are each verifiable at week six; their team runs the acceptance, not ours. Land on the last line: you own the product.
 
-## 31 · Investment
-Two tiers. Engine $400K runs every submission, every round, including drafted sticky-note responses. Studio $500K adds the bounded creative layer they described. One build fee, they own it; optional care plan from year two.
+## 28 · What one submission costs
+Let the strikethroughs do the talking; the red mark is the product's own gesture. "Everything struck through is what Redline absorbs. What's left un-struck is the job." The numbers are conservative assumptions, stated on the slide; invite the room to correct them: "give us your real numbers and we'll redo this line live."
+
+**Bridge into pricing (say this leaving the slide):** "So here's what those hours cost to buy back."
+
+## 29 · Investment
+Two tiers. The Engine, $400K, works from what you give it: the current submission, this round's feedback, your guidelines. The Editor, $500K, ingests the full PRC archive and compounds per client, manages the calendar, and edits the assets themselves. One-time build either way; they own it.
 
 **Agency OS line (verbal only, after pricing, only if the room pulls that direction):** "There's a bigger, agency-wide version of this behind the pilot. We'll earn the right to that conversation after Redline ships."
 

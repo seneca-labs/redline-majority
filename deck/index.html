@@ -59,57 +59,73 @@
   </div>
 </section>
 
-<!-- 3 · War story -->
+<!-- 3 · What we heard -->
 <section class="ds" data-sec="Context">
   <div class="inner">
     <p class="kick">01 · Where we left off</p>
-    <h2>The night we added twenty pages.</h2>
-    <div class="lines loose">
-      <p class="ln" data-b="1">The committee asked for the full terms &amp; conditions flow. The night before, from LA.</p>
-      <p class="ln" data-b="2">Twenty added pages. Every page reference in the submission broke.</p>
-      <p class="ln" data-b="3">The rebuild took about fifteen minutes.</p>
-      <p class="ln" data-b="4">The deck went in on time. <b>Zero accuracy flags.</b></p>
+    <h2>What we heard</h2>
+    <div class="lines">
+      <p class="ln pl" data-b="1"><span>A checklist of every comment and its answer, ready to paste into Veeva.</span></p>
+      <p class="ln pl" data-b="2"><span>Annotations drafted for the team.</span></p>
+      <p class="ln pl" data-b="3"><span>Change a word inside a board without touching the file.</span></p>
+      <p class="ln pl" data-b="4"><span>An AI that reviews the way PRC does, before you submit.</span></p>
+      <p class="ln pl" data-b="5"><span>Connected to Google, where the team already works.</span></p>
+      <p class="ln pl" data-b="6"><span>Tiers, with real numbers.</span></p>
     </div>
-    <p class="whis" style="margin-top:24px">That's the capability we're productizing.</p>
+    <p class="whis" style="margin-top:22px">From our first call and Nikki's follow-up.</p>
   </div>
 </section>
 
-<!-- 4 · Workflow map -->
+<!-- 4 · Workflow timeline -->
 <section class="ds" data-sec="Context">
   <div class="inner wide">
     <p class="kick">02 · Your workflow</p>
-    <h2 style="font-size:40px;margin-bottom:30px">The workflow we're productizing</h2>
-    <div class="flow">
-      <div class="fnode">Open part number</div><span class="farr"></span>
-      <div class="fnode">Schedule the PRC date</div><span class="farr"></span>
-      <div class="fnode pain">Build concept / final submission<i>manual deck assembly · functional annotations</i></div><span class="farr"></span>
-      <div class="fnode">Internal review</div><span class="farr"></span>
-      <div class="fnode">Client review</div><span class="farr"></span>
-      <div class="fnode pain">Submit deck + notes into Veeva<i>knowledge split between creative and account</i></div>
+    <h2 style="font-size:40px;margin-bottom:8px">The workflow we're productizing</h2>
+    <div class="tline hasloop">
+      <div class="baseline"></div>
+      <div class="tsteps" style="grid-template-columns:repeat(10,1fr)">
+        <div class="tstop"><b>Open part</b></div>
+        <div class="tstop"><b>Schedule PRC</b></div>
+        <div class="tstop pain"><b>Build the deck</b><span class="tpain">manual assembly · functional annotations</span></div>
+        <div class="tstop pain"><b>Internal review</b><span class="tpain lo">knowledge split between creative and account</span></div>
+        <div class="tstop"><b>Client review</b></div>
+        <div class="tstop pain"><b>Submit to Veeva</b><span class="tpain">page and reference dependencies</span></div>
+        <div class="tstop pain"><b>PRC review</b><span class="tpain lo">recurring flags across rounds</span></div>
+        <div class="tstop pain"><b>Reconcile comments</b><span class="tpain">sticky-note responses rebuilt from memory</span></div>
+        <div class="tstop"><b>Client approval</b></div>
+        <div class="tstop"><b>Resubmit</b></div>
+      </div>
+      <div class="tloop" style="left:60%;right:5%"><em>resubmit → PRC review</em></div>
     </div>
-    <div class="flow">
-      <div class="fnode pain">PRC review<i>recurring flags across rounds</i></div><span class="farr"></span>
-      <div class="fnode pain">Reconcile comments<i>sticky-note responses rebuilt from memory</i></div><span class="farr"></span>
-      <div class="fnode pain">Update creative + submission<i>page / reference dependencies</i></div><span class="farr"></span>
-      <div class="fnode">Client approval</div><span class="farr"></span>
-      <div class="fnode">Resubmit</div>
-    </div>
-    <p class="whis">Your workflow, in your words. Redline lives inside this loop.</p>
+    <p class="whis" style="margin-top:28px">Your workflow, in your words.</p>
   </div>
 </section>
 
-<!-- 5 · Promise ledger -->
+<!-- 5 · Same timeline with Redline -->
 <section class="ds" data-sec="Context">
-  <div class="inner">
-    <h2>What you asked for</h2>
-    <div class="lines">
-      <p class="ln pl"><span>A checklist of every comment and its answer, ready to paste into Veeva.</span></p>
-      <p class="ln pl"><span>Annotations drafted for the team.</span></p>
-      <p class="ln pl"><span>Change a word inside a board without touching the file.</span></p>
-      <p class="ln pl"><span>An AI that reviews the way PRC does, before you submit.</span></p>
-      <p class="ln pl"><span>Connected to Google, where the team already works.</span></p>
-      <p class="ln pl"><span>Tiers, with real numbers.</span></p>
+  <div class="inner wide">
+    <h2 style="font-size:40px;margin-bottom:8px">The same workflow, with Redline in it</h2>
+    <div class="tline hasloop">
+      <div class="baseline"></div>
+      <div class="tsteps" style="grid-template-columns:repeat(10,1fr)">
+        <div class="tstop"><b>Open part</b></div>
+        <div class="tstop"><b>Schedule PRC</b></div>
+        <div class="tstop softpain"><b>Build the deck</b><span class="tpain gone">manual assembly · functional annotations</span></div>
+        <div class="tstop softpain"><b>Internal review</b><span class="tpain gone lo">knowledge split between creative and account</span></div>
+        <div class="tstop"><b>Client review</b></div>
+        <div class="tstop softpain"><b>Submit to Veeva</b><span class="tpain gone">page and reference dependencies</span></div>
+        <div class="tstop softpain"><b>PRC review</b><span class="tpain gone lo">recurring flags across rounds</span></div>
+        <div class="tstop softpain"><b>Reconcile comments</b><span class="tpain gone">sticky-note responses rebuilt from memory</span></div>
+        <div class="tstop"><b>Client approval</b></div>
+        <div class="tstop"><b>Resubmit</b></div>
+      </div>
+      <div class="tband" data-b="2">
+        <b>Redline</b>
+        <div class="tbandsteps"><span>Build</span><span>Annotate</span><span>Pre-read</span><span>Checklist</span><span>Responses</span><span>Check-changes</span></div>
+        <span class="thuman">Human approval + Veeva submission stay with your team</span>
+      </div>
     </div>
+    <p class="whis" style="margin-top:96px">What you told us → your week today → your week with Redline.</p>
   </div>
 </section>
 
@@ -132,10 +148,9 @@
           <span class="navlab">Main menu</span>
           <a class="cur"><svg class="ic"><use href="#i-grid"/></svg>Home</a>
           <a><svg class="ic"><use href="#i-inbox"/></svg>Submissions</a>
-          <a><svg class="ic"><use href="#i-layers"/></svg>Deck studio</a>
-          <a><svg class="ic"><use href="#i-msg"/></svg>Comments</a>
-          <a><svg class="ic"><use href="#i-check"/></svg>Checklist</a>
-          <a><svg class="ic"><use href="#i-db"/></svg>Knowledge base</a>
+          <a><svg class="ic"><use href="#i-check"/></svg>Worklist</a>
+          <a><svg class="ic"><use href="#i-folder"/></svg>Clients</a>
+          <a><svg class="ic"><use href="#i-cal"/></svg>Calendar</a>
           <div class="appuser"><b>NC</b>Nikki Crump</div>
         </nav>
         <div class="appmain">
@@ -179,44 +194,12 @@
   </div>
 </section>
 
-<!-- 7 · Architecture -->
-<section class="ds" data-sec="Product">
-  <div class="inner wide">
-    <h2 style="font-size:36px;margin-bottom:8px">Built in Redline. Connected to the tools you already use.</h2>
-    <div class="arch">
-      <span class="aline l1"></span><span class="aline l2"></span>
-      <div class="acol">
-        <h5>Inputs</h5>
-        <span>Google Drive</span>
-        <span>Google Slides</span>
-        <span>PDFs · InDesign exports</span>
-        <span>SharePoint</span>
-        <span>Teams / Zoom / Meet / Gemini notes</span>
-        <span>Prior PRC rounds &amp; Veeva responses</span>
-      </div>
-      <div class="acore">
-        <b>Redline</b>
-        <em>Canonical submission record</em>
-        <div class="acgrid">
-          <span>Deck studio</span><span>Annotations</span><span>Committee-aware review</span><span>Checklist</span><span>Comment worklist</span><span>Response drafting</span><span>Round comparison</span><span>Approval + audit trail</span><span>Client knowledge base</span>
-        </div>
-      </div>
-      <div class="acol">
-        <h5>Outputs</h5>
-        <span><b>Google Slides</b>: import an existing deck · export editable · connected sync, conflicts surfaced for review</span>
-        <span><b>Veeva</b>: submission PDF · response package · checklist · change log</span>
-      </div>
-    </div>
-    <p class="whis" style="margin-top:24px">Drive and Slides stay where work lives. Veeva remains the system of record. Redline does the work between them.</p>
-  </div>
-</section>
-
-<!-- 8 · Three jobs -->
+<!-- 7 · Three jobs -->
 <section class="ds" data-sec="Product">
   <div class="inner wide">
     <p class="kick">03 · Redline</p>
     <h2 style="font-size:44px">Three jobs</h2>
-    <div class="jobs">
+    <div class="jobs nocard">
       <div class="job" data-b="1"><i>01</i><b>Build the submission</b><p>The deck, the annotations, the paperwork, assembled from your assets and your brief.</p></div>
       <div class="job" data-b="2"><i>02</i><b>Prepare the review</b><p>Read the way your committee reads, before it goes in.</p></div>
       <div class="job" data-b="3"><i>03</i><b>Reconcile the round</b><p>Every comment tracked, answered, and carried into the next version.</p></div>
@@ -224,7 +207,7 @@
   </div>
 </section>
 
-<!-- 9 · Create -->
+<!-- 9 · Create (was 9) -->
 <section class="ds" data-sec="Product">
   <span class="chap">01 · Build</span>
   <div class="inner split">
@@ -233,34 +216,53 @@
       <p class="lead">Drop in the asset headed for review and the docs around it, then write or record the brief: what this is, what to annotate, what to watch for.</p>
     </div>
     <div class="sright">
-      <div class="crop" style="width:700px">
-        <div class="cropbar"><span></span><span></span><span></span><em>Redline · Deck studio · New submission</em></div>
-        <div style="background:#fafaf9;padding:30px 0;display:flex;justify-content:center">
-          <div class="modal lg" style="width:560px;background:#fff;border:1px solid #f0efed;border-radius:16px;box-shadow:0 20px 50px rgba(0,0,0,.06);padding:26px 30px">
-            <b>New submission</b>
-            <span class="mlab2">Context documents</span>
-            <div class="uptray">
-              <div class="tth">brand-guide.pdf</div>
-              <div class="tth">round-1-notes.pdf</div>
-              <div class="tth">isi-copy.docx</div>
-              <div class="tth">kv-hero.png</div>
+      <div class="window" style="width:1030px">
+      <div class="winbar"><span></span><span></span><span></span><em>Redline · Submissions · New</em></div>
+      <div class="app">
+        <nav class="appnav">
+          <div class="applogo">Redline</div>
+          <span class="navlab">Main menu</span>
+          <a><svg class="ic"><use href="#i-grid"/></svg>Home</a>
+          <a class="cur"><svg class="ic"><use href="#i-inbox"/></svg>Submissions</a>
+          <a><svg class="ic"><use href="#i-check"/></svg>Worklist</a>
+          <a><svg class="ic"><use href="#i-folder"/></svg>Clients</a>
+          <a><svg class="ic"><use href="#i-cal"/></svg>Calendar</a>
+          <div class="appuser"><b>NC</b>Nikki Crump</div>
+        </nav>
+        <div class="appmain">
+          <div class="greet">
+            <div><b>New submission</b><span>Assets, briefs, transcripts, guidelines · anything with context.</span></div>
+            <div class="side2"><span class="cbtn">Save as draft</span><span class="cbtn dark">Build deck</span></div>
+          </div>
+          <div style="padding:6px 24px 20px;display:flex;flex-direction:column;gap:14px">
+            <div><span class="mlab2" style="color:#9b9a97;font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase">Context documents</span>
+              <div class="uptray5" data-b="1">
+                <div class="tth"><b>Transcript</b>kickoff-transcript.vtt</div>
+                <div class="tth"><b>Brief</b>creative-brief.docx</div>
+                <div class="tth"><b>Guide</b>brand-guide.pdf</div>
+                <div class="tth"><b>Notes</b>round-1-notes.pdf</div>
+                <div class="tth"><b>Asset</b>kv-hero.png</div>
+              </div>
             </div>
-            <span class="mlab2">Annotation brief · type it or record it</span>
-            <div class="prompt"><p>"Annotate every claim and the ISI timing. Flag anything Regulatory would."</p><span class="vmic"><svg class="ic"><use href="#i-mic"/></svg></span></div>
-            <span class="mlab2">Format</span>
-            <div class="vgrid">
-              <div class="vtile"><span class="vico"><svg class="ic"><use href="#i-book"/></svg></span><u><b>Static PDF</b><small>pages + annotations</small></u></div>
-              <div class="vtile cur"><span class="vico"><svg class="ic"><use href="#i-monitor"/></svg></span><u><b>Kiosk · interactive</b><small>touch flow + ISI holds</small></u></div>
-              <div class="vtile"><span class="vico"><svg class="ic"><use href="#i-layers"/></svg></span><u><b>Banner set</b><small>every size, one note</small></u></div>
-              <div class="vtile"><span class="vico"><svg class="ic"><use href="#i-video"/></svg></span><u><b>Storyboard</b><small>frames + VO</small></u></div>
+            <div><span class="mlab2" style="color:#9b9a97;font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase">Annotation brief · type it or record it</span>
+              <div class="prompt" style="margin-top:8px"><p>"Annotate every claim and the ISI timing. Flag anything Regulatory would."</p><span class="vmic"><svg class="ic"><use href="#i-mic"/></svg></span></div>
             </div>
-            <div class="fld"><span>Client</span><b>C4TC</b></div>
-            <div class="fld"><span>Part number</span><b>US-UNBC-001</b></div>
-            <div class="modfoot">
-              <span class="cbtn dark">Build deck</span>
+            <div><span class="mlab2" style="color:#9b9a97;font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase">Format</span>
+              <div class="nsubgrid" data-b="2">
+                <div class="vtile"><span class="vico"><svg class="ic"><use href="#i-book"/></svg></span><u><b>Static PDF</b><small>pages + annotations</small></u></div>
+                <div class="vtile cur"><span class="vico"><svg class="ic"><use href="#i-monitor"/></svg></span><u><b>Product</b><small>touch flow + ISI holds</small></u></div>
+                <div class="vtile"><span class="vico"><svg class="ic"><use href="#i-layers"/></svg></span><u><b>Banner set</b><small>every size, one note</small></u></div>
+                <div class="vtile"><span class="vico"><svg class="ic"><use href="#i-video"/></svg></span><u><b>Storyboard</b><small>frames + VO</small></u></div>
+                <div class="vtile"><span class="vico"><svg class="ic"><use href="#i-folder"/></svg></span><u><b>Other</b><small>tell us how it prints</small></u></div>
+              </div>
+            </div>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;padding-top:6px;border-top:1px solid #f0efed">
+              <div class="fld" style="display:flex;justify-content:space-between;font-size:12.5px"><span style="color:#6b6b6b">Client</span><b>C4TC</b></div>
+              <div class="fld" style="display:flex;justify-content:space-between;font-size:12.5px"><span style="color:#6b6b6b">Part number</span><b>US-UNBC-001</b></div>
             </div>
           </div>
         </div>
+      </div>
       </div>
       <p class="whis">The docs give it context. The brief says what to annotate.</p>
       <div class="tagrow"><span class="mtag">Underlying capability demonstrated on Feed</span></div>
@@ -279,6 +281,10 @@
     <div class="sright">
       <div class="crop asm" style="width:1080px">
         <div class="cropbar"><span></span><span></span><span></span><em>Redline · Deck studio · US-UNBC-4235 · C4TC NY event postcard</em></div>
+        <div class="subctx slim">
+          <div class="subctxh"><b>US-UNBC-4235</b><em>C4TC · NY event postcard</em><span class="subrnd">Round 1</span></div>
+          <div class="subtabs"><a class="cur">Deck studio</a><a>Pre-read</a><a>Comments</a><a>Responses</a><a>Checklist</a><a>Rounds</a></div>
+        </div>
         <div class="edhead2"><span class="crumb">HIV Prevention_Freddie Experiential_Care For The Culture NY Event_Post Card_June2026</span><span class="avstack"><span class="av pu">DR</span><span class="av bl">MK</span><span class="av gr">SO</span></span><span class="cbtn">Share</span><span class="cbtn dark">Comment</span></div>
         <div class="gtool">
           <span class="gmenus"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4.5-4.5"/></svg>Menus</span>
@@ -341,44 +347,57 @@
   </div>
 </section>
 
-<!-- 11 · Annotate -->
+<!-- 10 · Grounded changes and annotations (was 11) -->
 <section class="ds" data-sec="Product">
   <span class="chap">01 · Build</span>
   <div class="inner split">
     <div class="stext">
-      <h2>Grounded annotations</h2>
-      <p class="lead">Works with you, not just for you. Every annotation drafted for you, in your conventions, down to the decimal points. Approve, adjust, or edit anything, with the same multi-player editing suite as Google Slides.</p>
+      <h2>Grounded changes and annotations</h2>
+      <p class="lead">Every suggestion drafted in place, with the source it traces to. Approve, adjust, or hand the whole list to Redline in one click.</p>
     </div>
     <div class="sright">
-      <div class="zwrap">
-        <div class="zbig">
-          <span class="ztag">A2</span>
-          <h4>Decimal period format, 2.5%</h4>
-          <p class="zrat" data-type="House rule: decimals take periods, never commas. Drafted in your conventions, waiting on your approve.">House rule: decimals take periods, never commas. Drafted in your conventions, waiting on your approve.</p>
-          <div class="zsrc"><span>Source · Round 1, sticky 27</span><span class="chip chip-nt sm">1 of 96 drafted</span></div>
-          <div style="display:flex;gap:10px;margin-top:16px"><span class="cbtn dark">Approve</span><span class="cbtn">Adjust</span></div>
+      <div class="crop asm" style="width:1080px">
+        <div class="cropbar"><span></span><span></span><span></span><em>Redline · Deck studio · US-UNBC-001 · Round 2</em></div>
+        <div class="subctx slim">
+          <div class="subctxh"><b>US-UNBC-001</b><em>Freddie congress kiosk</em><span class="subrnd">Round 2</span></div>
+          <div class="subtabs"><a class="cur">Deck studio</a><a>Pre-read</a><a>Comments</a><a>Responses</a><a>Checklist</a><a>Rounds</a></div>
         </div>
-        <span class="zline"></span>
-        <div class="zthumb">
-          <div class="annpage">
-            <h4>Efficacy, substantiated at week 12</h4>
-            <div class="statline"><b>2.5%</b><span>absolute reduction vs placebo</span></div>
-            <p class="bodyline">Freddie demonstrated a 2.5% absolute reduction in events versus placebo at week 12, sustained through week 24 in the open-label extension.<sup>4</sup></p>
-            <div class="isi">
-              <b>Important safety information</b>
-              <p>Do not administer to patients with known hypersensitivity. Monitor hepatic function at baseline and during treatment.</p>
-            </div>
+        <div class="gcstage">
+          <div class="gccanvas" data-a="1">
+            <h4 style="font-size:16px;font-weight:700">Efficacy, substantiated at week 12</h4>
+            <div class="statline"><b style="font-size:26px">2.5%</b><span>absolute reduction vs placebo at week 12</span></div>
+            <p style="font-size:11px;color:#4a4a48;line-height:1.6">Freddie demonstrated a <s style="color:#9b9a97;text-decoration-color:#c00000">superior</s> <b style="color:#c00000">substantiated</b> reduction in events versus placebo, sustained through week 24 in the open-label extension.<sup>4</sup></p>
+            <div class="isi"><b>Important safety information</b><p>Do not administer to patients with known hypersensitivity. Monitor hepatic function at baseline and during treatment.</p></div>
+            <div class="pgfoot"><span>US-UNBC-001 · PRC-2214</span><span>Page 3 of 8</span></div>
+            <div class="ab" style="left:22px;top:18px;width:340px;height:36px"><u>A1</u></div>
+            <div class="ab" style="left:22px;top:60px;width:100px;height:38px"><u>A2</u></div>
+            <div class="gcsource" data-a="3" style="top:auto;bottom:14px;right:auto;left:340px;width:220px"><b>Source · Round 1 sticky 27</b>"Superior efficacy is not substantiated. Soften to the approved comparative language."</div>
           </div>
-          <span class="zmark" style="left:9px;top:26px;width:47px;height:24px"></span>
+          <div class="gclist">
+            <div class="gcprog">
+              <b>Suggested changes<span>31 of 96 implemented · 32%</span></b>
+              <div class="gcbar"><i></i></div>
+              <p>Drafted from your annotation profile, round 1 stickies, and the C4TC claims library.</p>
+            </div>
+            <div class="gcrows">
+              <div class="gcrow cur" data-a="2"><p><s>Superior efficacy</s> → <b>Substantiated efficacy</b></p><div class="gcrowmeta"><span class="chip chip-purple sm">Round 1 · sticky 27</span><span class="chip chip-nt sm">Claims</span></div></div>
+              <div class="gcrow"><p>Decimal 2,5% → <b>2.5%</b> on frames 2, 5, 9</p><div class="gcrowmeta"><span class="chip chip-nt sm">House rule</span></div></div>
+              <div class="gcrow"><p>Claim C-07 → <b>relink to approved form</b></p><div class="gcrowmeta"><span class="chip chip-blue sm">Claims library</span></div></div>
+              <div class="gcrow"><p>ISI hold → <b>4-second scroll hold</b></p><div class="gcrowmeta"><span class="chip chip-pink sm">Round 1 · Regulatory pattern</span></div></div>
+              <div class="gcrow"><p>Footer case number → <b>PRC-2214</b></p><div class="gcrowmeta"><span class="chip chip-nt sm">House rule</span></div></div>
+              <div class="gcrow"><p>Hero star element → <b>route to Creative · PSD</b></p><div class="gcrowmeta"><span class="chip chip-yellow sm">Design change</span></div></div>
+            </div>
+            <span class="gcbtn">Implement changes with AI</span>
+          </div>
         </div>
       </div>
-      <p class="whis">No more drawing boxes page by page. Approve, adjust, or edit, just like Slides.</p>
+      <p class="whis">Approve, adjust, or hand the whole list to Redline. Every change stays traced to its source.</p>
       <div class="tagrow"><span class="mtag">Underlying capability demonstrated on Feed</span></div>
     </div>
   </div>
 </section>
 
-<!-- 12 · Committee read -->
+<!-- 11 · Committee read (was 12) -->
 <section class="ds" data-sec="Product">
   <span class="chap">02 · Prepare</span>
   <div class="inner split">
@@ -388,7 +407,11 @@
     </div>
     <div class="sright">
       <div class="crop" style="width:960px">
-        <div class="cropbar"><span></span><span></span><span></span><em>Redline · Pre-submission review · US-UNBC-001</em></div>
+        <div class="cropbar"><span></span><span></span><span></span><em>Redline · US-UNBC-001 · Round 2</em></div>
+        <div class="subctx slim">
+          <div class="subctxh"><b>US-UNBC-001</b><em>Freddie congress kiosk</em><span class="subrnd">Round 2</span></div>
+          <div class="subtabs"><a>Deck studio</a><a class="cur">Pre-read</a><a>Comments</a><a>Responses</a><a>Checklist</a><a>Rounds</a></div>
+        </div>
         <div class="greet">
           <div><b>Pre-submission review</b><span>Read the way your committee reads · trained on 14 rounds</span></div>
           <div class="side2"><span class="cbtn">Re-run review</span></div>
@@ -411,43 +434,48 @@
   </div>
 </section>
 
-<!-- 13 · Flag detail -->
+<!-- 12 · Flag detail (was 13) -->
 <section class="ds" data-sec="Product">
   <span class="chap">02 · Prepare</span>
   <div class="inner split">
     <div class="stext">
       <h2 style="font-size:30px">Shows what may be flagged, and why</h2>
-      <p class="lead">Open any flag and Redline shows the reasoning, the precedent it traces to, and the fix, ready to apply.</p>
+      <p class="lead">Open any flag and Redline shows the reasoning, the precedent it traces to, and the suggested change already drafted in place, awaiting approval.</p>
     </div>
     <div class="sright">
-      <div style="display:grid;grid-template-columns:280px 300px 300px;gap:22px;align-items:stretch">
-        <div class="chcmt" style="display:flex;flex-direction:column;justify-content:center">
-          <b>Why it may be flagged</b>
-          Medical reviewer rejects superiority phrasing without head-to-head data cited inline. Raised in prior rounds.
-          <div style="margin-top:10px;font-size:11.5px;color:#4d4d4d">Source · Round 1, sticky 27 → <u style="text-decoration-color:#d42b2b">view precedent</u></div>
-          <div style="margin-top:10px;display:flex;gap:6px"><span class="chip chip-pink">Likely flag</span><span class="chip chip-nt">high confidence</span></div>
+      <div class="crop" style="width:1000px">
+        <div class="cropbar"><span></span><span></span><span></span><em>Redline · US-UNBC-001 · Round 2</em></div>
+        <div class="subctx slim">
+          <div class="subctxh"><b>US-UNBC-001</b><em>Freddie congress kiosk</em><span class="subrnd">Round 2</span></div>
+          <div class="subtabs"><a>Deck studio</a><a class="cur">Pre-read</a><a>Comments</a><a>Responses</a><a>Checklist</a><a>Rounds</a></div>
         </div>
-        <div class="chframe was" style="width:auto">
-          <span class="sbnum">Frame 3 · as written</span>
-          <div class="chimg" style="height:130px"><span class="star">✷</span><span class="kvh" style="font-size:11px">Superior efficacy, day one</span><span class="kq"></span></div>
-          <p>Superior efficacy, day one</p>
-          <span class="chsub">Freddie congress kiosk · headline</span>
-        </div>
-        <div class="chframe" style="width:auto">
-          <span class="sbnum">Frame 3 · suggested</span>
-          <div class="chimg" style="height:130px"><span class="kvh xf" style="font-size:11px"><span class="x1">Superior efficacy, day one</span><span class="x2">Substantiated efficacy, day one</span></span><span class="kq"></span></div>
-          <p class="xf"><span class="x1">Superior efficacy, day one</span><span class="x2">Substantiated efficacy, day one</span></p>
-          <span class="chsub">Freddie congress kiosk · headline</span>
-          <div style="display:flex;gap:6px;margin-top:10px"><span class="cbtn dark" style="font-size:10.5px;padding:3.5px 10px">Apply</span><span class="cbtn" style="font-size:10.5px;padding:3.5px 10px">Edit</span><span class="cbtn" style="font-size:10.5px;padding:3.5px 10px">Dismiss</span></div>
+        <div class="dspread">
+          <div class="dspg">
+            <h4>Efficacy, day one</h4>
+            <div class="statline"><b>2.5%</b><span>absolute reduction vs placebo</span></div>
+            <p class="bodyline">Redline drafted the corrected phrasing in place, matching the approved comparative form.</p>
+            <div class="isi"><b>Important safety information</b><p>Do not administer to patients with known hypersensitivity. Monitor hepatic function at baseline.</p></div>
+            <div class="pgfoot"><span>US-UNBC-001 · PRC-2214</span><span>Page 3 of 8</span></div>
+          </div>
+          <div class="dspg focus">
+            <h4>Frame 3 · headline</h4>
+            <div class="statline"><b>4 sec</b><span>ISI scroll hold, on device</span></div>
+            <p class="bodyline">Drafted with the 4-second hold Regulatory flagged in round 1.</p>
+            <div class="isi"><b>Important safety information</b><p>Do not administer to patients with known hypersensitivity. Monitor hepatic function at baseline.</p></div>
+            <div class="pgfoot"><span>US-UNBC-001 · PRC-2214</span><span>Page 3 of 8</span></div>
+          </div>
+          <div class="dspflag" style="left:32px;top:56px;width:220px" data-b="1"><u>F1</u><p><s>Superior efficacy, day one</s> → <b>Substantiated efficacy, day one</b></p><small>Source · Round 1 sticky 27 · Medical reviewer</small><span class="chip chip-pink sm">Likely flag</span></div>
+          <div class="dspflag act" style="left:350px;top:38px;width:238px" data-b="2"><u>F2</u><p><s>ISI 2-second hold</s> → <b>ISI 4-second hold on scroll</b></p><small>Source · Round 1 · Regulatory recurring pattern</small><div style="display:flex;gap:6px;margin-top:6px;align-items:center"><span class="chip chip-pink sm">Likely flag</span><span class="chip chip-nt sm">high confidence</span></div><div class="dspacts"><span class="dark">Apply</span><span>Edit</span><span>Dismiss</span></div></div>
+          <div class="dspflag" style="left:70px;bottom:12px;width:210px" data-b="3"><u>F3</u><p>Claim C-07 → <b>relink to approved form</b></p><small>Source · Claims library</small><span class="chip chip-blue sm">Requirement check</span></div>
         </div>
       </div>
-      <p class="whis">Every flag arrives with its reasoning and its fix.</p>
+      <p class="whis">Every flag drafts the change into the material, awaiting your approve.</p>
       <div class="tagrow"><span class="mtag">Prototype interface · illustrative data</span></div>
     </div>
   </div>
 </section>
 
-<!-- 14 · Submit -->
+<!-- 13 · Preps the checklist (was 14) -->
 <section class="ds" data-sec="Product">
   <span class="chap">02 · Prepare</span>
   <div class="inner split">
@@ -457,7 +485,11 @@
     </div>
     <div class="sright">
       <div class="crop" style="width:960px">
-        <div class="cropbar"><span></span><span></span><span></span><em>Redline · Checklist · US-UNBC-001 · Round 2</em></div>
+        <div class="cropbar"><span></span><span></span><span></span><em>Redline · US-UNBC-001 · Round 2</em></div>
+        <div class="subctx slim">
+          <div class="subctxh"><b>US-UNBC-001</b><em>Freddie congress kiosk</em><span class="subrnd">Round 2</span></div>
+          <div class="subtabs"><a>Deck studio</a><a>Pre-read</a><a>Comments</a><a>Responses</a><a class="cur">Checklist</a><a>Rounds</a></div>
+        </div>
         <div class="greet">
           <div><b>Submission checklist</b><span>Formatted for Veeva, ready to paste</span></div>
           <div class="side2"><span class="cbtn dark">Copy all</span></div>
@@ -481,7 +513,7 @@
   </div>
 </section>
 
-<!-- 15 · Feedback -->
+<!-- 14 · Track the feedback (was 15) -->
 <section class="ds" data-sec="Product">
   <span class="chap">03 · Reconcile</span>
   <div class="inner split">
@@ -491,7 +523,11 @@
     </div>
     <div class="sright">
       <div class="crop" style="width:1000px">
-        <div class="cropbar"><span></span><span></span><span></span><em>Redline · Comments · US-UNBC-001 · Round 2</em></div>
+        <div class="cropbar"><span></span><span></span><span></span><em>Redline · US-UNBC-001 · Round 2</em></div>
+        <div class="subctx slim">
+          <div class="subctxh"><b>US-UNBC-001</b><em>Freddie congress kiosk</em><span class="subrnd">Round 2</span></div>
+          <div class="subtabs"><a>Deck studio</a><a>Pre-read</a><a class="cur">Comments</a><a>Responses</a><a>Checklist</a><a>Rounds</a></div>
+        </div>
         <div class="greet">
           <div><b>Open comments</b><span>Freddie kiosk · imported 4 min ago</span></div>
           <div class="side2"><span class="cbtn">Export plan</span><span class="cbtn dark">Re-ingest round</span></div>
@@ -514,7 +550,7 @@
   </div>
 </section>
 
-<!-- 16 · Comment detail -->
+<!-- 15 · From sticky to answer (was 16) -->
 <section class="ds" data-sec="Product">
   <span class="chap">03 · Reconcile</span>
   <div class="inner split">
@@ -524,7 +560,11 @@
     </div>
     <div class="sright">
       <div class="crop" style="width:950px">
-        <div class="cropbar"><span></span><span></span><span></span><em>Redline · Responses · US-UNBC-001 · Round 2</em></div>
+        <div class="cropbar"><span></span><span></span><span></span><em>Redline · US-UNBC-001 · Round 2</em></div>
+        <div class="subctx slim">
+          <div class="subctxh"><b>US-UNBC-001</b><em>Freddie congress kiosk</em><span class="subrnd">Round 2</span></div>
+          <div class="subtabs"><a>Deck studio</a><a>Pre-read</a><a>Comments</a><a class="cur">Responses</a><a>Checklist</a><a>Rounds</a></div>
+        </div>
         <div class="resphead">
           <div><b>Drafted responses</b><span>96 stickies, every one mapped to its frame and formatted for Veeva</span></div>
           <span class="cbtn dark">Copy all responses</span>
@@ -574,51 +614,35 @@
   </div>
 </section>
 
-<!-- 17 · Carries changes -->
+<!-- 16 · Carries approved changes (was 17) -->
 <section class="ds" data-sec="Product">
   <span class="chap">03 · Reconcile</span>
-  <span class="chap rt">Studio tier</span>
+  <span class="chap rt">Editor tier</span>
   <div class="inner split">
     <div class="stext">
       <h2 style="font-size:30px">Carries approved changes across the submission</h2>
       <p class="lead">Once a change is approved, Redline applies it everywhere it lands: the deck, the asset, every banner size, from one note.</p>
     </div>
     <div class="sright">
-      <div class="cas" style="display:grid;grid-template-columns:250px 1fr;gap:26px;align-items:center">
-        <div class="chcmt">
-          <b>The note</b>
-          Soften the claim and remove the star element from the hero.
-          <div style="margin-top:12px"><span class="chip chip-green">resolved, deck and asset</span></div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:flex-start">
+        <div class="chatex">
+          <div class="chatmsg"><span class="av bl">NC</span><p>Change every instance of <b>"prep"</b> to <b>PrEP</b> across the submission.</p></div>
+          <div class="chatmsg rl"><span class="av" style="background:#1a1a1a;color:#fff">R</span><p>Done. Updated 4 slides, 2 banner sizes, and 1 storyboard frame. <b>7 instances</b>, every reference intact.</p></div>
         </div>
-        <div style="display:flex;flex-direction:column;gap:18px">
-          <div class="chframes">
-            <div class="chframe was">
-              <span class="sbnum">Storyboard · frame 1 · before</span>
-              <div class="chimg"><span class="star">✷</span><span class="kvh">Superior efficacy, day one</span><span class="kq"></span></div>
-              <p>Superior efficacy, day one</p>
-              <span class="chsub">Freddie congress kiosk · hero frame</span>
-            </div>
-            <div class="chframe" data-c="1">
-              <span class="sbnum">Storyboard · frame 1 · after</span>
-              <div class="chimg"><span class="kvh">Substantiated efficacy, day one</span><span class="kq"></span></div>
-              <p>Substantiated efficacy, day one</p>
-              <span class="chsub">Freddie congress kiosk · hero frame</span>
-            </div>
-          </div>
-          <div class="chbrow">
-            <div class="chb cb1" data-c="2"><i>300×250</i><p>Substantiated efficacy, day one</p></div>
-            <div class="chb cb2" data-c="3"><i>728×90</i><p>Substantiated efficacy, day one</p></div>
-            <div class="chb cb3" data-c="4"><i>160×600</i><p>Day one</p></div>
-          </div>
+        <div class="updgrid" data-b="2">
+          <div class="updthumb"><b>Slide 3 · claims</b><p>Daily <mark>PrEP</mark> for adults at risk.</p></div>
+          <div class="updthumb"><b>Slide 7 · dosing</b><p>Start <mark>PrEP</mark> per label.</p></div>
+          <div class="updthumb"><b>Banner 300×250</b><p>Ask about <mark>PrEP</mark>.</p></div>
+          <div class="updthumb"><b>Storyboard f4</b><p>VO: "About <mark>PrEP</mark>."</p></div>
         </div>
       </div>
-      <p class="whis">Bigger creative calls route to your designers as a precise to-do, then get verified on return.</p>
+      <p class="whis">Redline edits the assets themselves. Bigger creative calls route to your designers as a precise to-do.</p>
       <div class="tagrow"><span class="mtag">Underlying capability demonstrated on Feed</span></div>
     </div>
   </div>
 </section>
 
-<!-- 18 · Check changes -->
+<!-- 17 · Check-changes (was 18) -->
 <section class="ds" data-sec="Product">
   <span class="chap">03 · Reconcile</span>
   <div class="inner split">
@@ -628,7 +652,11 @@
     </div>
     <div class="sright">
       <div class="crop" style="width:960px">
-        <div class="cropbar"><span></span><span></span><span></span><em>Redline · Check-changes · Round 2 · v4 vs v3</em></div>
+        <div class="cropbar"><span></span><span></span><span></span><em>Redline · US-UNBC-001 · Round 2 · v4 vs v3</em></div>
+        <div class="subctx slim">
+          <div class="subctxh"><b>US-UNBC-001</b><em>Freddie congress kiosk</em><span class="subrnd">Round 2</span></div>
+          <div class="subtabs"><a>Deck studio</a><a>Pre-read</a><a>Comments</a><a>Responses</a><a>Checklist</a><a class="cur">Rounds</a></div>
+        </div>
         <div class="greet">
           <div><b>Check-changes</b><span>Every fix compared against the request it came from</span></div>
           <div class="side2"><span class="cbtn">Automated diff</span></div>
@@ -652,35 +680,31 @@
   </div>
 </section>
 
-<!-- 19 · Knowledge ingestion -->
+<!-- 18 · Sources + what they become (was 19) -->
 <section class="ds" data-sec="Product">
   <div class="inner wide">
     <h2 style="font-size:38px">Starts with what Majority already knows</h2>
-    <p class="lead" style="max-width:820px">Before the first submission, Redline ingests your approved history and turns it into working knowledge your team validates.</p>
-    <div class="kpanels">
-      <div class="kpanel" data-b="1">
-        <h5>What Majority has</h5>
-        <span class="ksub">Approved folders in Drive and Veeva</span>
-        <div class="krow"><span class="itile pu">◳</span><b data-count data-from="0" data-to="186" data-dur="600">186</b><span>submission decks</span></div>
-        <div class="krow"><span class="itile gr">↩</span><b data-count data-from="0" data-to="41" data-dur="600" data-delay="80">41</b><span>response sets</span></div>
-        <div class="krow"><span class="itile bl">▤</span><b data-count data-from="0" data-to="12" data-dur="600" data-delay="160">12</b><span>templates</span></div>
-        <div class="krow"><span class="itile or">▣</span><b>6</b><span>asset categories</span></div>
-        <div class="krow"><span class="itile nt">◔</span><b>4</b><span>client profiles</span></div>
+    <p class="lead" style="max-width:820px">Before the first submission, Redline ingests the tools your team already works in and turns them into working knowledge your team validates.</p>
+    <div class="srcwrap">
+      <div class="srccol" data-b="1">
+        <h5>Where it comes from</h5>
+        <div class="srcitem"><span class="glogo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 16l4-7h8l4 7-4 7H8z"/><path d="M8 9l4 7 4-7"/></svg></span><u>Google Drive<small>Approved folders only</small></u></div>
+        <div class="srcitem"><span class="glogo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="3" width="16" height="18" rx="1.5"/><path d="M8 8h8M8 12h8M8 16h5"/></svg></span><u>Google Slides<small>Import, export, connected sync</small></u></div>
+        <div class="srcitem"><span class="glogo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3l8 4v6c0 5-3.5 7.5-8 8-4.5-.5-8-3-8-8V7z"/></svg></span><u>Veeva exports<small>Prior rounds and response packages</small></u></div>
+        <div class="srcitem"><span class="glogo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg></span><u>Teams / Zoom / Meet transcripts</u></div>
+        <div class="srcitem"><span class="glogo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6"/></svg></span><u>PDFs · InDesign exports</u></div>
+        <div class="srcitem"><span class="glogo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="16" rx="1.5"/><path d="M3 10h18M8 4v6"/></svg></span><u>SharePoint</u></div>
       </div>
-      <div class="kjoin" data-b="2">
-        <span>ingested, then validated by your team</span>
-        <i class="jarr"></i>
-      </div>
-      <div class="kpanel" data-b="3">
-        <h5>What it becomes in Redline</h5>
-        <span class="ksub">Working knowledge, cited to its source</span>
-        <div class="krow"><span class="itile gr">✓</span><b data-count data-from="0" data-to="32" data-dur="600" data-delay="240">32</b><span>validated requirements</span></div>
-        <div class="krow"><span class="itile pu">≈</span><b data-count data-from="0" data-to="18" data-dur="600" data-delay="320">18</b><span>recurring review patterns</span></div>
-        <div class="krow"><span class="itile bl">❝</span><b data-count data-from="0" data-to="11" data-dur="600" data-delay="400">11</b><span>approved-language precedents</span></div>
-        <div class="krow warn"><span class="itile ye">!</span><b>7</b><span>conflicts surfaced for your call</span></div>
+      <div class="srcconn" data-b="2"><span>ingested, then validated by your team</span></div>
+      <div class="srccol" data-b="3">
+        <h5>What it becomes</h5>
+        <div class="becomerow"><b>32</b><p>validated requirements</p></div>
+        <div class="becomerow"><b>18</b><p>recurring review patterns</p></div>
+        <div class="becomerow"><b>11</b><p>approved-language precedents</p></div>
+        <div class="becomerow warn"><b>7</b><p>conflicts surfaced for your call</p></div>
       </div>
     </div>
-    <p class="whis">Only approved folders are indexed. Nothing becomes a reusable rule without a human validating it.</p>
+    <p class="srcfoot">Drive and Slides stay where work lives. Veeva remains the system of record. Only approved folders are indexed. Nothing becomes a rule without a human validating it.</p>
     <div class="tagrow"><span class="mtag">Prototype interface · illustrative data</span></div>
   </div>
 </section>
@@ -701,16 +725,15 @@
           <span class="navlab">Main menu</span>
           <a><svg class="ic"><use href="#i-grid"/></svg>Home</a>
           <a><svg class="ic"><use href="#i-inbox"/></svg>Submissions</a>
-          <a><svg class="ic"><use href="#i-layers"/></svg>Deck studio</a>
-          <a><svg class="ic"><use href="#i-msg"/></svg>Comments</a>
-          <a><svg class="ic"><use href="#i-check"/></svg>Checklist</a>
-          <a class="cur"><svg class="ic"><use href="#i-db"/></svg>Knowledge base</a>
+          <a><svg class="ic"><use href="#i-check"/></svg>Worklist</a>
+          <a class="cur"><svg class="ic"><use href="#i-folder"/></svg>Clients</a>
+          <a class="cur" style="margin-left:24px;font-size:11.5px;background:#f1f0ee">C4TC</a>
+          <a><svg class="ic"><use href="#i-cal"/></svg>Calendar</a>
           <div class="appuser"><b>NC</b>Nikki Crump</div>
         </nav>
         <div class="appmain">
           <div class="greet">
             <div><b>Knowledge base · C4TC</b><span>Isolated per client · 14 rounds learned · never shared across clients</span></div>
-            <div class="side2"><span class="cbtn dark">C4TC</span></div>
           </div>
           <div class="kbwrap">
             <div class="rvgrid">
@@ -824,123 +847,140 @@
   </div>
 </section>
 
-<!-- 22 · The rebuilt page -->
-<section class="ds" data-sec="Product">
-  <div class="inner split">
-    <div class="stext">
-      <h2 style="font-size:36px">The page they watched us rebuild</h2>
-      <p class="lead">Round 1 came back marked up by hand. Redline regenerated the page: corrected, re-referenced, ready for round 2.</p>
-      <div class="rbstats">
-        <div><b>15 min</b><span>all 20 pages, every reference intact</span></div>
-        <div><b>0</b><span>accuracy flags</span></div>
-      </div>
-    </div>
-    <div class="sright">
-      <div class="rbwrap">
-        <span class="plab l1">Round 1 · marked up by hand</span>
-        <span class="plab l2">Round 2 · rebuilt by Redline</span>
-        <div class="annpage pgold">
-          <h4>Efficacy, substantiated at week 12</h4>
-          <div class="statline"><b>2,5%</b><span>absolute reduction vs placebo</span></div>
-          <p class="bodyline">Freddie demonstrated a 2,5% absolute reduction in events versus placebo at week 12, sustained through week 24 in the open-label extension.</p>
-          <div class="isi">
-            <b>Important safety information</b>
-            <p>Do not administer to patients with known hypersensitivity. Monitor hepatic function at baseline and during treatment. The most common adverse reactions were headache, nausea, and fatigue.</p>
-          </div>
-          <div class="pgfoot"><span>US-UNBC-001 · PRC-2103</span><span>Page 3 of 8</span></div>
-          <div class="hb" style="left:22px;top:18px;width:448px;height:42px"><u>claim?</u></div>
-          <div class="hb" style="left:20px;top:60px;width:106px;height:50px;transform:rotate(.5deg)"><u>decimal</u></div>
-          <div class="hb" style="left:24px;top:166px;width:520px;height:64px;transform:rotate(-.4deg)"><u>ISI</u></div>
-        </div>
-        <div class="annpage pgnew">
-          <h4>Efficacy, substantiated at week 12</h4>
-          <div class="statline"><b>2.5%</b><span>absolute reduction vs placebo</span></div>
-          <p class="bodyline">Freddie demonstrated a 2.5% absolute reduction in events versus placebo at week 12, sustained through week 24 in the open-label extension.<sup>4</sup></p>
-          <div class="isi">
-            <b>Important safety information</b>
-            <p>Do not administer to patients with known hypersensitivity. Monitor hepatic function at baseline and during treatment. The most common adverse reactions were headache, nausea, and fatigue.</p>
-          </div>
-          <div class="pgfoot"><span>US-UNBC-001 · PRC-2214</span><span>Page 3 of 8</span></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+<!-- (S22 deleted; visual migrates into the case study slide) -->
 
-<!-- 23 · What stays human -->
+<!-- 21 · What stays human (was 23) -->
 <section class="ds" data-sec="Proof">
   <div class="inner">
     <h2 style="font-size:44px">Redline drafts. Your team decides.</h2>
-    <div class="lines loose" style="margin-top:20px">
-      <p class="ln">Creative judgment stays with your creatives.</p>
-      <p class="ln">A named person approves every upload. Nothing reaches Veeva on its own.</p>
-      <p class="ln">The submitter finally gets the context that used to live in other people's heads.</p>
+    <div class="decl">
+      <div class="declcol" data-b="1">
+        <h5>Redline does</h5>
+        <p>Builds. Annotates. Pre-reads.</p>
+        <p>Drafts every response.</p>
+        <p>Checks every fix.</p>
+        <p>Remembers every round.</p>
+      </div>
+      <div class="declcol you" data-b="2">
+        <h5>Your team does</h5>
+        <p>Makes the creative calls.</p>
+        <p>Approves what ships.</p>
+        <p>Signs off before anything reaches Veeva.</p>
+        <p>Owns the client relationship.</p>
+      </div>
     </div>
+    <p class="declland" data-b="3">Nothing ships without your sign-off.</p>
   </div>
 </section>
 
 <!-- 24 · Trust and security -->
 <section class="ds" data-sec="Proof">
-  <div class="inner">
-    <h2 style="font-size:44px">Built to survive your MSA review.</h2>
-    <div class="lines" style="margin-top:14px">
-      <p class="ln" style="font-size:19px;padding:11px 6px">Runs in your Google tenant.</p>
-      <p class="ln" style="font-size:19px;padding:11px 6px">Each client's knowledge base is isolated. Nothing crosses accounts.</p>
-      <p class="ln" style="font-size:19px;padding:11px 6px">Your data never trains a shared or public model.</p>
-      <p class="ln" style="font-size:19px;padding:11px 6px">Every suggestion links back to its source.</p>
-      <p class="ln" style="font-size:19px;padding:11px 6px">A full audit trail: who approved what, when, from which precedent.</p>
-      <p class="ln" style="font-size:19px;padding:11px 6px">Your admins can inspect and delete anything, any time.</p>
-      <p class="ln" style="font-size:19px;padding:11px 6px">A human approves every action that leaves the system.</p>
+  <div class="inner wide">
+    <h2 style="font-size:40px">Built to survive your MSA review.</h2>
+    <div class="msawrap">
+      <div class="msadoc" data-b="1">
+        <h6>Master services agreement · section 9 · data protection and confidentiality</h6>
+        <p><span class="art">9.1 Processing environment.</span> All Client Materials shall be processed within <span class="msamark">the Client's own Google tenant</span>, under access controls administered by the Client.</p>
+        <p><span class="art">9.2 Segregation.</span> Each client's knowledge base is maintained in <span class="msamark">full isolation</span>; no Client Materials shall be disclosed to, or commingled with, the materials of any other client.</p>
+        <p><span class="art">9.3 Model training.</span> Client Materials shall <span class="msamark">never be used to train</span> any shared or public model.</p>
+        <p><span class="art">9.4 Provenance and records.</span> Each suggested change shall <span class="msamark">reference the source</span> from which it derives, and a <span class="msamark">complete record of approvals</span> shall be retained: who approved what, when, and on which precedent.</p>
+        <p><span class="art">9.5 Inspection and deletion.</span> The Client's administrators may <span class="msamark">inspect, export, or permanently delete</span> any stored material at any time.</p>
+        <p><span class="art">9.6 Human approval.</span> No output shall leave the system without the <span class="msamark">documented approval of a designated reviewer</span>.</p>
+      </div>
+      <div class="msaannlist" data-b="2">
+        <div class="msaann"><u>A1</u><b>Runs in your Google tenant</b></div>
+        <div class="msaann"><u>A2</u><b>Client knowledge isolated</b><small>Nothing crosses accounts.</small></div>
+        <div class="msaann"><u>A3</u><b>Your data never trains a shared model</b></div>
+        <div class="msaann"><u>A4</u><b>Every suggestion links to its source</b></div>
+        <div class="msaann"><u>A5</u><b>Full audit trail</b><small>Who approved what, when, from which precedent.</small></div>
+        <div class="msaann"><u>A6</u><b>Admins inspect and delete anything, any time</b></div>
+        <div class="msaann"><u>A7</u><b>A human approves every action that leaves the system</b></div>
+      </div>
     </div>
-    <p class="whis" style="margin-top:20px">Bring your MSA. We built for that conversation.</p>
+    <p class="whis" style="margin-top:22px">Bring your MSA. We built for that conversation.</p>
   </div>
 </section>
 
 <!-- 25 · Personas -->
 <section class="ds" data-sec="Proof">
   <div class="inner wide">
-    <h2 style="font-size:40px;margin-bottom:30px">One workflow, three seats</h2>
-    <div class="jobs">
-      <div class="job"><i class="neu">Account Owner</i><b>Owns the review</b><p>Gets the checklist and Veeva-ready responses without rebuilding either.</p></div>
-      <div class="job"><i class="neu">Project Lead</i><b>Owns the dates</b><p>Sees status, review windows, and ownership in one place.</p></div>
-      <div class="job"><i class="neu">Creative</i><b>Owns the work</b><p>Annotations drafted for them. InDesign untouched.</p></div>
+    <h2 style="font-size:40px">One workflow, three seats</h2>
+    <div class="seatline">
+      <div class="seatzones">
+        <div class="seatzone" data-b="1"><i>Account</i><b>Owns the review</b><p>Gets the checklist and Veeva-ready responses without rebuilding either.</p></div>
+        <div class="seatzone" data-b="2"><i>Project lead</i><b>Owns the dates</b><p>Sees status, review windows, and ownership in one place.</p></div>
+        <div class="seatzone" data-b="3"><i>Creative</i><b>Owns the work</b><p>Annotations drafted for them. InDesign untouched.</p></div>
+      </div>
     </div>
+    <p class="seatfoot" data-b="4">Same line you saw at the start. Three people working it, one shared state.</p>
   </div>
 </section>
 
 <!-- 26 · Case study -->
 <section class="ds" data-sec="Proof">
   <div class="inner wide">
-    <h2 style="font-size:40px;margin-bottom:26px">Already demonstrated under real PRC pressure</h2>
-    <div class="csgrid">
-      <div class="cs"><h5>The change</h5><p>Roughly twenty pages added to a submission deck the night before it was due.</p></div>
-      <div class="cs"><h5>The manual consequence</h5><p>Every page number and every "return to page" reference in the deck breaks at once.</p></div>
-      <div class="cs"><h5>What the workflow did</h5><p>Rebuilt the structure, updated the references, regenerated the deck in about 15 minutes, run remotely.</p></div>
-      <div class="cs"><h5>Why it matters</h5><p>The deck went in on time and got reviewed instead of reconstructed. Zero accuracy flags.</p></div>
+    <h2 style="font-size:40px">Already demonstrated under real PRC pressure</h2>
+    <div class="cssplit">
+      <div class="csnarr">
+        <div class="csnrow" data-b="1"><h6>The change</h6><p>Roughly twenty pages added to a submission deck the night before it was due.</p></div>
+        <div class="csnrow" data-b="2"><h6>The manual consequence</h6><p>Every page number and every "return to page" reference in the deck breaks at once.</p></div>
+        <div class="csnrow" data-b="3"><h6>What the workflow did</h6><p>Rebuilt the structure, updated the references, regenerated the deck. Run remotely, overnight.</p></div>
+        <div class="csnrow" data-b="4"><h6>Why it matters</h6><p>The deck went in on time and got reviewed instead of reconstructed.</p></div>
+        <div class="csstats" data-b="5">
+          <div><b>15 min</b><span>from broken references to a regenerated deck</span></div>
+          <div><b>0</b><span>accuracy flags on the resubmission</span></div>
+        </div>
+      </div>
+      <div class="csba" data-b="2">
+        <span class="plab l1">Round 1 · marked up by hand</span>
+        <div class="annpage pgold">
+          <h4>Substantiated efficacy, day one</h4>
+          <div class="statline"><b>94%</b><span>of participants reached target levels · Study 301</span></div>
+          <p class="bodyline">In a 52-week study of adults switching regimens, efficacy was maintained through week 48 with a consistent safety profile.</p>
+          <div class="isi"><b>IMPORTANT SAFETY INFORMATION</b><p>Do not take with medicines that interact. Serious side effects may include changes in kidney function. These are not all the possible side effects. See full Prescribing Information.</p></div>
+          <span class="hb" style="left:12px;top:10px;width:200px;height:26px"><u>claim?</u></span>
+          <span class="hb" style="left:12px;top:52px;width:64px;height:32px"><u>decimal</u></span>
+          <span class="hb" style="left:12px;bottom:14px;width:230px;height:52px"><u>ISI</u></span>
+        </div>
+        <span class="plab l2">Rebuilt in Redline</span>
+        <div class="annpage pgnew">
+          <h4>Substantiated efficacy, day one</h4>
+          <div class="statline"><b>94.2%</b><span>of participants reached target levels · Study 301</span></div>
+          <p class="bodyline">In a 52-week study of adults switching regimens, efficacy was maintained through week 48 with a consistent safety profile. Return to page 41 for study design.</p>
+          <div class="isi"><b>IMPORTANT SAFETY INFORMATION</b><p>Do not take with medicines that interact. Serious side effects may include changes in kidney function. These are not all the possible side effects. See full Prescribing Information on pages 52 to 54.</p></div>
+        </div>
+      </div>
     </div>
-    <p class="whis" style="margin-top:18px">Demonstrated during the Feed engagement. One live project, not yet an aggregate benchmark. <span class="todo">[TODO: Cal confirms facts + engagement name]</span></p>
+    <p class="whis" style="margin-top:16px">Demonstrated during the Feed engagement. One live project, not yet an aggregate benchmark. <span class="todo">[TODO: Cal confirms facts + engagement name]</span></p>
   </div>
 </section>
 
-<!-- 27 · Quote -->
-<section class="ds" data-sec="Proof">
-  <div class="inner mid">
-    <h2 style="font-size:64px;max-width:1100px">"Not a good use of our time."</h2>
-    <p class="whis" style="margin-top:18px">Your team, on the manual process, from our first call.</p>
-  </div>
-</section>
+<!-- (S27 deleted) -->
 
-<!-- 28 · Demo -->
+<!-- 25 · Demo (was 28) -->
 <section class="ds" data-sec="Proof">
-  <div class="inner mid">
+  <div class="inner wide">
     <p class="kick">04 · A live demo</p>
-    <h2>Let's run one of yours.</h2>
-    <p class="whis" style="margin-top:14px">You already sent us real submissions. We'll take one from your email and run it in front of you.</p>
-    <div class="demostrip">
-      <div><b>Build</b><p>Import an asset and build the deck structure</p></div>
-      <div><b>Annotate</b><p>Draft the functional annotations</p></div>
-      <div><b>Read</b><p>Surface one likely flag with its source</p></div>
-      <div><b>Reconcile</b><p>Turn one comment into an assigned change and a Veeva-ready response</p></div>
+    <h2>Proven to work.</h2>
+    <div class="proven">
+      <div class="provenL" data-b="1">
+        <h4>You already sent us real submissions. We'll run one live right now.</h4>
+        <p>The build behind this deck is running today. After Friday, the link keeps working: open it, load an asset, watch the deck assemble itself.</p>
+        <p style="margin-top:10px"><span class="todo">[TODO: Cal supplies the demo URL · sanitized data only]</span></p>
+      </div>
+      <div class="provenR" data-b="2">
+        <div class="provwin">
+          <div class="cropbar"><span></span><span></span><span></span><em>Redline · live demo instance</em></div>
+          <div class="provimg"><div class="todobox">[TODO: Cal supplies a demo screenshot or recording poster frame · sanitized instance only]</div></div>
+        </div>
+        <p style="margin-top:14px"><a class="plink">Try it yourself →</a></p>
+      </div>
+    </div>
+    <div class="demostrip nocard">
+      <div data-b="3"><b>Build</b><p>Import an asset and build the deck structure</p></div>
+      <div data-b="3"><b>Annotate</b><p>Draft the functional annotations</p></div>
+      <div data-b="4"><b>Read</b><p>Surface one likely flag with its source</p></div>
+      <div data-b="4"><b>Reconcile</b><p>Turn one comment into an assigned change and a Veeva-ready response</p></div>
     </div>
   </div>
 </section>
@@ -949,87 +989,112 @@
 <section class="ds" data-sec="Plan">
   <div class="inner wide">
     <p class="kick">05 · What it takes</p>
-    <h2 style="font-size:44px;margin-bottom:24px">What it takes to build</h2>
-    <div class="planhead">
+    <h2 style="font-size:44px">What it takes to build</h2>
+    <div class="planstats">
       <div data-b="1"><b>6 weeks</b><p>Fixed, one-time build.</p></div>
       <div data-b="2"><b>4 AI engineers</b><p>Dedicated for the build.</p></div>
       <div data-b="3"><b>2 designers</b><p>On the product and your asset families.</p></div>
     </div>
-    <p class="whis" style="margin-top:24px">Weeks 1 and 2 are a calibration sprint on your real assets: kiosk, social, storyboard, banner, print. Included, not extra.</p>
+    <p class="whis" style="margin-top:34px" data-b="4">Weeks 1 and 2 are a calibration sprint on your real assets: kiosk, social, storyboard, banner, print. Included, not extra.</p>
   </div>
 </section>
 
 <!-- 30 · Success + deliverables -->
 <section class="ds" data-sec="Plan">
   <div class="inner wide">
-    <h2 style="font-size:44px;margin-bottom:24px">How we measure success</h2>
-    <div class="plangrid">
-      <div class="plancol" data-b="1">
-        <h5>The bar at week six</h5>
-        <div class="pln">A valid deck generated from three representative submissions</div>
-        <div class="pln">Page references hold through insertions and deletions</div>
-        <div class="pln">Every imported PRC comment captured and tracked</div>
-        <div class="pln">Nothing exports without a named human approving</div>
-        <div class="pln">Full client isolation and a complete audit trail</div>
+    <h2 style="font-size:44px">How we measure success</h2>
+    <div class="bldwrap">
+      <div class="bldline"></div>
+      <div class="bldsteps">
+        <div class="bldstop" data-b="1"><b>Weeks 1–2 · Calibration sprint</b><span class="bldnote">On your real assets: kiosk, social, storyboard, banner, print.</span></div>
+        <div class="bldstop" data-b="1"><b>Weeks 3–5 · Build</b><span class="bldnote">The full workflow stood up in your tenant, on your submissions.</span></div>
+        <div class="bldstop" data-b="1"><b>Week 6 · Acceptance</b><span class="bldnote">Your team runs the bar below. It passes before handoff.</span></div>
+        <div class="bldstop term" data-b="2"><b>What you walk away with</b><span class="bldnote">The product, in your tenant. Yours.</span></div>
       </div>
-      <div class="plancol" data-b="2">
-        <h5>What you walk away with</h5>
-        <div class="pln">The Redline platform, deployed in your tenant</div>
-        <div class="pln">Build, annotate, committee read, and reconcile, live on your workflow</div>
-        <div class="pln">The Veeva-formatted checklist and drafted response sets</div>
-        <div class="pln">Your PRC history ingested as a working knowledge base</div>
-        <div class="pln">Documentation and handoff. You own the product.</div>
+    </div>
+    <div class="bldchecks">
+      <div class="bldcheckcol" data-b="3">
+        <h6>The bar at week six</h6>
+        <div class="cknt"><span class="dot">✓</span>A valid deck generated from three representative submissions</div>
+        <div class="cknt"><span class="dot">✓</span>Page references hold through insertions and deletions</div>
+        <div class="cknt"><span class="dot">✓</span>Every imported PRC comment captured and tracked</div>
+        <div class="cknt"><span class="dot">✓</span>Nothing exports without a named human approving</div>
+        <div class="cknt"><span class="dot">✓</span>Full client isolation and a complete audit trail</div>
+      </div>
+      <div class="bldcheckcol own" data-b="4">
+        <h6>What you walk away with</h6>
+        <div class="cknt"><span class="dot">●</span>The Redline platform, deployed in your tenant</div>
+        <div class="cknt"><span class="dot">●</span>Build, annotate, committee read, and reconcile, live on your workflow</div>
+        <div class="cknt"><span class="dot">●</span>The Veeva-formatted checklist and drafted response sets</div>
+        <div class="cknt"><span class="dot">●</span>Your PRC history ingested as a working knowledge base</div>
+        <div class="cknt"><span class="dot">●</span>Documentation and handoff</div>
+        <p class="bldownline">You own the product.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- 31 · Investment -->
+<!-- 28 · What one submission costs (NEW, v3 §9) -->
+<section class="ds" data-sec="Plan">
+  <div class="inner wide">
+    <h2 style="font-size:44px">What one submission costs.</h2>
+    <div class="tally">
+      <div class="trow2 struck" data-b="1"><p>Deck built and annotated, box by box</p><span class="tcost">2–3 days</span></div>
+      <div class="trow2 struck" data-b="1"><p>Internal review, plus the all-day deck session</p><span class="tcost">1 day, whole team</span></div>
+      <div class="trow2 struck" data-b="2"><p>150 stickies reconstructed into Veeva responses</p><span class="tcost">hours, every round</span></div>
+      <div class="trow2 struck" data-b="2"><p>Check-changes by eye before resubmission</p><span class="tcost">hours, every round</span></div>
+      <div class="trow2 struck" data-b="3"><p>The round you lose to one missed callout</p><span class="tcost">a week</span></div>
+    </div>
+    <div class="tallystays" data-b="3"><span style="font-style:normal;font-weight:700;color:#1a1a1a">Still yours:</span><span>creative judgment</span><span>client relationship</span><span>final sign-off</span></div>
+    <p class="tallyland" data-b="4">At your volume, The Editor pays for itself before submission 25.</p>
+    <p class="tallyfine" data-b="4">Conservative assumptions: ~2 submissions a month, ~40 hours of mechanics each. We'll swap in your real numbers Friday. <span class="todo">[TODO: Cal confirms or replaces these numbers]</span></p>
+  </div>
+</section>
+
+<!-- 29 · Investment -->
 <section class="ds" data-sec="Investment">
   <div class="inner wide">
     <p class="kick">06 · Investment</p>
-    <h2 style="font-size:44px;margin-bottom:22px">Investment</h2>
-    <div class="tiergrid two">
-      <div class="tier t1">
-        <div class="thead2"><b>The Engine</b><span class="tprice">$400K · one-time build</span></div>
-        <p class="tident">Every submission, every round.</p>
+    <h2 style="font-size:44px">Investment</h2>
+    <div class="tierdecl">
+      <div data-b="1">
+        <div class="tierhead"><b>The Engine</b><span class="tprice2">$400K · one-time build</span></div>
+        <p class="tident">Works from what you give it: the current submission, this round's feedback, your guidelines.</p>
         <ul>
           <li>Deck generation from your assets, your brief, or your voice</li>
           <li>Annotations drafted in your conventions</li>
-          <li>Committee-aware review before anything goes in</li>
+          <li>Committee-aware review from your guidelines and the current round</li>
           <li>The checklist, formatted for Veeva</li>
           <li>Comment ingestion and the worklist</li>
           <li><b>Sticky-note responses drafted, ready to paste</b></li>
           <li>Check-changes before every round</li>
-          <li>PRC history ingested, ongoing learning per client</li>
           <li>Slides import, export, and basic connected sync</li>
         </ul>
       </div>
-      <div class="tier mid2">
-        <div class="thead2"><b>The Studio</b><span class="chip chip-nt">what you described</span><span class="tprice">$500K · one-time build</span></div>
-        <p class="tident">Everything in the Engine, plus a bounded creative layer.</p>
+      <div class="editor" data-b="2">
+        <div class="tierhead"><b>The Editor</b><span class="chip chip-nt">what you described</span><span class="tprice2">$500K · one-time build</span></div>
+        <p class="tident">Everything in the Engine. Ingests your full PRC archive and compounds per client. <span class="todo">[TODO: Cal confirms tier name]</span></p>
         <ul>
-          <li>Minor copy and layout changes inside up to three agreed asset families</li>
+          <li><b>Your full PRC history ingested as a working knowledge base</b></li>
+          <li><b>Ongoing learning per client: every round makes the next one smarter</b></li>
+          <li>Calendar and PRC schedule management: windows, cutoffs, and deadlines tracked per submission</li>
+          <li>Redline edits the assets themselves: copy, layout, frames, every banner size. Anything bigger routes to your team as a precise to-do.</li>
           <li>Approved-language propagation across the submission</li>
           <li>The claims library: approved language harvested, drift flagged</li>
           <li>Meeting capture feeding the worklist</li>
-          <li><b>Major creative reconception stays with your creative team.</b></li>
         </ul>
       </div>
     </div>
-    <div class="incstrip">
+    <div class="incstrip nocard" data-b="3">
       <b>Included in every tier</b>
-      <span>Runs in your tenant</span>
-      <span>Your data, isolated</span>
-      <span>Weeks 1–2 calibration sprint</span>
-      <span>Testing across all asset types</span>
-      <span>Team training</span>
-      <span>Year-one warranty and support</span>
-    </div>
-    <div class="dealrows three">
-      <div class="dealrow"><b>One build fee. You own it.</b></div>
-      <div class="dealrow"><b>From year two, an optional care plan.</b><p>Model retraining and PRC-rule updates. The product is yours either way.</p></div>
-      <div class="dealrow"><b>Scoped separately, when you want them.</b><p>Additional formats, direct Veeva actions, or SharePoint workflows.</p></div>
+      <div class="inclist">
+        <span>Runs in your tenant</span>
+        <span>Your data, isolated</span>
+        <span>Weeks 1–2 calibration sprint</span>
+        <span>Testing across all asset types</span>
+        <span>Team training</span>
+        <span>Year-one warranty and support</span>
+      </div>
     </div>
   </div>
 </section>
