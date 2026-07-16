@@ -4,7 +4,14 @@ const pageno = document.getElementById('pageno');
 const rm = matchMedia('(prefers-reduced-motion: reduce)').matches;
 let cur = -1;
 
-S.forEach(() => { const i = document.createElement('i'); dots.appendChild(i); });
+const secs = S.map(s => s.dataset.sec || '');
+const names = [];
+secs.forEach(n => { if (n && names[names.length - 1] !== n) names.push(n); });
+names.forEach(n => {
+  const el = document.createElement('span');
+  el.textContent = n;
+  dots.appendChild(el);
+});
 const D = [...dots.children];
 
 function counters(el) {
@@ -26,15 +33,37 @@ function counters(el) {
   });
 }
 
+function typer(el) {
+  el.querySelectorAll('[data-type]').forEach(t => {
+    const full = t.dataset.type;
+    if (t._ti) clearInterval(t._ti);
+    if (t._tt) clearTimeout(t._tt);
+    if (rm) { t.textContent = full; return; }
+    t.textContent = '';
+    const delay = +t.dataset.tdelay || 400;
+    const dur = +t.dataset.tdur || 1100;
+    const step = Math.max(12, dur / full.length);
+    t._tt = setTimeout(() => {
+      let i = 0;
+      t._ti = setInterval(() => {
+        i++;
+        t.textContent = full.slice(0, i);
+        if (i >= full.length) clearInterval(t._ti);
+      }, step);
+    }, delay);
+  });
+}
+
 function go(i) {
   i = Math.max(0, Math.min(S.length - 1, i));
   if (i === cur) return;
-  if (cur >= 0) { S[cur].classList.remove('on'); D[cur].classList.remove('a'); }
+  if (cur >= 0) S[cur].classList.remove('on');
   cur = i;
   S[cur].classList.add('on');
-  D[cur].classList.add('a');
+  D.forEach(d => d.classList.toggle('a', d.textContent === secs[cur]));
   pageno.textContent = (cur + 1) + ' / ' + S.length;
   counters(S[cur]);
+  typer(S[cur]);
 }
 
 document.addEventListener('keydown', e => {
