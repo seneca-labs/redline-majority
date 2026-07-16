@@ -889,7 +889,7 @@ h2{font-size:50px;font-weight:800;letter-spacing:-.03em;line-height:1.08;margin-
 .nsubgrid .vtile b{font-size:11.5px}
 .nsubgrid .vtile small{font-size:9.5px}
 .uptray5{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:8px}
-.uptray5 .tth{background:var(--paper);border:1px dashed #d9d6d0;border-radius:8px;padding:11px 8px;font-size:10.5px;color:var(--muted);text-align:center;font-weight:500;line-height:1.35}
+.uptray5 .tth{display:block;height:auto;background:var(--paper);border:1px dashed #d9d6d0;border-radius:8px;padding:11px 8px;font-size:10.5px;color:var(--muted);text-align:center;font-weight:500;line-height:1.35}
 .uptray5 .tth b{display:block;font-size:9.5px;font-weight:700;color:var(--faint);margin-bottom:4px}
 
 /* ---------- v3: S11 grounded changes (change list + progress) ---------- */
