@@ -164,3 +164,17 @@ Statuses: implemented · partial · skipped · superseded (a v3 instruction over
 | Demo strip + demo-URL TODO removed from demo slide (Cal directive) | implemented | 21 | screenshot TODO box remains, Cal-gated |
 | Seat line + dots removed (Cal directive) | implemented | 20 | seatline/seatzone ::before pseudo-elements deleted |
 | Capture scripts 24→23; PDF generation stopped per Cal | implemented | — | Desktop PDF now stale 24-page cut by design |
+| Slide 17 montage → one-at-a-time endless crossfade loop, IG social image, label below (Cal directive) | implemented | 17 | .floop/.fslide 18s staggered keyframes; fmt-social.png added |
+| Slide 10 itiles + context-doc tray → Lucide sprite icons (Cal directive) | implemented | 8, 10 | 9 new sprite symbols; C-07 row re-iconed to shield per follow-up |
+| Slides 4+5 timeline notes shortened, moved below, then removed entirely; pills default gray (Cal directives, superseding) | implemented | 4, 5 | tnotes/tn CSS deleted; whis lines removed |
+| Slide 8: Gilead client, case number bottom-right, mic → gray enter button (Cal directive) | implemented | 8 | Part-number field deleted; i-enter sprite added |
+| Slide 11: 2 rail rows cut, sidebar → checklist w/ no arrows, top row expanded w/ source, height 380→340 (Cal directives) | implemented | 11 | gcprog bar+caption deleted; .gck checklist rows |
+| Slide 12 worklist "Frame" → "Slide" (Cal directive) | implemented | 12 | rows only; slide-10 fxrow copy untouched |
+| Slide 15: srcconn text → right chevron; becomerow squares fit-content; column heads renamed (Cal directives) | implemented | 15 | "Redline pulls from"/"Redline makes" |
+| Slide 16: precedent ladder deleted; ISI house rule → orange pillcard (Cal directive) | implemented | 16 | ladder CSS + llight keyframes removed |
+| Slide 18: columns "Redline"/"Majority" in green/purple rounded boxes (Cal directives) | implemented | 18 | sage/lavender pill tokens on h5 |
+| Slide 19: A1–A7 red badges → green checkmark circles (Cal directive) | implemented | 19 | i-checkmini sprite; sage circle badges |
+| Slide 21: "Try it yourself →" → "Access the demo" pill button (Cal directive) | implemented | 21 | .plink restyled as button |
+| Slide 3 "From our first call and Nikki's follow-up." removed (Cal directive) | implemented | 3 | whis line deleted |
+| Transition overlap fixed: outgoing slide hides instantly, incoming fades in (Cal directive) | implemented | all | .ds transition:none off-state; .on carries the fade |
+| Global color pass: titles black (--ink), all other text --ink-soft #3d3d3d (Cal directive) | implemented | all | 53 color swaps; h2/.word pinned to --ink; border-colors untouched |
