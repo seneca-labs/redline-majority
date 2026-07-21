@@ -398,3 +398,15 @@ Verified via timed headless screenshots (warm-up shot absorbs first-shot overhea
 | Change | Detail |
 |---|---|
 | Build timeline | Slide 20 stat and speaker note §20 changed from 6–8 weeks to 8–10 weeks to acceptance |
+
+## v11.5 · Problem/solution rewrite + nav trim
+
+| Change | Detail |
+|---|---|
+| Problem slide rewritten | All seven lines replaced per Cal's wording (typo "annotaitng" corrected): 1 Every submission is built and rebuilt by hand · 2 New formats cause ambiguity and friction · 3 Annotating and changing assets can take days, if not weeks · 4 The people reviewing, annotating, and creating all share different knowledge bases · 5 Differing areas of feedback lead to conflicting adjustments to the submission · 6 Changes are re-typed into Veeva manually · 7 Resubmissions trigger all of the issues above |
+| Reorder | Feedback-conflict line moved ahead of the Veeva re-typing line so the round reads chronologically (conflicts arrive, changes are made, then re-typed); resubmission loop stays last |
+| Solution slide re-mirrored | 1 Redline builds the submission from your assets · 2 Requirements are known before you build · 3 Annotations arrive drafted, changes arrive staged · 4 Everyone works from one knowledge base · 5 Every piece of feedback lands in one worklist, conflicts surfaced · 6 The Veeva package is ready to paste · 7 Fewer rounds. Shorter rounds |
+| Menu trim | "Checklist" and "Rounds" removed from the submission sub-menu in all six mockup navs |
+| Speaker notes | §3 updated: lines are plain-language (no longer claimed verbatim), last-row beat now the resubmission loop |
+
+Verified via screenshots: slides 3 and 4 single-line rows (no wraps), slide 8 nav ends at Responses.

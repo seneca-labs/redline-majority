@@ -15,7 +15,7 @@ Open on the room, not the slide. "Last time we showed you what we'd been buildin
 Four stops, problem to price: Problem, Solution, Redline, Investment. The demo and the build plan have no agenda line anymore; the demo still runs live between the personas slide and Build out, and Build out now lives inside the Investment stop. Before reading the stops, recap the first call and Nikki's follow-up in three spoken lines: the storyboard rebuilt by hand, the how-do-we-even-submit-this question, every sticky retyped into Veeva. "Everything you told us is in this deck. Hold us to it." Then: "Along the way we'll run one of your real submissions live."
 
 ## 3 · What we're solving
-Kick reads 01 · The problem. Seven lines, all in their words. Read them slowly; each one should get a nod. The last row is the cost of all of it: endless iterations, manual work, resubmissions. Let it sit, then add the verbal beat: one missed callout is another round, another week.
+Kick reads 01 · The problem. Seven lines, their problems in plain language. Read them slowly; each one should get a nod. The last row is the loop: every resubmission triggers all of the issues above it. Let it sit, then add the verbal beat: one missed callout is another round, another week.
 
 ## 4 · Solved, one for one
 Kick reads 02 · The solution. Same seven lines, same order, mirrored to answers. Say it plainly: "Every line on the last slide has a line on this one." Reassurance beat: the process is regulatory; Redline doesn't shorten the compliance path, it changes what each step costs. PRC still reviews, the client still sees it the day before, a human still submits. The last row is the whole pitch in four words: fewer rounds, shorter rounds. Read it and stop.
