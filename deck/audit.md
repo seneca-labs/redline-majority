@@ -392,3 +392,9 @@ Verified via timed headless screenshots (warm-up shot absorbs first-shot overhea
 | Change | Detail |
 |---|---|
 | Cover nav highlight | Footer nav no longer highlights "Problem" on the opening slide; highlight starts at slide 2 (deck.js `cur > 0` guard). Verified: slide 1 all stops muted, slide 2 highlights Problem. Cache-bust deck.js ?v=15 |
+
+## v11.4 · Build timeline revised
+
+| Change | Detail |
+|---|---|
+| Build timeline | Slide 20 stat and speaker note §20 changed from 6–8 weeks to 8–10 weeks to acceptance |

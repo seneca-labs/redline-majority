@@ -88,7 +88,7 @@ Run the four beats verbally: build, annotate, read, reconcile. If the model is s
 **Bridge coming out of the demo:** "That was the Engine. The Editor changes the assets themselves."
 
 ## 20 · Build out
-Friday question three: are we ready. This slide now sits inside the Investment stop; the kick reads 04 · Investment. 6–8 weeks to acceptance. Four engineers, two designers. Verbal adds, keep them short: the weeks 1–2 calibration sprint is included, not extra; "Nikki already sent most of what we need for the first two weeks"; their team runs acceptance, not ours, and they own the product at handoff. Everything in the Editor tier ships as part of the one build; nothing on the list is optional or extra cost.
+Friday question three: are we ready. This slide now sits inside the Investment stop; the kick reads 04 · Investment. 8–10 weeks to acceptance. Four engineers, two designers. Verbal adds, keep them short: the weeks 1–2 calibration sprint is included, not extra; "Nikki already sent most of what we need for the first two weeks"; their team runs acceptance, not ours, and they own the product at handoff. Everything in the Editor tier ships as part of the one build; nothing on the list is optional or extra cost.
 
 **Bridge into pricing (say this leaving the slide):** "So here's what it costs to buy those hours back." If ROI math comes up, do it live on a whiteboard with their numbers.
 
