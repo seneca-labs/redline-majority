@@ -337,5 +337,6 @@ Deck is now 21 slides. Agenda merges to four stops (Problem, Solution, Redline, 
 | Bucket titles → nouns, progression kept | implemented | 5 | "Build the submission / Prepare the review / Reconcile the round" → "The submission / The review / The round"; subtexts tightened to one line each |
 | Chapter corner tags renamed to match buckets | implemented | 7–18 | 01 · Build → 01 · The submission; 02 · Prepare → 02 · The review; 03 · Reconcile → 03 · The round (7 tags) |
 | Slide 5 h2 → verb form | implemented | 5 | "The solution, in three buckets" → "Clearing PRC, in 3 buckets" |
+| Slide 6 loop felt stuck on Home | implemented | css | Loop was advancing but the Home hold was too long to notice; cycle 44s → 28s (Home 15s → 8s, other screens ~5s each, same ~0.8s crossfades); verified live: submission at ~10s, deck studio at ~15s |
 | Speaker notes v10 | implemented | notes | §5 spoken bridge + noun buckets; header bumped |
 | Cache-bust to ?v=10 | implemented | index.html | styles.css + deck.js |
