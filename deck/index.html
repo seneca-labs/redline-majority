@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=7">
+<link rel="stylesheet" href="styles.css?v=8">
 </head>
 <body>
 <svg style="display:none" xmlns="http://www.w3.org/2000/svg">
@@ -55,8 +55,8 @@
   <div class="inner">
     <h2>Agenda</h2>
     <div class="agrows">
-      <div class="agrow" data-b="1"><i>01</i><p>Where we left off</p></div>
-      <div class="agrow" data-b="2"><i>02</i><p>The problem</p></div>
+      <div class="agrow" data-b="1"><i>01</i><p>The problem</p></div>
+      <div class="agrow" data-b="2"><i>02</i><p>The solution</p></div>
       <div class="agrow" data-b="3"><i>03</i><p>Redline</p></div>
       <div class="agrow" data-b="4"><i>04</i><p>A live demo</p></div>
       <div class="agrow" data-b="5"><i>05</i><p>What it takes</p></div>
@@ -68,7 +68,7 @@
 <!-- 3 · What we're solving -->
 <section class="ds" data-sec="Context">
   <div class="inner">
-    <p class="kick">02 · The problem</p>
+    <p class="kick">01 · The problem</p>
     <h2>What we're solving</h2>
     <div class="pslist">
       <div class="psrow" data-b="1"><i>1</i><p>The storyboard is rebuilt by hand, beat for beat.</p></div>
@@ -76,7 +76,8 @@
       <div class="psrow" data-b="3"><i>3</i><p>Days of box-by-box annotation on every deck.</p></div>
       <div class="psrow" data-b="4"><i>4</i><p>The person annotating doesn't hold the knowledge.</p></div>
       <div class="psrow" data-b="5"><i>5</i><p>Every sticky retyped into Veeva.</p></div>
-      <div class="psrow" data-b="6"><i>6</i><p>Comments rebuilt from memory. The same flags come back.</p></div>
+      <div class="psrow" data-b="6"><i>6</i><p>Changes are implemented from varying areas of feedback.</p></div>
+      <div class="psrow" data-b="7"><i>7</i><p>Endless iterations, manual work, and resubmissions.</p></div>
     </div>
   </div>
 </section>
@@ -87,12 +88,13 @@
     <p class="kick">02 · The solution</p>
     <h2>Solved, one for one</h2>
     <div class="pslist sg">
-      <div class="psrow" data-b="1"><i>1</i><p>The board mirrors the cut automatically.</p></div>
+      <div class="psrow" data-b="1"><i>1</i><p>Redline builds the storyboard from the cut.</p></div>
       <div class="psrow" data-b="2"><i>2</i><p>Requirements are known before you build.</p></div>
       <div class="psrow" data-b="3"><i>3</i><p>Annotations arrive drafted.</p></div>
       <div class="psrow" data-b="4"><i>4</i><p>The knowledge lives in the system.</p></div>
       <div class="psrow" data-b="5"><i>5</i><p>The Veeva package is ready to paste.</p></div>
-      <div class="psrow" data-b="6"><i>6</i><p>Comments become a worklist. Repeat flags get caught early.</p></div>
+      <div class="psrow" data-b="6"><i>6</i><p>Every piece of feedback lands in one worklist.</p></div>
+      <div class="psrow" data-b="7"><i>7</i><p>Fewer rounds. Shorter rounds.</p></div>
     </div>
   </div>
 </section>
@@ -103,9 +105,9 @@
     <p class="kick">03 · Redline</p>
     <h2 style="font-size:44px">Three jobs</h2>
     <div class="jobs nocard">
-      <div class="job" data-b="1"><i>01</i><b>Build the submission</b><p>The deck, the annotations, the paperwork, assembled from your assets.</p></div>
-      <div class="job" data-b="2"><i>02</i><b>Prepare the review</b><p>Read the way your committee reads, before it goes in.</p></div>
-      <div class="job" data-b="3"><i>03</i><b>Reconcile the round</b><p>Every comment tracked, answered, and carried into the next version.</p></div>
+      <div class="job" data-b="1"><i><svg class="ic"><use href="#i-layers"/></svg></i><b>Build the submission</b><p>The deck, the annotations, the paperwork, assembled from your assets.</p></div>
+      <div class="job" data-b="2"><i><svg class="ic"><use href="#i-book"/></svg></i><b>Prepare the review</b><p>Read the way your committee reads, before it goes in.</p></div>
+      <div class="job" data-b="3"><i><svg class="ic"><use href="#i-inbox"/></svg></i><b>Reconcile the round</b><p>Every comment tracked, answered, and carried into the next version.</p></div>
     </div>
   </div>
 </section>
@@ -674,8 +676,8 @@
               <div class="gmhead"><b>Redline</b><small>to Nikki, team · Tue, Jul 21, 9:15 am</small></div>
               <p>Both are covered in your PRC training deck:</p>
               <ul class="gmul">
-                <li>Storyboard first, then the final cut <span class="chip chip-purple sm">Training deck · p. 12</span></li>
-                <li>Size-only changes: one layout plus the size list <span class="chip chip-purple sm">Training deck · p. 30</span></li>
+                <li>Storyboard first, then the final cut <span class="chip chip-nt sm">Training deck · p. 12</span></li>
+                <li>Size-only changes: one layout plus the size list <span class="chip chip-nt sm">Training deck · p. 30</span></li>
               </ul>
               <p>Want me to draft a note to compliance to confirm?</p>
             </div>
@@ -763,7 +765,7 @@
     <h2 style="font-size:44px">Redline drafts. Your team decides.</h2>
     <div class="decl2">
       <table class="dtable rl" data-b="1">
-        <thead><tr><th>Redline</th></tr></thead>
+        <thead><tr><th><span>Redline</span></th></tr></thead>
         <tbody>
           <tr><td>Builds the deck</td></tr>
           <tr><td>Drafts every annotation</td></tr>
@@ -773,7 +775,7 @@
         </tbody>
       </table>
       <table class="dtable mj" data-b="2">
-        <thead><tr><th>Majority</th></tr></thead>
+        <thead><tr><th><span>Majority</span></th></tr></thead>
         <tbody>
           <tr><td>Makes the creative calls</td></tr>
           <tr><td>Approves what ships</td></tr>
@@ -897,6 +899,6 @@
 <div class="dots" id="dots"></div>
 <div class="pageno" id="pageno"></div>
 </div>
-<script src="deck.js?v=7"></script>
+<script src="deck.js?v=8"></script>
 </body>
 </html>

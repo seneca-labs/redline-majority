@@ -4,7 +4,7 @@ One deck, three questions to answer by the end: is it safe, is it worth it, are 
 Real reviewer names are spoken out loud only, never on screen. The slides say Reviewer A–D.
 Committee names on screen are exactly: Regulatory · Legal · Editorial · Compliance.
 The live demo has no slide. It runs verbally between the personas slide (18) and the build plan (19); the run script is in presenter-prep.md.
-The "what we heard" promise ledger no longer has a slide. It is the spoken recap at agenda stop 01.
+The "what we heard" promise ledger no longer has a slide. It is a spoken recap while the agenda is up.
 
 ---
 
@@ -12,13 +12,13 @@ The "what we heard" promise ledger no longer has a slide. It is the spoken recap
 Open on the room, not the slide. "Last time we showed you what we'd been building. Today we show you what it becomes for Majority."
 
 ## 2 · Agenda
-Six stops. Stop 01, "Where we left off," is spoken here, no slide behind it: recap the first call and Nikki's follow-up in three lines: the storyboard rebuilt by hand, the how-do-we-even-submit-this question, every sticky retyped into Veeva. "Everything you told us is in this deck. Hold us to it." Then: "Along the way we'll run one of your real submissions live."
+Six stops, problem to price. Before reading them, recap the first call and Nikki's follow-up in three spoken lines: the storyboard rebuilt by hand, the how-do-we-even-submit-this question, every sticky retyped into Veeva. "Everything you told us is in this deck. Hold us to it." Then: "Along the way we'll run one of your real submissions live."
 
 ## 3 · What we're solving
-Kick reads 02 · The problem. Six lines, all in their words. Read them slowly; each one should get a nod. Land the closing beat verbally, it is no longer printed: one missed callout is another round, another week.
+Kick reads 01 · The problem. Seven lines, all in their words. Read them slowly; each one should get a nod. The last row is the cost of all of it: endless iterations, manual work, resubmissions. Let it sit, then add the verbal beat: one missed callout is another round, another week.
 
 ## 4 · Solved, one for one
-Kick reads 02 · The solution. Same six lines, same order, mirrored to answers. Say it plainly: "Every line on the last slide has a line on this one." Reassurance beat: the process is regulatory; Redline doesn't shorten the compliance path, it changes what each step costs. PRC still reviews, the client still sees it the day before, a human still submits. Close verbally with the four words: fewer rounds, shorter rounds.
+Kick reads 02 · The solution. Same seven lines, same order, mirrored to answers. Say it plainly: "Every line on the last slide has a line on this one." Reassurance beat: the process is regulatory; Redline doesn't shorten the compliance path, it changes what each step costs. PRC still reviews, the client still sees it the day before, a human still submits. The last row is the whole pitch in four words: fewer rounds, shorter rounds. Read it and stop.
 
 ## 5 · Three jobs
 Chapter map before the product. Build, prepare, reconcile. Say it once, move on: "Everything you're about to see is one of these three."

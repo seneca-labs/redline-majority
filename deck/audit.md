@@ -276,3 +276,19 @@ Deck is now 20 slides. "What we heard" (old 3) and "Adapts to every format" (old
 | Sprite hygiene: 1:1 ref/symbol | implemented | sprite | Added i-lcheck/i-lalert/i-lpercent/i-lshield/i-lhelp/i-lspark (lucide 24 viewBox); deleted orphaned i-checkmini/i-chevr/i-clip/i-alert/i-percent/i-help/i-shield |
 | Speaker notes rewritten for 20 slides | implemented | notes | Demo beat between 18 and 19; ledger recap at agenda 01 |
 | Cache-bust to ?v=7 | implemented | index.html | styles.css + deck.js |
+
+---
+
+## v8 · 2026-07-21
+
+| Item | Status | Where | Notes |
+|---|---|---|---|
+| Training deck chips no longer purple | implemented | 14 | chip-purple → chip-nt (neutral chrome/muted) |
+| Slide 16: two separate tables, pill headers, no white backdrop | implemented | 16 | .dtable stripped of surface/border/shadow; th word wrapped in span pill (sage/lavender); rows hairline-separated |
+| Solution row 1 reworded for clarity | implemented | 4 | "The board mirrors the cut automatically." → "Redline builds the storyboard from the cut." |
+| Problem row 6 → "Changes are implemented from varying areas of feedback."; "The same flags come back." removed | implemented | 3 | User wording verbatim |
+| New row 7 on problem slide: "Endless iterations, manual work, and resubmissions." | implemented | 3 | data-b="7" stagger already supported |
+| Solution mirrors: row 6 "Every piece of feedback lands in one worklist.", row 7 "Fewer rounds. Shorter rounds." | implemented | 4 | The four-word landing line moves from verbal to printed |
+| Three-jobs numbers → icons | implemented | 5 | i-layers / i-book / i-inbox in 38px sage circle badges |
+| "Where we left off" removed from agenda; stops renumbered problem → solution → … | implemented | 2, 3 | Problem kick → "01 · The problem"; ledger recap stays verbal over the agenda |
+| Cache-bust to ?v=8 | implemented | index.html | styles.css + deck.js |
