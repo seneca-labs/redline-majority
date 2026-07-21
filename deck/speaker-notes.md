@@ -1,4 +1,4 @@
-# Redline v9 speaker notes · 21 slides
+# Redline v10 speaker notes · 21 slides
 
 One deck, three questions to answer by the end: is it safe, is it worth it, are we ready.
 Real reviewer names are spoken out loud only, never on screen. The slides say Reviewer A–D.
@@ -21,7 +21,7 @@ Kick reads 01 · The problem. Seven lines, all in their words. Read them slowly;
 Kick reads 02 · The solution. Same seven lines, same order, mirrored to answers. Say it plainly: "Every line on the last slide has a line on this one." Reassurance beat: the process is regulatory; Redline doesn't shorten the compliance path, it changes what each step costs. PRC still reviews, the client still sees it the day before, a human still submits. The last row is the whole pitch in four words: fewer rounds, shorter rounds. Read it and stop.
 
 ## 5 · The solution, in three buckets
-Chapter map before the product. Build, prepare, reconcile. The slide now says it itself: every line on the solution slide lands in one of these. Say it once, move on: "Everything you're about to see is one of these three."
+Chapter map before the product. Three buckets, named as nouns: the submission, the review, the round. The bridge is spoken now, not on the slide: "every line on the last slide lands in one of these." Then move on: "Everything you're about to see is one of these three." The corner tags on the product slides carry the same three names.
 
 ## 6 · What Redline is
 The headline is the whole posture: it runs the submission workflow, and a human approves before anything touches Veeva. The mockup now loops on its own: Home holds longest, then the submission screen, the deck studio, the Gmail thread, and the knowledge base, about 44 seconds around. Don't narrate the loop; let it run while you talk. If a screen lands mid-sentence, use it: "that's the deck studio, we'll be there in two slides." The nav is their nouns: submissions, worklist, clients, calendar. Point at the PRC windows when Home is up: real cutoff rhythm, real dates. Read the boundary strip out loud: Redline prepares, your team reviews, a named human approves, Veeva remains the system of record.

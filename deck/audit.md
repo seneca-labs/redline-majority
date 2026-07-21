@@ -321,3 +321,20 @@ Deck is now 21 slides. Agenda merges to four stops (Problem, Solution, Redline, 
 | Thank-you slide appended | implemented | 21 | "Thank you" + "Wade, with Majority" |
 | Speaker notes updated for 21 slides | implemented | notes | Agenda four stops, loop guidance on 6, Build out, Thank you close |
 | Cache-bust to ?v=9 | implemented | index.html | styles.css + deck.js |
+
+---
+
+## v10 · 2026-07-21
+
+| Item | Status | Where | Notes |
+|---|---|---|---|
+| Slide 13 brace centering — pulls table too small | implemented | 13, css | .srcitem rows enlarged (15px text, 30px logo tiles, more padding), brace svg 44px×340px; grid gap 36px; brace now reads centered between columns |
+| Mock component load-in pause too long | implemented | css | miniIn base delay 1.2s → .85s; nth-child stagger tightened to .45–.8s; dbar barGrow delay → .8s |
+| "Wade, with Majority" removed from thank-you | implemented | 21 | Slide is just "Thank you" |
+| Footer menu renamed to the outline | implemented | all | data-sec regrouped: Problem (1–3) · Solution (4) · Redline (5–18) · Investment (19–21); nav auto-builds from groups |
+| Cover one-liner improved | implemented | 1 | "'Redline': turns PRC feedback into finished pages." → "'Redline': runs your PRC submissions, start to sign-off." |
+| Slide 5 lead removed | implemented | 5 | "Every line on the last slide lands in one of these." now spoken, not on slide |
+| Bucket titles → nouns, progression kept | implemented | 5 | "Build the submission / Prepare the review / Reconcile the round" → "The submission / The review / The round"; subtexts tightened to one line each |
+| Chapter corner tags renamed to match buckets | implemented | 7–18 | 01 · Build → 01 · The submission; 02 · Prepare → 02 · The review; 03 · Reconcile → 03 · The round (7 tags) |
+| Speaker notes v10 | implemented | notes | §5 spoken bridge + noun buckets; header bumped |
+| Cache-bust to ?v=10 | implemented | index.html | styles.css + deck.js |

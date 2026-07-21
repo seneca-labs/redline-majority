@@ -845,16 +845,16 @@ h2{font-size:50px;font-weight:800;letter-spacing:-.03em;line-height:1.08;margin-
 .srccol h5{display:inline-flex;width:fit-content;font-size:11.5px;font-weight:700;border-radius:999px;padding:5px 14px;margin-bottom:6px}
 .srccol h5.pu{background:var(--pill-lavender-bg);color:var(--pill-lavender-tx)}
 .srccol h5.sg{background:var(--pill-sage-bg);color:var(--pill-sage-tx)}
-.srcitem{display:flex;align-items:center;gap:12px;padding:9px 2px;border-bottom:1px solid var(--hairline);font-size:13.5px;font-weight:600;color:var(--ink-soft)}
+.srcitem{display:flex;align-items:center;gap:13px;padding:13px 2px;border-bottom:1px solid var(--hairline);font-size:15px;font-weight:600;color:var(--ink-soft)}
 .srcitem:last-child{border-bottom:0}
-.srcitem .glogo{width:26px;height:26px;flex-shrink:0;display:flex;align-items:center;justify-content:center;gap:5px}
-.srcitem .glogo img{width:21px;height:21px;object-fit:contain}
+.srcitem .glogo{width:30px;height:30px;flex-shrink:0;display:flex;align-items:center;justify-content:center;gap:6px}
+.srcitem .glogo img{width:24px;height:24px;object-fit:contain}
 .srcitem .glogo.multi{width:auto}
-.srcitem .glogo.multi img{width:19px;height:19px}
-.srcitem small{display:block;font-size:10.5px;color:var(--faint);font-weight:500;margin-top:2px}
+.srcitem .glogo.multi img{width:21px;height:21px}
+.srcitem small{display:block;font-size:11.5px;color:var(--faint);font-weight:500;margin-top:2px}
 .srcitem u{text-decoration:none;flex:1;min-width:0}
 .srcconn{display:flex;align-items:center;justify-content:center}
-.srcconn svg{width:44px;height:260px;color:var(--ghost)}
+.srcconn svg{width:44px;height:340px;color:var(--ghost)}
 .becomerow{display:flex;align-items:center;gap:11px;padding:11px 2px;border-bottom:1px solid var(--hairline)}
 .becomerow:last-child{border-bottom:0}
 .becomerow .icl{width:15px;height:15px;color:var(--pill-sage-tx)}
@@ -1024,15 +1024,15 @@ h2{font-size:50px;font-weight:800;letter-spacing:-.03em;line-height:1.08;margin-
 /* ---------- v9: gentle life inside every mockup ---------- */
 @keyframes miniIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
 @keyframes barGrow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
-.ds.on :is(.window,.crop) :is(.drow,.flagrow,.winrow,.vtile,.gev,.gmmsg,.rvcard,.rul,.fxrow,.tth):not([data-b]){animation:miniIn .55s cubic-bezier(.22,1,.36,1) 1.27s both}
-.ds.on :is(.window,.crop) :is(.drow,.flagrow,.winrow,.vtile,.gev,.gmmsg,.rvcard,.rul,.fxrow,.tth):not([data-b]):nth-child(1){animation-delay:.85s}
-.ds.on :is(.window,.crop) :is(.drow,.flagrow,.winrow,.vtile,.gev,.gmmsg,.rvcard,.rul,.fxrow,.tth):not([data-b]):nth-child(2){animation-delay:.92s}
-.ds.on :is(.window,.crop) :is(.drow,.flagrow,.winrow,.vtile,.gev,.gmmsg,.rvcard,.rul,.fxrow,.tth):not([data-b]):nth-child(3){animation-delay:.99s}
-.ds.on :is(.window,.crop) :is(.drow,.flagrow,.winrow,.vtile,.gev,.gmmsg,.rvcard,.rul,.fxrow,.tth):not([data-b]):nth-child(4){animation-delay:1.06s}
-.ds.on :is(.window,.crop) :is(.drow,.flagrow,.winrow,.vtile,.gev,.gmmsg,.rvcard,.rul,.fxrow,.tth):not([data-b]):nth-child(5){animation-delay:1.13s}
-.ds.on :is(.window,.crop) :is(.drow,.flagrow,.winrow,.vtile,.gev,.gmmsg,.rvcard,.rul,.fxrow,.tth):not([data-b]):nth-child(6){animation-delay:1.2s}
+.ds.on :is(.window,.crop) :is(.drow,.flagrow,.winrow,.vtile,.gev,.gmmsg,.rvcard,.rul,.fxrow,.tth):not([data-b]){animation:miniIn .55s cubic-bezier(.22,1,.36,1) .85s both}
+.ds.on :is(.window,.crop) :is(.drow,.flagrow,.winrow,.vtile,.gev,.gmmsg,.rvcard,.rul,.fxrow,.tth):not([data-b]):nth-child(1){animation-delay:.45s}
+.ds.on :is(.window,.crop) :is(.drow,.flagrow,.winrow,.vtile,.gev,.gmmsg,.rvcard,.rul,.fxrow,.tth):not([data-b]):nth-child(2){animation-delay:.52s}
+.ds.on :is(.window,.crop) :is(.drow,.flagrow,.winrow,.vtile,.gev,.gmmsg,.rvcard,.rul,.fxrow,.tth):not([data-b]):nth-child(3){animation-delay:.59s}
+.ds.on :is(.window,.crop) :is(.drow,.flagrow,.winrow,.vtile,.gev,.gmmsg,.rvcard,.rul,.fxrow,.tth):not([data-b]):nth-child(4){animation-delay:.66s}
+.ds.on :is(.window,.crop) :is(.drow,.flagrow,.winrow,.vtile,.gev,.gmmsg,.rvcard,.rul,.fxrow,.tth):not([data-b]):nth-child(5){animation-delay:.73s}
+.ds.on :is(.window,.crop) :is(.drow,.flagrow,.winrow,.vtile,.gev,.gmmsg,.rvcard,.rul,.fxrow,.tth):not([data-b]):nth-child(6){animation-delay:.8s}
 .dbar i{transform-origin:left}
-.ds.on .dbar i{animation:barGrow .9s cubic-bezier(.22,1,.36,1) 1.2s both}
+.ds.on .dbar i{animation:barGrow .9s cubic-bezier(.22,1,.36,1) .8s both}
 @media (prefers-reduced-motion:reduce){
   .uistage{animation:none!important}
 }
