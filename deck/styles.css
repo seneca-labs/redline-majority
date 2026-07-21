@@ -93,7 +93,7 @@ h2{font-size:50px;font-weight:800;letter-spacing:-.03em;line-height:1.08;margin-
 .chip.sm{font-size:10.5px;padding:2.5px 9px}
 
 /* ---------- icons ---------- */
-.ic{width:16px;height:16px;fill:currentColor;flex-shrink:0}
+.ic{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
 .icl{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
 
 /* ---------- 1 · cover ---------- */
@@ -210,7 +210,7 @@ h2{font-size:50px;font-weight:800;letter-spacing:-.03em;line-height:1.08;margin-
 .modfoot{display:flex;align-items:center;gap:10px;margin-top:14px}
 .modfoot .cbtn{margin-left:auto}
 .vmic{width:30px;height:30px;border-radius:50%;background:var(--chrome);display:flex;align-items:center;justify-content:center;flex-shrink:0}
-.vmic .ic{width:14px;height:14px;fill:var(--muted)}
+.vmic .ic{width:14px;height:14px;stroke:var(--muted)}
 .mlab2{display:block;font-size:11px;font-weight:600;color:var(--faint);margin-bottom:6px}
 .prompt{display:flex;align-items:center;gap:10px;border:1px solid var(--hairline-3);border-radius:12px;padding:10px 12px;margin-bottom:14px}
 .prompt p{flex:1;font-size:12px;color:var(--ink-2);line-height:1.5}
@@ -223,7 +223,7 @@ h2{font-size:50px;font-weight:800;letter-spacing:-.03em;line-height:1.08;margin-
 .vtile.cur{background:var(--paper);border-color:#dcdad6}
 .vico{width:30px;height:30px;border-radius:8px;background:var(--paper);border:1px solid var(--hairline-2);display:flex;align-items:center;justify-content:center;flex-shrink:0}
 .vtile.cur .vico{background:var(--surface)}
-.vico .ic{width:14px;height:14px;fill:var(--ink)}
+.vico .ic{width:14px;height:14px;stroke:var(--ink)}
 .vtile u{text-decoration:none;min-width:0}
 .vtile b{display:block;font-size:12px;font-weight:700;line-height:1.2}
 .vtile small{display:block;font-size:10px;color:var(--faint);margin-top:1px;white-space:nowrap}
@@ -999,4 +999,41 @@ h2{font-size:50px;font-weight:800;letter-spacing:-.03em;line-height:1.08;margin-
 .await{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;border:1.5px dashed var(--hairline-4);border-radius:10px;background:var(--wash);color:var(--muted);font-size:11px;font-weight:600;text-align:center;padding:20px}
 .await b{font-size:10px;color:var(--brand-red);font-weight:800}
 .await small{font-size:9.5px;color:var(--faint);font-weight:500;line-height:1.5}
+
+/* ---------- v9: inline citations ---------- */
+.cite{font-size:10.5px;color:var(--faint);font-weight:500;white-space:nowrap}
+
+/* ---------- v9: slide 6 UI loop ---------- */
+.uiloop{position:relative}
+.uistage{position:absolute;inset:0;opacity:0}
+.uistage.u1{position:relative;opacity:1}
+.uistage>.window,.uistage>.crop{width:100%;height:100%;margin:0;display:flex;flex-direction:column}
+.uistage .app{flex:1;min-height:0;overflow:hidden}
+.uistage .gmthread{flex:1;min-height:0;overflow:hidden}
+.ds.on .uistage.u1{animation:cyc1 44s linear infinite}
+.ds.on .uistage.u2{animation:cyc2 44s linear infinite}
+.ds.on .uistage.u3{animation:cyc3 44s linear infinite}
+.ds.on .uistage.u4{animation:cyc4 44s linear infinite}
+.ds.on .uistage.u5{animation:cyc5 44s linear infinite}
+@keyframes cyc1{0%,34.1%{opacity:1}36.4%,97.7%{opacity:0}100%{opacity:1}}
+@keyframes cyc2{0%,34.1%{opacity:0}36.4%,50%{opacity:1}52.3%,100%{opacity:0}}
+@keyframes cyc3{0%,50%{opacity:0}52.3%,65.9%{opacity:1}68.2%,100%{opacity:0}}
+@keyframes cyc4{0%,65.9%{opacity:0}68.2%,81.8%{opacity:1}84.1%,100%{opacity:0}}
+@keyframes cyc5{0%,81.8%{opacity:0}84.1%,97.7%{opacity:1}100%{opacity:0}}
+
+/* ---------- v9: gentle life inside every mockup ---------- */
+@keyframes miniIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@keyframes barGrow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.ds.on :is(.window,.crop) :is(.drow,.flagrow,.winrow,.vtile,.gev,.gmmsg,.rvcard,.rul,.fxrow,.tth):not([data-b]){animation:miniIn .55s cubic-bezier(.22,1,.36,1) 1.27s both}
+.ds.on :is(.window,.crop) :is(.drow,.flagrow,.winrow,.vtile,.gev,.gmmsg,.rvcard,.rul,.fxrow,.tth):not([data-b]):nth-child(1){animation-delay:.85s}
+.ds.on :is(.window,.crop) :is(.drow,.flagrow,.winrow,.vtile,.gev,.gmmsg,.rvcard,.rul,.fxrow,.tth):not([data-b]):nth-child(2){animation-delay:.92s}
+.ds.on :is(.window,.crop) :is(.drow,.flagrow,.winrow,.vtile,.gev,.gmmsg,.rvcard,.rul,.fxrow,.tth):not([data-b]):nth-child(3){animation-delay:.99s}
+.ds.on :is(.window,.crop) :is(.drow,.flagrow,.winrow,.vtile,.gev,.gmmsg,.rvcard,.rul,.fxrow,.tth):not([data-b]):nth-child(4){animation-delay:1.06s}
+.ds.on :is(.window,.crop) :is(.drow,.flagrow,.winrow,.vtile,.gev,.gmmsg,.rvcard,.rul,.fxrow,.tth):not([data-b]):nth-child(5){animation-delay:1.13s}
+.ds.on :is(.window,.crop) :is(.drow,.flagrow,.winrow,.vtile,.gev,.gmmsg,.rvcard,.rul,.fxrow,.tth):not([data-b]):nth-child(6){animation-delay:1.2s}
+.dbar i{transform-origin:left}
+.ds.on .dbar i{animation:barGrow .9s cubic-bezier(.22,1,.36,1) 1.2s both}
+@media (prefers-reduced-motion:reduce){
+  .uistage{animation:none!important}
+}
 .subrnd{font-size:11.5px;font-weight:600;background:var(--pill-yellow-bg);color:var(--pill-yellow-tx);padding:2px 8px;border-radius:999px;white-space:nowrap}

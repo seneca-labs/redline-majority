@@ -292,3 +292,32 @@ Deck is now 20 slides. "What we heard" (old 3) and "Adapts to every format" (old
 | Three-jobs numbers → icons | implemented | 5 | i-layers / i-book / i-inbox in 38px sage circle badges |
 | "Where we left off" removed from agenda; stops renumbered problem → solution → … | implemented | 2, 3 | Problem kick → "01 · The problem"; ledger recap stays verbal over the agenda |
 | Cache-bust to ?v=8 | implemented | index.html | styles.css + deck.js |
+
+---
+
+## v9 · 2026-07-21
+
+Deck is now 21 slides. Agenda merges to four stops (Problem, Solution, Redline, Investment); demo and build plan lose their agenda lines. Build plan renamed "Build out" and folded into the Investment nav group. New closing "Thank you" slide.
+
+| Item | Status | Where | Notes |
+|---|---|---|---|
+| Icon system → thick-stroke lucide, rounded and playful | implemented | sprite, all | All 14 fill symbols rebuilt as 24-viewBox stroke primitives; .ic flipped to fill:none/stroke 2.5/round caps+joins; .vmic/.vico fill overrides → stroke |
+| Slide 9 mockup icons more playful | implemented | 9 | Row 1 → i-lbubble (speech-bubble alert), row 2 → i-lclock (alarm clock); percent/shield/help kept |
+| Slide 5 reframed around the solution | implemented | 5 | h2 "The solution, in three buckets" + lead "Every line on the last slide lands in one of these." |
+| Slide 6 loops through five UIs | implemented | 6, deck.js, css | .uiloop/.uistage; u1 home inline, u2–u5 runtime clones of src-sub/src-deck/src-gmail/src-kb; 44s cyc1–5 keyframes, home holds longest, ~1s crossfades; restarts on each slide entry; disabled under reduced motion |
+| Mock UIs animate more, gently | implemented | all | miniIn rise+fade on rows (drow/flagrow/winrow/vtile/gev/gmmsg/rvcard/rul/fxrow/tth) with nth-child stagger after window entrance; dbar progress bars grow via barGrow |
+| Agenda → 4 stops, no "The", no demo, no What-it-takes | implemented | 2 | 01 Problem · 02 Solution · 03 Redline · 04 Investment |
+| "Good morning, Nikki" → "Good morning, Fu" | implemented | 6 | Greeting only; NC appuser chip unchanged (instruction scoped to greeting) |
+| MSA doc header → "MSA Example" | implemented | 17 | |
+| Seatfoot → "Same team, new ways of working together." | implemented | 18 | |
+| Build plan → "Build out", kick 04 · Investment, data-sec Investment | implemented | 19 | Footer nav auto-merges Plan into Investment group |
+| "4 AI engineers" → "4 engineers" | implemented | 19 | |
+| Investment kick → 04 · Investment; three bolded tier rows unbolded | implemented | 20 | Sticky-note responses / PRC history / ongoing learning |
+| Slide 14 h2 → "Communicates and receives information where you do." | implemented | 14 | |
+| Training-deck cites → parentheses, not pills | implemented | 14 | .cite class, faint, no chip chrome |
+| Sources: Teams / Zoom / Meet / Gmail moved to top of pulls list | implemented | 13 | |
+| Redline makes + "Easy-to-edit assets" and "Action items for creatives" | implemented | 13 | Two rows, before the conflicts closer |
+| Balanced-wrap sweep (no lopsided lines) | implemented | 13 | Slide-13 lead shortened: "What comes out, your team validates." — one line, no orphan; rule applied as visual balance, not a hard word count |
+| Thank-you slide appended | implemented | 21 | "Thank you" + "Wade, with Majority" |
+| Speaker notes updated for 21 slides | implemented | notes | Agenda four stops, loop guidance on 6, Build out, Thank you close |
+| Cache-bust to ?v=9 | implemented | index.html | styles.css + deck.js |

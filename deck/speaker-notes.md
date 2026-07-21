@@ -1,4 +1,4 @@
-# Redline v7 speaker notes · 20 slides
+# Redline v9 speaker notes · 21 slides
 
 One deck, three questions to answer by the end: is it safe, is it worth it, are we ready.
 Real reviewer names are spoken out loud only, never on screen. The slides say Reviewer A–D.
@@ -12,7 +12,7 @@ The "what we heard" promise ledger no longer has a slide. It is a spoken recap w
 Open on the room, not the slide. "Last time we showed you what we'd been building. Today we show you what it becomes for Majority."
 
 ## 2 · Agenda
-Six stops, problem to price. Before reading them, recap the first call and Nikki's follow-up in three spoken lines: the storyboard rebuilt by hand, the how-do-we-even-submit-this question, every sticky retyped into Veeva. "Everything you told us is in this deck. Hold us to it." Then: "Along the way we'll run one of your real submissions live."
+Four stops, problem to price: Problem, Solution, Redline, Investment. The demo and the build plan have no agenda line anymore; the demo still runs live between the personas slide and Build out, and Build out now lives inside the Investment stop. Before reading the stops, recap the first call and Nikki's follow-up in three spoken lines: the storyboard rebuilt by hand, the how-do-we-even-submit-this question, every sticky retyped into Veeva. "Everything you told us is in this deck. Hold us to it." Then: "Along the way we'll run one of your real submissions live."
 
 ## 3 · What we're solving
 Kick reads 01 · The problem. Seven lines, all in their words. Read them slowly; each one should get a nod. The last row is the cost of all of it: endless iterations, manual work, resubmissions. Let it sit, then add the verbal beat: one missed callout is another round, another week.
@@ -20,11 +20,11 @@ Kick reads 01 · The problem. Seven lines, all in their words. Read them slowly;
 ## 4 · Solved, one for one
 Kick reads 02 · The solution. Same seven lines, same order, mirrored to answers. Say it plainly: "Every line on the last slide has a line on this one." Reassurance beat: the process is regulatory; Redline doesn't shorten the compliance path, it changes what each step costs. PRC still reviews, the client still sees it the day before, a human still submits. The last row is the whole pitch in four words: fewer rounds, shorter rounds. Read it and stop.
 
-## 5 · Three jobs
-Chapter map before the product. Build, prepare, reconcile. Say it once, move on: "Everything you're about to see is one of these three."
+## 5 · The solution, in three buckets
+Chapter map before the product. Build, prepare, reconcile. The slide now says it itself: every line on the solution slide lands in one of these. Say it once, move on: "Everything you're about to see is one of these three."
 
 ## 6 · What Redline is
-The headline is the whole posture: it runs the submission workflow, and a human approves before anything touches Veeva. The nav is their nouns: submissions, worklist, clients, calendar. Point at the PRC windows on the right: real cutoff rhythm, real dates. Read the boundary strip out loud: Redline prepares, your team reviews, a named human approves, Veeva remains the system of record.
+The headline is the whole posture: it runs the submission workflow, and a human approves before anything touches Veeva. The mockup now loops on its own: Home holds longest, then the submission screen, the deck studio, the Gmail thread, and the knowledge base, about 44 seconds around. Don't narrate the loop; let it run while you talk. If a screen lands mid-sentence, use it: "that's the deck studio, we'll be there in two slides." The nav is their nouns: submissions, worklist, clients, calendar. Point at the PRC windows when Home is up: real cutoff rhythm, real dates. Read the boundary strip out loud: Redline prepares, your team reviews, a named human approves, Veeva remains the system of record.
 
 ## 7 · Upload your asset and its context
 Point at the tray: transcripts and briefs go in alongside the assets. "The kickoff call is context, not a memory." Formats include Product and Other; if it prints, renders, or scrolls, it can come in. The Concept / Final toggle is their process: sometimes concept is skipped, and the system knows the difference. If requirements come up here, hold it: "watch the inbox slide; you ask Redline that question in the thread."
@@ -47,9 +47,9 @@ Every comment from every source lands in one worklist, matched to its slide, wit
 Sticky 14 becomes a drafted response with its source. The zoom callout: one click, the whole response set pastes into Veeva in one pass.
 
 ## 13 · Integrated in what you already use
-Left column, under the purple pill: what Redline pulls from. Drive and Slides stay where work lives; Veeva remains the system of record. The brace hands it to the green pill: what Redline makes. Validated requirements, learned reviewer patterns, reusable precedents, conflicts surfaced for their call. Only approved folders are indexed, and nothing becomes a reusable rule without a human validating it.
+Left column, under the purple pill: what Redline pulls from. Teams, Zoom, Meet, and Gmail lead the list now: the conversations are a source, not a memory. Drive and Slides stay where work lives; Veeva remains the system of record. The brace hands it to the green pill: what Redline makes. Validated requirements, learned reviewer patterns, reusable precedents, easy-to-edit assets, action items for creatives, conflicts surfaced for their call. Only approved folders are indexed, and nothing becomes a reusable rule without a human validating it.
 
-## 14 · It runs the calendar. It works the inbox. (THE EDITOR)
+## 14 · Communicates and receives information where you do. (THE EDITOR)
 Left is Redline living inside their Google Calendar, not a calendar screen in our app. Point at the cadence: submit Tuesday, review Thursday, client sees it the day before, and every event placed and kept current by Redline. Right is the "feels alive" moment: a real Gmail thread. Nikki asks the questions every new format raises: does the board go in before the video, and do we show every size if only the size changes. Redline answers from their own PRC training deck, page-cited, and offers to draft the note to compliance to confirm. This is where the requirements question lives now; you ask it where you already work, and the answer arrives grounded in their own material.
 
 **Trust guardrails, say these; they strengthen the compliance story:**
@@ -70,7 +70,7 @@ Slow down here. This is the answer to "does it replace people." It doesn't. Two 
 Friday question one: is it safe. The product's own annotation marks answering the legal objection is the joke and the point; let them notice it. Read the seven checks plainly, don't improvise claims beyond them. Close with: "Bring your MSA. We built for that conversation."
 
 ## 18 · One workflow, three seats
-Quick pass. Each seat has its own color; each person in the room should find theirs. Then bridge straight into the demo.
+Quick pass. Each seat has its own color; each person in the room should find theirs. The landing line is the reassurance: same team, new ways of working together. Then bridge straight into the demo.
 
 ## THE LIVE DEMO (no slide)
 The highest-stakes moment of the day. Open with the twenty-pages story, 60 seconds: the full T&C flow request, night before, from LA. Twenty pages, every reference broken, rebuilt in about fifteen minutes, zero accuracy flags. One live project, not yet an aggregate benchmark; that honesty is the credibility play.
@@ -84,8 +84,8 @@ Run the four beats verbally: build, annotate, read, reconcile. If the model is s
 
 **Bridge coming out of the demo:** "That was the Engine. The Editor changes the assets themselves."
 
-## 19 · What it takes to build
-Friday question three: are we ready. 6–8 weeks to acceptance. Four AI engineers, two designers. Verbal adds, keep them short: the weeks 1–2 calibration sprint is included, not extra; "Nikki already sent most of what we need for the first two weeks"; their team runs acceptance, not ours, and they own the product at handoff. Everything in the Editor tier ships as part of the one build; nothing on the list is optional or extra cost.
+## 19 · Build out
+Friday question three: are we ready. This slide now sits inside the Investment stop; the kick reads 04 · Investment. 6–8 weeks to acceptance. Four engineers, two designers. Verbal adds, keep them short: the weeks 1–2 calibration sprint is included, not extra; "Nikki already sent most of what we need for the first two weeks"; their team runs acceptance, not ours, and they own the product at handoff. Everything in the Editor tier ships as part of the one build; nothing on the list is optional or extra cost.
 
 **Bridge into pricing (say this leaving the slide):** "So here's what it costs to buy those hours back." If ROI math comes up, do it live on a whiteboard with their numbers.
 
@@ -96,4 +96,5 @@ Two tiers. The Engine, $400K, works from what you give it: the current submissio
 
 **Agency OS line (verbal only, after pricing, only if the room pulls that direction):** "There's a bigger, agency-wide version of this behind the pilot. We'll earn the right to that conversation after Redline ships."
 
-**Closing (no slide):** land the working session the week of July 20, per Nikki's email. Set the kickoff and first-live-submission dates in the room if the energy is there.
+## 21 · Thank you
+The close now has a slide. Leave it up while you land the working session the week of July 20, per Nikki's email. Set the kickoff and first-live-submission dates in the room if the energy is there.

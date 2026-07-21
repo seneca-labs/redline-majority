@@ -73,6 +73,17 @@ document.addEventListener('keydown', e => {
   if (e.key === 'End') go(S.length - 1);
 });
 
+document.querySelectorAll('[data-clone]').forEach(ph => {
+  const src = document.getElementById(ph.dataset.clone);
+  if (!src) return;
+  const c = src.cloneNode(true);
+  c.removeAttribute('id');
+  c.removeAttribute('data-b');
+  c.style.width = '100%';
+  c.style.height = '100%';
+  ph.appendChild(c);
+});
+
 const stage = document.getElementById('stage');
 function fit() {
   const s = Math.min(innerWidth / 1600, innerHeight / 900);
