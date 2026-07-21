@@ -386,3 +386,9 @@ Deck is now 22 slides. New slide inserted after "Shows what may be flagged, and 
 | CSS cleanup | Unused `.gctrail` rules removed; cache-bust bumped to ?v=14 |
 
 Verified via timed headless screenshots (warm-up shot absorbs first-shot overhead): 1.2s before-state, 4.8s working phase (before artwork under the wash, pill centered, boxes open, no chip), 10.2s done-state (after artwork, v2 chip, card 1 checked, card 3 open and muted).
+
+## v11.3 · Cover footer nav unhighlighted
+
+| Change | Detail |
+|---|---|
+| Cover nav highlight | Footer nav no longer highlights "Problem" on the opening slide; highlight starts at slide 2 (deck.js `cur > 0` guard). Verified: slide 1 all stops muted, slide 2 highlights Problem. Cache-bust deck.js ?v=15 |

@@ -60,7 +60,7 @@ function go(i) {
   if (cur >= 0) S[cur].classList.remove('on');
   cur = i;
   S[cur].classList.add('on');
-  D.forEach(d => d.classList.toggle('a', d.textContent === secs[cur]));
+  D.forEach(d => d.classList.toggle('a', cur > 0 && d.textContent === secs[cur]));
   pageno.textContent = (cur + 1) + ' / ' + S.length;
   counters(S[cur]);
   typer(S[cur]);
