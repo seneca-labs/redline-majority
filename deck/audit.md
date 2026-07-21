@@ -364,3 +364,12 @@ Deck is now 22 slides. New slide inserted after "Shows what may be flagged, and 
 | No em dashes on slide | implemented | 11 | Copy uses commas and colons; filmstrip ranges use hyphens |
 | Speaker notes 22 slides | implemented | notes | New §11 verbatim; §§11–21 renumbered to 12–22; demo bridge now (19)/(20) |
 | Cache-bust to ?v=12 | implemented | index.html | styles.css + deck.js |
+
+---
+
+## v11.1 · 2026-07-21 · slide 11 plays the change
+
+| Item | Status | Where | Notes |
+|---|---|---|---|
+| Before image first, then soft swap on editor click | implemented | 11, css | Canvas opens on frame17-before; gcbtn presses itself (scale pulse) at 2.7s; after image crossfades in over 1.6s from 3.1s; v2 chip + applied ✓ fade in at 3.7s; restarts on each slide visit |
+| Cache-bust to ?v=13 | implemented | index.html | styles.css + deck.js |

@@ -1055,3 +1055,13 @@ h2{font-size:50px;font-weight:800;letter-spacing:-.03em;line-height:1.08;margin-
 .gctrail em.ok{background:var(--pill-sage-bg);color:var(--pill-sage-tx)}
 .gctrail em.dis{background:var(--pill-yellow-bg);color:var(--pill-yellow-tx)}
 .gcrow.pend{opacity:.55}
+
+/* slide 11 plays the change: before frame, editor click, soft swap to after */
+.sb11 .sbframe{position:relative}
+.sb11 .sbframe .after{position:absolute;inset:0;opacity:0}
+.ds.on .sb11 .sbframe .after{animation:sbReveal 1.6s cubic-bezier(.22,1,.36,1) 3.1s both}
+.ds.on .sb11 .gcbtn{animation:btnPress .45s cubic-bezier(.22,1,.36,1) 2.7s both}
+.sb11 .vchip,.sb11 .gcrow.cur .gck b{opacity:0}
+.ds.on .sb11 .vchip,.ds.on .sb11 .gcrow.cur .gck b{animation:sbReveal .5s ease 3.7s both}
+@keyframes sbReveal{from{opacity:0}to{opacity:1}}
+@keyframes btnPress{0%,100%{transform:scale(1)}45%{transform:scale(.95)}}
