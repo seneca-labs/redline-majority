@@ -247,3 +247,32 @@ Deck is now 22 slides. The trilogy (4–6) collapses to a problem/solution pair 
 | All icons filled (Phosphor fill), except slide 10 toolbar | implemented | all | Sprite rebuilt: 21 Phosphor fill symbols (256 viewBox), 15 unused lucide symbols dropped; .ic flipped to fill:currentColor; slide-10 inline toolbar SVGs untouched |
 | No em dashes anywhere | implemented | all + notes | Only numeric-range en dashes remain (6–8 weeks, Weeks 1–2, A–D) |
 | Cache-bust to ?v=6 | implemented | index.html | styles.css + deck.js |
+
+---
+
+## v7 · 2026-07-21
+
+Deck is now 20 slides. "What we heard" (old 3) and "Adapts to every format" (old 17) are deleted; Three jobs moves ahead of What Redline is; Sources moves ahead of Calendar/inbox. New order: 1 Cover · 2 Agenda · 3 What we're solving · 4 Solved, one for one · 5 Three jobs · 6 What Redline is · 7 Upload · 8 Builds the deck · 9 Reads committee · 10 Flags · 11 Track feedback · 12 Sticky to answer · 13 Sources · 14 Calendar/inbox · 15 Learns patterns · 16 Drafts/decides · 17 MSA · 18 Three seats · 19 Build plan · 20 Investment. Demo stays a verbal beat, now between 18 and 19.
+
+| Item | Status | Where | Notes |
+|---|---|---|---|
+| "What we heard" slide removed; promise ledger becomes agenda stop 01 spoken recap | implemented | 2, notes | Section + .lines/.ln CSS deleted; agenda keeps "01 Where we left off" as the verbal home |
+| Kicks renamed: problem slide "02 · The problem", solution slide "02 · The solution" | implemented | 3, 4 | |
+| Both psland pills deleted ("One missed callout…" / "Fewer rounds. Shorter rounds.") | implemented | 3, 4 | .psland CSS deleted; both landing lines stay verbal in notes |
+| Three jobs moved before What Redline is; numbers restyled as green pills | implemented | 5 | .jobs.nocard .job i → sage pill |
+| What Redline is: new h2 + lead, dates as "Tue, Jul 28" style | implemented | 6 | winrow dates: Mon Jul 27 / Tue Jul 28 / Thu Jul 30 |
+| Gmail rework: Nikki asks submission questions, Redline cites PRC training deck + offers compliance note | implemented | 14 | Two Q&A bullets with purple "Training deck · p. 12 / p. 30" chips; gmatt attachment pill removed |
+| Calendar window equal height to Gmail window | implemented | 14 | .calmail stretch + nested flex; gcalgrid rows auto 1fr 1fr |
+| Lucide stroke icons on flag rows | implemented | 10 | i-lalert / i-lpercent / i-lshield / i-lhelp via .icl class |
+| Sources rebuilt: h2 "Integrated in what you already use", plain rows, brace connector, purple/green label pills | implemented | 13 | Inline curly-brace SVG in .srcconn; .srcitem hairline rows; becomerows with lucide checks; slide moved before 14 |
+| All "Prototype interface · illustrative data" tags deleted | implemented | all | 4 "Underlying capability demonstrated on Feed" mtags kept |
+| Copy sweep: ≤10 words per row | implemented | all | MSA mock legal document exempted deliberately (artifact verisimilitude); multi-sentence rows keep each sentence ≤10 |
+| "Adapts to every format" slide removed | implemented | — | Granularity story moved to slide-8 notes; UX-template line to slide-10 notes; .floop/.fslide/.fart/.flab CSS + floopfade keyframes deleted |
+| Flag-detail subtext → "Decks can be created for any asset type." | implemented | 10 | |
+| "Implement changes with AI" → "Implement changes with the editor" + sparkle icon | implemented | 10 | i-lspark in .gcbtn |
+| Entrance animation on UI windows | implemented | all | .window/.crop :not([data-b]) rise+fade .8s cubic-bezier(.22,1,.36,1) .15s delay; data-b windows keep bIn stagger |
+| MSA checkboxes → circles with lucide checkmarks | implemented | 17 | .msaann u already circular; icon swapped to i-lcheck |
+| Rounder icons: check-square → check-circle fill | implemented | nav | i-check symbol replaced with Phosphor check-circle-fill |
+| Sprite hygiene: 1:1 ref/symbol | implemented | sprite | Added i-lcheck/i-lalert/i-lpercent/i-lshield/i-lhelp/i-lspark (lucide 24 viewBox); deleted orphaned i-checkmini/i-chevr/i-clip/i-alert/i-percent/i-help/i-shield |
+| Speaker notes rewritten for 20 slides | implemented | notes | Demo beat between 18 and 19; ledger recap at agenda 01 |
+| Cache-bust to ?v=7 | implemented | index.html | styles.css + deck.js |
