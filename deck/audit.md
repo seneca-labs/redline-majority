@@ -410,3 +410,9 @@ Verified via timed headless screenshots (warm-up shot absorbs first-shot overhea
 | Speaker notes | §3 updated: lines are plain-language (no longer claimed verbatim), last-row beat now the resubmission loop |
 
 Verified via screenshots: slides 3 and 4 single-line rows (no wraps), slide 8 nav ends at Responses.
+
+## v11.6 · Overview footer stop
+
+| Change | Detail |
+|---|---|
+| Footer nav | Cover and agenda regrouped as data-sec="Overview", so the footer reads Overview · Problem · Solution · Redline · Investment; Overview highlights on slides 1-2, Problem starts at slide 3. Supersedes v11.3's no-highlight-on-cover guard (removed). Cache-bust deck.js ?v=16 |
