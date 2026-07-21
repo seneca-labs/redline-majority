@@ -224,3 +224,26 @@ Deck is now 25 slides: trilogy replaces the two pill-row timelines at 4–6 (+1)
 | §8.2 · Launch-partner line under the Editor price pill | implemented | 25 | "Launch-partner pricing · Majority is agency one"; no other commercial notes returned |
 | §8.3 · Why-only-$100K-more speaker answer | implemented | speaker-notes §25 | One sentence, no elaboration |
 | §8 · Prices hold: Engine $400K · Editor $500K | implemented | 25 | Unchanged |
+
+## v6 revision round (Cal directives, 2026-07-20)
+
+Deck is now 22 slides. The trilogy (4–6) collapses to a problem/solution pair (4–5); Carries-changes (old 15) and Proven/demo (old 23) are deleted; the demo becomes a verbal beat between slides 20 and 21. New order: 1 Cover · 2 Agenda · 3 What we heard · 4 What we're solving · 5 Solved, one for one · 6 What Redline is · 7 Three jobs · 8 Upload · 9 Builds the deck · 10 Reads committee · 11 Flags · 12 Track feedback · 13 Sticky to answer · 14 Calendar/inbox · 15 Sources · 16 Learns patterns · 17 Adapts · 18 Drafts/decides · 19 MSA · 20 Three seats · 21 Build plan · 22 Investment.
+
+| Item | Status | Where | Notes |
+|---|---|---|---|
+| Timeline trilogy replaced by a problem slide + solution slide (simpler, clearer, pre-feature) | implemented | 4, 5 | Six numbered rows each, rose→sage mirror, one-for-one; .wf spine CSS deleted |
+| Slide 15 (Carries approved changes) removed | implemented | — | Section + .chatex/.updgrid CSS deleted |
+| Slide 23 (Proven to work / demo) removed; demo is now a verbal beat | implemented | notes | .proven/.phone CSS deleted; twenty-pages story + mobile beat live in speaker notes between 20 and 21 |
+| Requirements panel removed from New Submission; demo language much simpler and shorter | implemented | 8 | reqgrid/reqnone deleted; leads on 8, 10, 11, 12 shortened; Concept/Final toggle kept |
+| Requirements now answered in the Gmail thread (Nikki asks, Redline replies) | implemented | 14 | Reply is three plain bullets + "→ Open your worklist" |
+| PRC response in the email example made way simpler | implemented | 14 | Two-line reply + short list, nothing else |
+| Gmail logo on the Gmail demo window | implemented | 14 | assets/logos/gmail.png in the winbar |
+| Calendar demo shows Redline in a Google Calendar, not an in-app calendar | implemented | 14 | Real gcal month fragment w/ their cadence; assets/logos/gcal.png; artwork-internal Google hexes per v4 precedent |
+| Slide 20 (Drafts/decides) → two tables, one Redline one Majority | implemented | 18 | .dtable pair, sage/lavender headers |
+| Account / project lead / creative seats get different color pills | implemented | 20 | blue / sage / lavender via .seatzone:nth-child |
+| Wave-timeline block removed from build plan; "6–8 weeks" | implemented | 21 | Three stats only; wave detail moved to verbal note |
+| "Launch-partner pricing · Majority is agency one" removed | implemented | 22 | Why-$100K answer stays verbal-only |
+| "✓ every comment tracked" removed | implemented | 12 | destat span deleted |
+| All icons filled (Phosphor fill), except slide 10 toolbar | implemented | all | Sprite rebuilt: 21 Phosphor fill symbols (256 viewBox), 15 unused lucide symbols dropped; .ic flipped to fill:currentColor; slide-10 inline toolbar SVGs untouched |
+| No em dashes anywhere | implemented | all + notes | Only numeric-range en dashes remain (6–8 weeks, Weeks 1–2, A–D) |
+| Cache-bust to ?v=6 | implemented | index.html | styles.css + deck.js |

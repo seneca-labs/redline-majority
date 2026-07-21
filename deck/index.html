@@ -7,46 +7,31 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=5">
+<link rel="stylesheet" href="styles.css?v=6">
 </head>
 <body>
 <svg style="display:none" xmlns="http://www.w3.org/2000/svg">
-  <symbol id="i-grid" viewBox="0 0 24 24"><rect width="7" height="7" x="3" y="3" rx="1"/><rect width="7" height="7" x="14" y="3" rx="1"/><rect width="7" height="7" x="14" y="14" rx="1"/><rect width="7" height="7" x="3" y="14" rx="1"/></symbol>
-  <symbol id="i-inbox" viewBox="0 0 24 24"><polyline points="22 12 16 12 14 15 10 15 8 12 2 12"/><path d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/></symbol>
-  <symbol id="i-layers" viewBox="0 0 24 24"><path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"/><path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"/><path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"/></symbol>
-  <symbol id="i-msg" viewBox="0 0 24 24"><path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z"/></symbol>
-  <symbol id="i-check" viewBox="0 0 24 24"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></symbol>
-  <symbol id="i-book" viewBox="0 0 24 24"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></symbol>
-  <symbol id="i-video" viewBox="0 0 24 24"><path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"/><rect x="2" y="6" width="14" height="12" rx="2"/></symbol>
-  <symbol id="i-db" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/></symbol>
-  <symbol id="i-upload" viewBox="0 0 24 24"><path d="M12 3v12"/><path d="m17 8-5-5-5 5"/><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/></symbol>
-  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
-  <symbol id="i-cal" viewBox="0 0 24 24"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></symbol>
-  <symbol id="i-monitor" viewBox="0 0 24 24"><rect width="20" height="14" x="2" y="3" rx="2"/><line x1="8" x2="16" y1="21" y2="21"/><line x1="12" x2="12" y1="17" y2="21"/></symbol>
-  <symbol id="i-folder" viewBox="0 0 24 24"><path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"/></symbol>
-  <symbol id="i-mic" viewBox="0 0 24 24"><path d="M12 19v3"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><rect x="9" y="2" width="6" height="13" rx="3"/></symbol>
-  <symbol id="i-alert" viewBox="0 0 24 24"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 20h16a2 2 0 0 0 1.73-2"/><path d="M12 9v4"/><path d="M12 17h.01"/></symbol>
-  <symbol id="i-percent" viewBox="0 0 24 24"><line x1="19" x2="5" y1="5" y2="19"/><circle cx="6.5" cy="6.5" r="2.5"/><circle cx="17.5" cy="17.5" r="2.5"/></symbol>
-  <symbol id="i-approx" viewBox="0 0 24 24"><path d="M5 15a6.5 6.5 0 0 1 7 0 6.5 6.5 0 0 0 7 0"/><path d="M5 9a6.5 6.5 0 0 1 7 0 6.5 6.5 0 0 0 7 0"/></symbol>
-  <symbol id="i-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></symbol>
-  <symbol id="i-filetext" viewBox="0 0 24 24"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></symbol>
-  <symbol id="i-note" viewBox="0 0 24 24"><path d="M16 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11l5-5V5a2 2 0 0 0-2-2Z"/><path d="M16 21v-4a2 2 0 0 1 2-2h4"/></symbol>
-  <symbol id="i-img" viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></symbol>
-  <symbol id="i-chevr" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
-  <symbol id="i-enter" viewBox="0 0 24 24"><path d="M20 4v7a4 4 0 0 1-4 4H4"/><path d="m9 10-5 5 5 5"/></symbol>
-  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1 1 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></symbol>
-  <symbol id="i-checkmini" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
-  <symbol id="i-hash" viewBox="0 0 24 24"><line x1="4" x2="20" y1="9" y2="9"/><line x1="4" x2="20" y1="15" y2="15"/><line x1="10" x2="8" y1="3" y2="21"/><line x1="16" x2="14" y1="3" y2="21"/></symbol>
-  <symbol id="i-caldays" viewBox="0 0 24 24"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/><path d="M8 14h.01"/><path d="M12 14h.01"/><path d="M16 14h.01"/><path d="M8 18h.01"/><path d="M12 18h.01"/><path d="M16 18h.01"/></symbol>
-  <symbol id="i-palette" viewBox="0 0 24 24"><path d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z"/><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/></symbol>
-  <symbol id="i-layout" viewBox="0 0 24 24"><rect width="18" height="7" x="3" y="3" rx="1"/><rect width="9" height="7" x="3" y="14" rx="1"/><rect width="5" height="7" x="16" y="14" rx="1"/></symbol>
-  <symbol id="i-penline" viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.376 3.622a1 1 0 0 1 3.002 3.002L7.368 18.635a2 2 0 0 1-.855.506l-2.872.838a.5.5 0 0 1-.62-.62l.838-2.872a2 2 0 0 1 .506-.854z"/></symbol>
-  <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
-  <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"/><circle cx="12" cy="12" r="3"/></symbol>
-  <symbol id="i-send" viewBox="0 0 24 24"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"/><path d="m21.854 2.147-10.94 10.939"/></symbol>
-  <symbol id="i-scale" viewBox="0 0 24 24"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></symbol>
-  <symbol id="i-rotccw" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></symbol>
-  <symbol id="i-clip" viewBox="0 0 24 24"><path d="m16 6-8.414 8.586a2 2 0 0 0 2.828 2.828l8.414-8.586a4 4 0 0 0-5.656-5.656l-8.415 8.585a6 6 0 1 0 8.486 8.486L21 12"/></symbol>
+  <symbol id="i-grid" viewBox="0 0 256 256"><path d="M120,56v48a16,16,0,0,1-16,16H56a16,16,0,0,1-16-16V56A16,16,0,0,1,56,40h48A16,16,0,0,1,120,56Zm80-16H152a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V56A16,16,0,0,0,200,40Zm-96,96H56a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V152A16,16,0,0,0,104,136Zm96,0H152a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V152A16,16,0,0,0,200,136Z"/></symbol>
+  <symbol id="i-inbox" viewBox="0 0 256 256"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm0,176H48V168H76.69L96,187.32A15.89,15.89,0,0,0,107.31,192h41.38A15.86,15.86,0,0,0,160,187.31L179.31,168H208v40Z"/></symbol>
+  <symbol id="i-layers" viewBox="0 0 256 256"><path d="M220,169.09l-92,53.65L36,169.09A8,8,0,0,0,28,182.91l96,56a8,8,0,0,0,8.06,0l96-56A8,8,0,1,0,220,169.09Z"/><path d="M220,121.09l-92,53.65L36,121.09A8,8,0,0,0,28,134.91l96,56a8,8,0,0,0,8.06,0l96-56A8,8,0,1,0,220,121.09Z"/><path d="M28,86.91l96,56a8,8,0,0,0,8.06,0l96-56a8,8,0,0,0,0-13.82l-96-56a8,8,0,0,0-8.06,0l-96,56a8,8,0,0,0,0,13.82Z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 256 256"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm-34.34,77.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"/></symbol>
+  <symbol id="i-book" viewBox="0 0 256 256"><path d="M240,56V200a8,8,0,0,1-8,8H160a24,24,0,0,0-24,23.94,7.9,7.9,0,0,1-5.12,7.55A8,8,0,0,1,120,232a24,24,0,0,0-24-24H24a8,8,0,0,1-8-8V56a8,8,0,0,1,8-8H88a32,32,0,0,1,32,32v87.73a8.17,8.17,0,0,0,7.47,8.25,8,8,0,0,0,8.53-8V80a32,32,0,0,1,32-32h64A8,8,0,0,1,240,56Z"/></symbol>
+  <symbol id="i-video" viewBox="0 0 256 256"><path d="M192,72V184a16,16,0,0,1-16,16H32a16,16,0,0,1-16-16V72A16,16,0,0,1,32,56H176A16,16,0,0,1,192,72Zm58,.25a8.23,8.23,0,0,0-6.63,1.22L209.78,95.86A4,4,0,0,0,208,99.19v57.62a4,4,0,0,0,1.78,3.33l33.78,22.52a8,8,0,0,0,8.58.19,8.33,8.33,0,0,0,3.86-7.17V80A8,8,0,0,0,250,72.25Z"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 256 256"><path d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm0,48H48V48H72v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24Z"/></symbol>
+  <symbol id="i-monitor" viewBox="0 0 256 256"><path d="M232,64V176a24,24,0,0,1-24,24H48a24,24,0,0,1-24-24V64A24,24,0,0,1,48,40H208A24,24,0,0,1,232,64ZM160,216H96a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16Z"/></symbol>
+  <symbol id="i-folder" viewBox="0 0 256 256"><path d="M216,72H131.31L104,44.69A15.88,15.88,0,0,0,92.69,40H40A16,16,0,0,0,24,56V200.62A15.41,15.41,0,0,0,39.39,216h177.5A15.13,15.13,0,0,0,232,200.89V88A16,16,0,0,0,216,72ZM40,56H92.69l16,16H40Z"/></symbol>
+  <symbol id="i-mic" viewBox="0 0 256 256"><path d="M80,128V64a48,48,0,0,1,96,0v64a48,48,0,0,1-96,0Zm128,0a8,8,0,0,0-16,0,64,64,0,0,1-128,0,8,8,0,0,0-16,0,80.11,80.11,0,0,0,72,79.6V240a8,8,0,0,0,16,0V207.6A80.11,80.11,0,0,0,208,128Z"/></symbol>
+  <symbol id="i-alert" viewBox="0 0 256 256"><path d="M236.8,188.09,149.35,36.22h0a24.76,24.76,0,0,0-42.7,0L19.2,188.09a23.51,23.51,0,0,0,0,23.72A24.35,24.35,0,0,0,40.55,224h174.9a24.35,24.35,0,0,0,21.33-12.19A23.51,23.51,0,0,0,236.8,188.09ZM120,104a8,8,0,0,1,16,0v40a8,8,0,0,1-16,0Zm8,88a12,12,0,1,1,12-12A12,12,0,0,1,128,192Z"/></symbol>
+  <symbol id="i-percent" viewBox="0 0 256 256"><path d="M176,172a12,12,0,1,1-12-12A12,12,0,0,1,176,172ZM92,96A12,12,0,1,0,80,84,12,12,0,0,0,92,96ZM224,48V208a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V48A16,16,0,0,1,48,32H208A16,16,0,0,1,224,48ZM64,84A28,28,0,1,0,92,56,28,28,0,0,0,64,84Zm128,88a28,28,0,1,0-28,28A28,28,0,0,0,192,172ZM189.66,66.34a8,8,0,0,0-11.32,0l-112,112a8,8,0,0,0,11.32,11.32l112-112A8,8,0,0,0,189.66,66.34Z"/></symbol>
+  <symbol id="i-help" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,168a12,12,0,1,1,12-12A12,12,0,0,1,128,192Zm8-48.72V144a8,8,0,0,1-16,0v-8a8,8,0,0,1,8-8c13.23,0,24-9,24-20s-10.77-20-24-20-24,9-24,20v4a8,8,0,0,1-16,0v-4c0-19.85,17.94-36,40-36s40,16.15,40,36C168,125.38,154.24,139.93,136,143.28Z"/></symbol>
+  <symbol id="i-filetext" viewBox="0 0 256 256"><path d="M213.66,82.34l-56-56A8,8,0,0,0,152,24H56A16,16,0,0,0,40,40V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V88A8,8,0,0,0,213.66,82.34ZM160,176H96a8,8,0,0,1,0-16h64a8,8,0,0,1,0,16Zm0-32H96a8,8,0,0,1,0-16h64a8,8,0,0,1,0,16Zm-8-56V44l44,44Z"/></symbol>
+  <symbol id="i-note" viewBox="0 0 256 256"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H156.69A15.92,15.92,0,0,0,168,219.31L219.31,168A15.92,15.92,0,0,0,224,156.69V48A16,16,0,0,0,208,32ZM96,88h64a8,8,0,0,1,0,16H96a8,8,0,0,1,0-16Zm32,80H96a8,8,0,0,1,0-16h32a8,8,0,0,1,0,16ZM96,136a8,8,0,0,1,0-16h64a8,8,0,0,1,0,16Zm64,68.69V160h44.7Z"/></symbol>
+  <symbol id="i-img" viewBox="0 0 256 256"><path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM156,88a12,12,0,1,1-12,12A12,12,0,0,1,156,88Zm60,112H40V160.69l46.34-46.35a8,8,0,0,1,11.32,0h0L165,181.66a8,8,0,0,0,11.32-11.32l-17.66-17.65L173,138.34a8,8,0,0,1,11.31,0L216,170.07V200Z"/></symbol>
+  <symbol id="i-chevr" viewBox="0 0 256 256"><path d="M181.66,133.66l-80,80A8,8,0,0,1,88,208V48a8,8,0,0,1,13.66-5.66l80,80A8,8,0,0,1,181.66,133.66Z"/></symbol>
+  <symbol id="i-enter" viewBox="0 0 256 256"><path d="M200,32V176a8,8,0,0,1-8,8H104v40a8,8,0,0,1-13.66,5.66l-48-48a8,8,0,0,1,0-11.32l48-48A8,8,0,0,1,104,128v40h80V32a8,8,0,0,1,16,0Z"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 256 256"><path d="M208,40H48A16,16,0,0,0,32,56v56c0,52.72,25.52,84.67,46.93,102.19,23.06,18.86,46,25.26,47,25.53a8,8,0,0,0,4.2,0c1-.27,23.91-6.67,47-25.53C198.48,196.67,224,164.72,224,112V56A16,16,0,0,0,208,40Zm-34.32,69.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"/></symbol>
+  <symbol id="i-checkmini" viewBox="0 0 256 256"><path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM205.66,85.66l-96,96a8,8,0,0,1-11.32,0l-40-40a8,8,0,0,1,11.32-11.32L104,164.69l90.34-90.35a8,8,0,0,1,11.32,11.32Z"/></symbol>
+  <symbol id="i-clip" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm37.66,50.34a8,8,0,0,0-11.32,0L87.09,143A24,24,0,1,0,121,177l49.32-50.32a8,8,0,1,1,11.42,11.2l-49.37,50.38a40,40,0,1,1-56.62-56.51L143,63.09A24,24,0,1,1,177,97L109.71,165.6a8,8,0,1,1-11.42-11.2L165.6,85.71a8,8,0,0,0,.06-11.37Z"/></symbol>
 </svg>
 <div id="stage">
 
@@ -97,78 +82,37 @@
   </div>
 </section>
 
-<!-- 4 · Workflow trilogy · A -->
+<!-- 4 · What we're solving -->
 <section class="ds" data-sec="Context">
-  <div class="inner wide">
+  <div class="inner">
     <p class="kick">02 · Your workflow</p>
-    <h2 style="font-size:40px;margin-bottom:2px">The workflow we're productizing</h2>
-    <div class="wf" data-b="1">
-      <i class="wfline"></i>
-      <div class="wfarcwrap"><svg viewBox="0 0 260 208" preserveAspectRatio="none"><path class="wfarcpath" d="M195 162 C195 196 168 200 130 200 C84 200 65 176 65 26" fill="none"/><path class="wfarcpath" d="M59 34 65 22 71 34" fill="none"/></svg></div>
-      <div class="wfgrid">
-        <div class="wfcol"><div class="wfzone t"><div class="wfstep"><span class="wfchip"><svg class="ic"><use href="#i-hash"/></svg></span><b>Open the part number</b><small>required for every reference and submission</small><i class="wfstem"></i></div></div><div class="wfzone b"></div></div>
-        <div class="wfcol"><div class="wfzone t"></div><div class="wfzone b"><div class="wfstep"><i class="wfstem"></i><span class="wfchip"><svg class="ic"><use href="#i-caldays"/></svg></span><b>Schedule the PRC date</b><small>submit Tuesday · review Thursday · client sees it the day before</small></div></div></div>
-        <div class="wfcol"><div class="wfzone t"><div class="wfstep"><span class="wfchip"><svg class="ic"><use href="#i-palette"/></svg></span><b>Creative rounds to an approved idea</b><small>concept first — or straight to final</small><i class="wfstem"></i></div></div><div class="wfzone b"></div></div>
-        <div class="wfcol"><div class="wfzone t"></div><div class="wfzone b"><div class="wfstep"><i class="wfstem"></i><span class="wfchip"><svg class="ic"><use href="#i-layout"/></svg></span><b>Build the submission deck</b><small>in Slides, every format's rules</small></div></div></div>
-        <div class="wfcol"><div class="wfzone t"><div class="wfstep"><span class="wfchip"><svg class="ic"><use href="#i-penline"/></svg></span><b>Annotate functionality</b><small>creative drafts · account fills the gaps</small><i class="wfstem"></i></div></div><div class="wfzone b"></div></div>
-        <div class="wfcol"><div class="wfzone t"></div><div class="wfzone b"><div class="wfstep"><i class="wfstem"></i><span class="wfchip"><svg class="ic"><use href="#i-users"/></svg></span><b>Internal review &amp; approval</b></div></div></div>
-        <div class="wfcol"><div class="wfzone t"><div class="wfstep"><span class="wfchip lv"><svg class="ic"><use href="#i-eye"/></svg></span><b>Client review</b><i class="wfstem"></i></div></div><div class="wfzone b"></div></div>
-        <div class="wfcol"><div class="wfzone t"></div><div class="wfzone b"><div class="wfstep"><i class="wfstem"></i><span class="wfchip"><svg class="ic"><use href="#i-send"/></svg></span><b>Submit to Veeva + sticky notes</b><small>rebuilt note by note in the platform</small></div></div></div>
-        <div class="wfcol"><div class="wfzone t"><div class="wfstep"><span class="wfchip lv"><svg class="ic"><use href="#i-scale"/></svg></span><b>PRC review</b><small>Regulatory · Legal · Editorial · Compliance</small><i class="wfstem"></i></div></div><div class="wfzone b"></div></div>
-        <div class="wfcol"><div class="wfzone t"></div><div class="wfzone b"><div class="wfstep"><i class="wfstem"></i><span class="wfchip"><svg class="ic"><use href="#i-rotccw"/></svg></span><b>Reconcile, recirculate, resubmit</b><small>round 1 comments pulled forward</small></div></div></div>
-      </div>
+    <h2>What we're solving</h2>
+    <div class="pslist">
+      <div class="psrow" data-b="1"><i>1</i><p>The storyboard is rebuilt by hand to match every beat of the cut.</p></div>
+      <div class="psrow" data-b="2"><i>2</i><p>Every new format raises the same question: how do we even submit this?</p></div>
+      <div class="psrow" data-b="3"><i>3</i><p>Days of box-by-box annotation on every deck.</p></div>
+      <div class="psrow" data-b="4"><i>4</i><p>The person annotating doesn't hold the knowledge.</p></div>
+      <div class="psrow" data-b="5"><i>5</i><p>Every sticky retyped into Veeva.</p></div>
+      <div class="psrow" data-b="6"><i>6</i><p>Comments rebuilt from memory. The same flags come back.</p></div>
     </div>
-    <p class="wffoot" data-b="2">Your workflow, in your words.</p>
+    <p class="psland" data-b="7">One missed callout is another round. Another week.</p>
   </div>
 </section>
 
-<!-- 5 · Workflow trilogy · B -->
+<!-- 5 · Solved, one for one -->
 <section class="ds" data-sec="Context">
-  <div class="inner wide">
+  <div class="inner">
     <p class="kick">02 · Your workflow</p>
-    <h2 style="font-size:40px;margin-bottom:2px">Where the week goes</h2>
-    <div class="wf" data-b="1">
-      <i class="wfline"></i>
-      <div class="wfarcwrap"><svg viewBox="0 0 260 208" preserveAspectRatio="none"><path class="wfarcpath" d="M195 162 C195 196 168 200 130 200 C84 200 65 176 65 26" fill="none"/><path class="wfarcpath" d="M59 34 65 22 71 34" fill="none"/></svg></div>
-      <div class="wfgrid">
-        <div class="wfcol"><div class="wfzone t"><div class="wfstep"><span class="wfchip"><svg class="ic"><use href="#i-hash"/></svg></span><b>Open the part number</b><small>required for every reference and submission</small><i class="wfstem"></i></div></div><div class="wfzone b"></div></div>
-        <div class="wfcol"><div class="wfzone t"></div><div class="wfzone b"><div class="wfstep"><i class="wfstem"></i><span class="wfchip"><svg class="ic"><use href="#i-caldays"/></svg></span><b>Schedule the PRC date</b><small>submit Tuesday · review Thursday · client sees it the day before</small></div></div></div>
-        <div class="wfcol"><div class="wfzone t"><div class="wfstep"><span class="wfchip rs"><svg class="ic"><use href="#i-palette"/></svg></span><b>Creative rounds to an approved idea</b><small>concept first — or straight to final</small><i class="wfstem"></i></div></div><div class="wfzone b"><div class="wfcall" data-b="2"><i class="wfstem"></i><p>Granular to the beat: the storyboard must mirror the cut — talent hums three times, the board shows it three times.</p></div></div></div>
-        <div class="wfcol"><div class="wfzone t"><div class="wfcall" data-b="3"><p>No PRC training — every new asset is a scramble: does the storyboard go first? every size?</p><p>Days of box-by-box annotation.</p><i class="wfstem"></i></div></div><div class="wfzone b"><div class="wfstep"><i class="wfstem"></i><span class="wfchip rs"><svg class="ic"><use href="#i-layout"/></svg></span><b>Build the submission deck</b><small>in Slides, every format's rules</small></div></div></div>
-        <div class="wfcol"><div class="wfzone t"><div class="wfstep"><span class="wfchip rs"><svg class="ic"><use href="#i-penline"/></svg></span><b>Annotate functionality</b><small>creative drafts · account fills the gaps</small><i class="wfstem"></i></div></div><div class="wfzone b"><div class="wfcall" data-b="4"><i class="wfstem"></i><p>The annotator doesn't hold the knowledge — QR placement and endmatter live with account.</p></div></div></div>
-        <div class="wfcol"><div class="wfzone t"></div><div class="wfzone b"><div class="wfstep"><i class="wfstem"></i><span class="wfchip"><svg class="ic"><use href="#i-users"/></svg></span><b>Internal review &amp; approval</b></div></div></div>
-        <div class="wfcol"><div class="wfzone t"><div class="wfstep"><span class="wfchip lv"><svg class="ic"><use href="#i-eye"/></svg></span><b>Client review</b><i class="wfstem"></i></div></div><div class="wfzone b"></div></div>
-        <div class="wfcol"><div class="wfzone t"><div class="wfcall" data-b="5"><p>Every sticky retyped as the submission is rebuilt in Veeva.</p><i class="wfstem"></i></div></div><div class="wfzone b"><div class="wfstep"><i class="wfstem"></i><span class="wfchip rs"><svg class="ic"><use href="#i-send"/></svg></span><b>Submit to Veeva + sticky notes</b><small>rebuilt note by note in the platform</small></div></div></div>
-        <div class="wfcol"><div class="wfzone t"><div class="wfstep"><span class="wfchip lv"><svg class="ic"><use href="#i-scale"/></svg></span><b>PRC review</b><small>Regulatory · Legal · Editorial · Compliance</small><i class="wfstem"></i></div></div><div class="wfzone b"></div></div>
-        <div class="wfcol"><div class="wfzone t"><div class="wfcall" data-b="6"><p>Comments reconstructed from meeting memory; the same flags return.</p><i class="wfstem"></i></div></div><div class="wfzone b"><div class="wfstep"><i class="wfstem"></i><span class="wfchip rs"><svg class="ic"><use href="#i-rotccw"/></svg></span><b>Reconcile, recirculate, resubmit</b><small>round 1 comments pulled forward</small></div></div></div>
-      </div>
-      <div class="wfloop" data-b="7"><b>round 2 · round 3 · round 4…</b><small>one missed callout = another loop, another week.</small></div>
+    <h2>Solved, one for one</h2>
+    <div class="pslist sg">
+      <div class="psrow" data-b="1"><i>1</i><p>The board mirrors the cut automatically.</p></div>
+      <div class="psrow" data-b="2"><i>2</i><p>Requirements are known before you build.</p></div>
+      <div class="psrow" data-b="3"><i>3</i><p>Annotations arrive drafted.</p></div>
+      <div class="psrow" data-b="4"><i>4</i><p>The knowledge lives in the system.</p></div>
+      <div class="psrow" data-b="5"><i>5</i><p>The Veeva package is ready to paste.</p></div>
+      <div class="psrow" data-b="6"><i>6</i><p>Comments become a worklist. Repeat flags get caught early.</p></div>
     </div>
-  </div>
-</section>
-
-<!-- 6 · Workflow trilogy · C -->
-<section class="ds" data-sec="Context">
-  <div class="inner wide">
-    <p class="kick">02 · Your workflow</p>
-    <h2 style="font-size:40px;margin-bottom:2px">The same workflow, with Redline in it</h2>
-    <div class="wf" data-b="1">
-      <i class="wfline"></i>
-      <div class="wfarcwrap"><svg viewBox="0 0 260 208" preserveAspectRatio="none"><path class="wfarcpath" d="M195 162 C195 196 168 200 130 200 C84 200 65 176 65 26" fill="none"/><path class="wfarcpath" d="M59 34 65 22 71 34" fill="none"/></svg></div>
-      <div class="wfgrid">
-        <div class="wfcol"><div class="wfzone t"><div class="wfstep"><span class="wfchip"><svg class="ic"><use href="#i-hash"/></svg></span><b>Open the part number</b><small>required for every reference and submission</small><i class="wfstem"></i></div></div><div class="wfzone b"></div></div>
-        <div class="wfcol"><div class="wfzone t"></div><div class="wfzone b"><div class="wfstep"><i class="wfstem"></i><span class="wfchip"><svg class="ic"><use href="#i-caldays"/></svg></span><b>Schedule the PRC date</b><small>submit Tuesday · review Thursday · client sees it the day before</small></div></div></div>
-        <div class="wfcol"><div class="wfzone t"><div class="wfstep"><span class="wfchip sg"><svg class="ic"><use href="#i-palette"/></svg></span><b>Creative rounds to an approved idea</b><small>concept first — or straight to final</small><i class="wfstem"></i></div></div><div class="wfzone b"><div class="wfcall sg" data-b="2"><i class="wfstem"></i><p>Built to the beat — the board mirrors the cut automatically.</p></div></div></div>
-        <div class="wfcol"><div class="wfzone t"><div class="wfcall sg" data-b="3"><p>Requirements known at intake — storyboard order, sizes, endmatter.</p><p>Annotations arrive drafted.</p><i class="wfstem"></i></div></div><div class="wfzone b"><div class="wfstep"><i class="wfstem"></i><span class="wfchip sg"><svg class="ic"><use href="#i-layout"/></svg></span><b>Build the submission deck</b><small>in Slides, every format's rules</small></div></div></div>
-        <div class="wfcol"><div class="wfzone t"><div class="wfstep"><span class="wfchip sg"><svg class="ic"><use href="#i-penline"/></svg></span><b>Annotate functionality</b><small>creative drafts · account fills the gaps</small><i class="wfstem"></i></div></div><div class="wfzone b"><div class="wfcall sg" data-b="4"><i class="wfstem"></i><p>The knowledge is in the system — creative reviews, account validates.</p></div></div></div>
-        <div class="wfcol"><div class="wfzone t"></div><div class="wfzone b"><div class="wfstep"><i class="wfstem"></i><span class="wfchip"><svg class="ic"><use href="#i-users"/></svg></span><b>Internal review &amp; approval</b></div></div></div>
-        <div class="wfcol"><div class="wfzone t"><div class="wfstep"><span class="wfchip lv"><svg class="ic"><use href="#i-eye"/></svg></span><b>Client review</b><i class="wfstem"></i></div></div><div class="wfzone b"></div></div>
-        <div class="wfcol"><div class="wfzone t"><div class="wfcall sg" data-b="5"><p>The Veeva package is ready to paste.</p><i class="wfstem"></i></div></div><div class="wfzone b"><div class="wfstep"><i class="wfstem"></i><span class="wfchip sg"><svg class="ic"><use href="#i-send"/></svg></span><b>Submit to Veeva + sticky notes</b><small>rebuilt note by note in the platform</small></div></div></div>
-        <div class="wfcol"><div class="wfzone t"><div class="wfstep"><span class="wfchip lv"><svg class="ic"><use href="#i-scale"/></svg></span><b>PRC review</b><small>Regulatory · Legal · Editorial · Compliance</small><i class="wfstem"></i></div></div><div class="wfzone b"></div></div>
-        <div class="wfcol"><div class="wfzone t"><div class="wfcall sg" data-b="6"><p>Comments become a worklist; recurring flags caught before submission.</p><i class="wfstem"></i></div></div><div class="wfzone b"><div class="wfstep"><i class="wfstem"></i><span class="wfchip sg"><svg class="ic"><use href="#i-rotccw"/></svg></span><b>Reconcile, recirculate, resubmit</b><small>round 1 comments pulled forward</small></div></div></div>
-      </div>
-      <div class="wfloop sg" data-b="7"><b>fewer rounds, shorter rounds.</b></div>
-    </div>
+    <p class="psland sg" data-b="7">Fewer rounds. Shorter rounds.</p>
   </div>
 </section>
 
@@ -257,7 +201,7 @@
   <div class="inner split">
     <div class="stext">
       <h2>Upload your asset for review and its context</h2>
-      <p class="lead">Drop in the asset headed for review and the docs around it, then write or record the brief: what this is, what to annotate, what to watch for.</p>
+      <p class="lead">Drop in the asset and the docs around it. Write or record the brief: what this is, what to watch for.</p>
     </div>
     <div class="sright">
       <div class="window" style="width:1030px">
@@ -299,15 +243,6 @@
                 <div class="vtile"><span class="vico"><svg class="ic"><use href="#i-video"/></svg></span><u><b>Storyboard</b><small>frames + VO</small></u></div>
                 <div class="vtile"><span class="vico"><svg class="ic"><use href="#i-folder"/></svg></span><u><b>Other</b><small>tell us how it prints</small></u></div>
               </div>
-            </div>
-            <div data-b="3"><span class="mlab2" style="color:var(--faint);font-size:11px;font-weight:800;">Requirements for this submission</span>
-              <div class="reqgrid">
-                <div class="reqrow"><p>Storyboard precedes final video</p><span class="chip chip-purple sm">5 prior C4TC video submissions</span></div>
-                <div class="reqrow"><p>Size-only change: one layout + size list</p><span class="chip chip-purple sm">precedent · Round 3, banner family</span></div>
-                <div class="reqrow"><p>Full endmatter required for this format</p><span class="chip chip-nt sm">House rule</span></div>
-                <div class="reqrow"><p>Reference materials need their own part number</p><span class="chip chip-nt sm">House rule</span></div>
-              </div>
-              <p class="reqnone">No precedent yet for interactive product — flagged for your call.</p>
             </div>
             <div style="display:flex;justify-content:space-between;align-items:center;padding-top:6px;border-top:1px solid var(--hairline);font-size:12.5px">
               <div class="fld"><b>Gilead</b></div>
@@ -418,7 +353,7 @@
   <div class="inner split">
     <div class="stext">
       <h2 style="font-size:32px">Reads it the way your committee will</h2>
-      <p class="lead">Before you submit, Redline reads it the way your committee will: what may be flagged, what the annotations missed, and a summary of what it found.</p>
+      <p class="lead">Before you submit: what may be flagged, what the annotations missed, and a summary of what it found.</p>
     </div>
     <div class="sright">
       <div class="crop" style="width:960px">
@@ -471,7 +406,7 @@
   <div class="inner split">
     <div class="stext">
       <h2 style="font-size:30px">Shows what may be flagged, and why</h2>
-      <p class="lead">Open any flag and Redline shows the reasoning and the precedent it traces to.</p>
+      <p class="lead">Open any flag to see the reasoning behind it.</p>
       <p class="lead" style="margin-top:12px">Every suggestion drafted in place, with the source it traces to. Approve, adjust, or hand the whole list to Redline in one click.</p>
     </div>
     <div class="sright">
@@ -563,8 +498,8 @@
   <div class="inner split">
     <div class="stext">
       <h2>Track the feedback</h2>
-      <p class="lead">All PRC feedback is organized, matched to its slide, and transformed into a worklist.</p>
-      <p class="lead" style="margin-top:12px">Redline maps all open items to its associated owner, complexity, and area.</p>
+      <p class="lead">Every piece of PRC feedback becomes a worklist item, matched to its slide.</p>
+      <p class="lead" style="margin-top:12px">Every item gets an owner, a complexity, and an area.</p>
     </div>
     <div class="sright">
       <div class="crop" style="width:1000px">
@@ -595,7 +530,6 @@
         <div class="destat">
           <span><b data-count data-from="0" data-to="128" data-dur="600">128</b>ingested</span>
           <span><b data-count data-from="128" data-to="96" data-dur="600" data-delay="500">96</b>after de-dupe</span>
-          <span class="ok"><b>✓</b>every comment tracked</span>
         </div>
         <div class="trow thead"><span>To-do</span><span>Element</span><span>Source</span><span>Complexity</span><span>Owner</span></div>
         <div class="trow done"><span>Soften "superior efficacy"</span><span class="tel">Slide 3 · headline</span><span class="chip chip-purple">PRC</span><span class="chip chip-green">Copy</span><span class="town">Editorial</span></div>
@@ -691,34 +625,6 @@
   </div>
 </section>
 
-<!-- 16 · Carries approved changes (was 17) -->
-<section class="ds" data-sec="Product">
-  <span class="chap">03 · Reconcile</span>
-  <span class="chap rt">Editor tier</span>
-  <div class="inner split">
-    <div class="stext">
-      <h2 style="font-size:30px">Carries approved changes across the submission</h2>
-      <p class="lead">Once a change is approved, Redline applies it everywhere it lands: the deck, the asset, every banner size, from one note.</p>
-    </div>
-    <div class="sright">
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:flex-start">
-        <div class="chatex">
-          <div class="chatmsg"><span class="av bl">NC</span><p>Change every instance of <b>"prep"</b> to <b>PrEP</b> across the submission.</p></div>
-          <div class="chatmsg rl"><span class="av" style="background:var(--ink);color:var(--surface)">R</span><p>Done. Updated 4 slides, 2 banner sizes, and 1 storyboard frame. <b>7 instances</b>, every reference intact.</p></div>
-        </div>
-        <div class="updgrid" data-b="2">
-          <div class="updthumb"><b>Slide 3 · claims</b><p>Daily <mark>PrEP</mark> for adults at risk.</p></div>
-          <div class="updthumb"><b>Slide 7 · dosing</b><p>Start <mark>PrEP</mark> per label.</p></div>
-          <div class="updthumb"><b>Banner 300×250</b><p>Ask about <mark>PrEP</mark>.</p></div>
-          <div class="updthumb"><b>Storyboard f4</b><p>VO: "About <mark>PrEP</mark>."</p></div>
-        </div>
-      </div>
-      <p class="whis">Redline edits the assets themselves. Bigger creative calls route to your designers as a precise to-do.</p>
-      <div class="tagrow"><span class="mtag">Underlying capability demonstrated on Feed</span></div>
-    </div>
-  </div>
-</section>
-
 <!-- 18 · Calendar + inbox (v5 §5) -->
 <section class="ds" data-sec="Product">
   <span class="chap">03 · Reconcile</span>
@@ -726,43 +632,35 @@
   <div class="inner wide">
     <h2 style="font-size:36px;margin-bottom:10px">It runs the calendar. It works the inbox.</h2>
     <div class="calmail">
-      <div class="window" data-b="1" style="width:640px">
-        <div class="winbar"><span></span><span></span><span></span><em>Redline · Calendar</em></div>
-        <div class="app slim">
-          <nav class="appnav">
-            <div class="applogo">Redline</div>
-            <span class="navlab">Main menu</span>
-            <a><svg class="ic"><use href="#i-grid"/></svg>Home</a>
-            <a><svg class="ic"><use href="#i-inbox"/></svg>Submissions</a>
-            <a><svg class="ic"><use href="#i-check"/></svg>Worklist</a>
-            <a><svg class="ic"><use href="#i-folder"/></svg>Clients</a>
-            <a class="cur"><svg class="ic"><use href="#i-cal"/></svg>Calendar</a>
-            <div class="appuser"><b>NC</b>Nikki Crump</div>
-          </nav>
-          <div class="appmain">
-            <div class="greet">
-              <div><b>PRC schedule · July</b><span>submit Tuesday · review Thursday · client sees it the day before</span></div>
-            </div>
-            <div class="calist">
-              <div class="calrow"><span class="cald"><b>Mon 20</b></span><p>Client share · Event flyer<em>US-UNBC-003 · day before cutoff</em></p><span class="chip chip-blue sm">Round 1</span></div>
-              <div class="calrow"><span class="cald"><b>Tue 21</b></span><p>Submission cutoff · 12:00 pm<em>US-UNBC-003 · Veeva package staged</em></p><span class="chip chip-yellow sm">Round 1</span></div>
-              <div class="calrow"><span class="cald"><b>Thu 23</b></span><p>PRC review · 9:00 am<em>US-UNBC-003 · Regulatory · Legal · Editorial · Compliance</em></p><span class="chip chip-purple sm">Round 1</span></div>
-              <div class="calrow"><span class="cald"><b>Mon 27</b></span><p>Client share · Freddie kiosk<em>US-UNBC-001 · day before cutoff</em></p><span class="chip chip-blue sm">Round 2</span></div>
-              <div class="calrow"><span class="cald"><b>Tue 28</b></span><p>Submission cutoff · 12:00 pm<em>US-UNBC-001 · 41 items open</em></p><span class="chip chip-yellow sm">Round 2</span></div>
-              <div class="calrow"><span class="cald"><b>Thu 30</b></span><p>PRC review · 9:00 am<em>US-UNBC-001 · Regulatory · Legal · Editorial · Compliance</em></p><span class="chip chip-purple sm">Round 2</span></div>
-            </div>
+      <div class="window" data-b="1" style="width:620px">
+        <div class="winbar"><span></span><span></span><span></span><em class="winapp"><img src="assets/logos/gcal.png" alt="">Google Calendar</em></div>
+        <div class="gcal">
+          <div class="gcalhead"><b>July 2026</b><span>submit Tuesday · review Thursday · client sees it the day before</span></div>
+          <div class="gcalgrid">
+            <i class="gdow">Mon</i><i class="gdow">Tue</i><i class="gdow">Wed</i><i class="gdow">Thu</i><i class="gdow">Fri</i>
+            <div class="gday"><i>20</i><span class="gev bl">Client share · flyer</span></div>
+            <div class="gday"><i>21</i><span class="gev ye">Submit · 12:00</span></div>
+            <div class="gday"><i>22</i></div>
+            <div class="gday"><i>23</i><span class="gev pu">PRC review · 9:00</span></div>
+            <div class="gday"><i>24</i></div>
+            <div class="gday"><i>27</i><span class="gev bl">Client share · kiosk</span></div>
+            <div class="gday"><i>28</i><span class="gev ye">Submit · 12:00</span></div>
+            <div class="gday"><i>29</i></div>
+            <div class="gday"><i>30</i><span class="gev pu">PRC review · 9:00</span></div>
+            <div class="gday"><i>31</i></div>
           </div>
+          <p class="gcalfoot">Every event placed and kept current by Redline.</p>
         </div>
       </div>
       <div class="window" data-b="2" style="width:610px">
-        <div class="winbar"><span></span><span></span><span></span><em>Gmail · inbox</em></div>
+        <div class="winbar"><span></span><span></span><span></span><em class="winapp"><img src="assets/logos/gmail.png" alt="">Gmail</em></div>
         <div class="gmthread">
-          <div class="gmsubj"><b>US-UNBC-001 · PRC comments — Round 2</b><span class="chip chip-nt sm">Inbox</span></div>
+          <div class="gmsubj"><b>US-UNBC-001 · PRC comments · Round 2</b><span class="chip chip-nt sm">Inbox</span></div>
           <div class="gmmsg">
             <span class="av bl">NC</span>
             <div class="gmbody">
               <div class="gmhead"><b>Nikki Crump</b><small>to team, Redline · Tue, Jul 21, 9:14 am</small></div>
-              <p>Team — comments are in, see attached. Let's turn this by Thursday.</p>
+              <p>Comments are in, attached. What does the resubmission need?</p>
               <span class="gmatt"><svg class="ic"><use href="#i-clip"/></svg>PRC-comments.pdf</span>
             </div>
           </div>
@@ -770,7 +668,13 @@
             <span class="av" style="background:var(--ink);color:var(--surface)">R</span>
             <div class="gmbody">
               <div class="gmhead"><b>Redline</b><small>to Nikki, team · Tue, Jul 21, 9:15 am</small></div>
-              <p>Filed to US-UNBC-001 · Round 2. Added 2 attachments (PRC-comments.pdf, revised-kv.png). Extracted 96 comments into the worklist — 41 assigned to you, 3 stale since Tuesday. Next cutoff: Tue Jul 28.</p>
+              <p>Filed. All 96 comments are in your worklist.</p>
+              <p>For the resubmission you need:</p>
+              <ul class="gmul">
+                <li>Storyboard first, then the final video</li>
+                <li>One layout plus a list of sizes</li>
+                <li>Full endmatter</li>
+              </ul>
               <p class="gmlink">→ Open your worklist</p>
             </div>
           </div>
@@ -778,9 +682,9 @@
       </div>
     </div>
     <div class="caprows" data-b="3">
-      <p>CC Redline on any thread — the conversation and its attachments file themselves to the submission.</p>
-      <p>@redline in Google Chat to assign, draft a response, or check status.</p>
-      <p>And Redline follows up on its own — when a round lands, an item goes stale, or the Tuesday cutoff nears.</p>
+      <p>CC Redline on any thread. The conversation and its attachments file to the submission.</p>
+      <p>@redline in Google Chat to assign, draft, or check status.</p>
+      <p>Redline follows up on its own when a round lands, an item goes stale, or a cutoff nears.</p>
     </div>
     <div class="tagrow" style="margin-top:10px"><span class="mtag">Prototype interface · illustrative data</span></div>
   </div>
@@ -888,7 +792,7 @@
     <div class="stext">
       <h2>Adapts to every format</h2>
       <p class="lead">Same process, every format. One note lands in the deck, the banners, the print, the board.</p>
-      <p class="lead" style="margin-top:14px"><b>Built to submission granularity</b> — every beat of the cut in the board, every size, every hold.</p>
+      <p class="lead" style="margin-top:14px"><b>Built to submission granularity.</b> Every beat of the cut in the board, every size, every hold.</p>
       <p class="whis">Platform UX templates stay current automatically, so screenshots never get flagged as the wrong version.</p>
     </div>
     <div class="floop" data-b="1">
@@ -908,21 +812,26 @@
 <section class="ds" data-sec="Proof">
   <div class="inner">
     <h2 style="font-size:44px">Redline drafts. Your team decides.</h2>
-    <div class="decl">
-      <div class="declcol" data-b="1">
-        <h5>Redline</h5>
-        <p>Builds. Annotates. Pre-reads.</p>
-        <p>Drafts every response.</p>
-        <p>Checks every fix.</p>
-        <p>Remembers every round.</p>
-      </div>
-      <div class="declcol you" data-b="2">
-        <h5>Majority</h5>
-        <p>Makes the creative calls.</p>
-        <p>Approves what ships.</p>
-        <p>Signs off before anything reaches Veeva.</p>
-        <p>Owns the client relationship.</p>
-      </div>
+    <div class="decl2">
+      <table class="dtable rl" data-b="1">
+        <thead><tr><th>Redline</th></tr></thead>
+        <tbody>
+          <tr><td>Builds the deck</td></tr>
+          <tr><td>Drafts every annotation</td></tr>
+          <tr><td>Drafts every response</td></tr>
+          <tr><td>Checks every fix</td></tr>
+          <tr><td>Remembers every round</td></tr>
+        </tbody>
+      </table>
+      <table class="dtable mj" data-b="2">
+        <thead><tr><th>Majority</th></tr></thead>
+        <tbody>
+          <tr><td>Makes the creative calls</td></tr>
+          <tr><td>Approves what ships</td></tr>
+          <tr><td>Signs off before anything reaches Veeva</td></tr>
+          <tr><td>Owns the client relationship</td></tr>
+        </tbody>
+      </table>
     </div>
     <p class="declland" data-b="3">Nothing ships without your sign-off.</p>
   </div>
@@ -973,59 +882,16 @@
 
 <!-- (S27 deleted) -->
 
-<!-- 25 · Demo (was 28) -->
-<section class="ds" data-sec="Proof">
-  <div class="inner wide">
-    <p class="kick">04 · A live demo</p>
-    <h2>Proven to work.</h2>
-    <div class="proven">
-      <div class="provenL" data-b="1">
-        <h4>You already sent us real submissions. We'll run one live right now.</h4>
-        <p>The build behind this deck is running today. After Friday, the link keeps working: open it, load an asset, watch the deck assemble itself.</p>
-      </div>
-      <div class="provenR" data-b="2">
-        <div class="provpair">
-          <div class="provwin">
-            <div class="cropbar"><span></span><span></span><span></span><em>Redline · live demo instance</em></div>
-            <div class="provimg"><div class="todobox">[TODO: Cal supplies a demo screenshot or recording poster frame · sanitized instance only]</div></div>
-          </div>
-          <div class="phone" data-b="3">
-            <div class="phscreen">
-              <span class="phtop">Redline</span>
-              <span class="phtitle">US-UNBC-001 · Round 2</span>
-              <div class="phrow"><span class="chip chip-yellow sm">In review</span><span>41 open · 3 stale</span></div>
-              <div class="phcard">PRC comments filed · Round 2<br>96 extracted to the worklist</div>
-              <div class="phbtn">Approve response set</div>
-              <div class="phprompt">"Change every 'prep' to 'PrEP'"</div>
-            </div>
-          </div>
-        </div>
-        <p class="whis" style="margin-top:12px">Urgent change from wherever the round finds you.</p>
-        <p style="margin-top:12px"><a class="plink">Access the demo</a></p>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- 29 · Build plan -->
 <section class="ds" data-sec="Plan">
   <div class="inner wide">
     <p class="kick">05 · What it takes</p>
     <h2 style="font-size:44px">What it takes to build</h2>
     <div class="planstats">
-      <div data-b="1"><b>6 weeks</b><p>To acceptance, fixed. Your team runs the acceptance criteria.</p></div>
+      <div data-b="1"><b>6&ndash;8 weeks</b><p>To acceptance. Your team runs the acceptance criteria.</p></div>
       <div data-b="2"><b>4 AI engineers</b><p>Dedicated for the build.</p></div>
       <div data-b="3"><b>2 designers</b><p>On the product and your asset families.</p></div>
     </div>
-    <div class="wavetl" data-b="4">
-      <div class="wlane"><span class="wlab">The Engine</span><div class="wbar"><div class="wseg eng" style="width:50%"><b>Single delivery</b><small>weeks 1–6 · everything on the Engine bar</small></div></div></div>
-      <div class="wlane"><span class="wlab">The Editor</span><div class="wbar">
-        <i class="wtick"></i><span class="wmark">Acceptance · week 6</span>
-        <div class="wseg" style="width:50%"><b>Wave 1</b><small>weeks 1–6 · core workflow, archive ingestion, knowledge base, calendar</small></div>
-        <div class="wseg lt" style="width:50%"><b>Wave 2 · included</b><small>weeks 7–12 · inbox agent, mobile companion, meeting capture, claims-library maturation</small></div>
-      </div></div>
-    </div>
-    <p class="whis" style="margin-top:26px" data-b="5">Weeks 1 and 2 are a calibration sprint on your real assets: kiosk, social, storyboard, banner, print. Included, not extra.</p>
   </div>
 </section>
 
@@ -1049,16 +915,16 @@
         </ul>
       </div>
       <div class="editor" data-b="2">
-        <div class="tierhead"><b>The Editor</b><span class="tprice2 pl">$500K · one-time build</span><small class="tpartner">Launch-partner pricing · Majority is agency one</small></div>
+        <div class="tierhead"><b>The Editor</b><span class="tprice2 pl">$500K · one-time build</span></div>
         <ul>
           <li><b>Your full PRC history ingested as a working knowledge base</b></li>
           <li><b>Ongoing learning per client: every round makes the next one smarter</b></li>
           <li>Calendar and PRC schedule management: windows, cutoffs, and deadlines tracked per submission</li>
           <li>Redline edits the assets themselves: copy, layout, frames, every banner size. Anything bigger routes to your team as a precise to-do.</li>
-          <li>CC Redline on any thread — it files the conversation and its attachments to the submission</li>
+          <li>CC Redline on any thread. It files the conversation and its attachments to the submission</li>
           <li>@redline in Google Chat to assign, draft, or check status</li>
-          <li>Redline follows up — Gmail nudges when rounds land, items go stale, or a cutoff nears</li>
-          <li>Mobile-ready — approvals, status, and urgent prompt-changes from your phone</li>
+          <li>Redline follows up: Gmail nudges when rounds land, items go stale, or a cutoff nears</li>
+          <li>Mobile-ready: approvals, status, and urgent changes from your phone</li>
           <li>Approved-language propagation across the submission</li>
           <li>The claims library: approved language harvested, drift flagged</li>
           <li>Meeting capture feeding the worklist</li>
@@ -1082,6 +948,6 @@
 <div class="dots" id="dots"></div>
 <div class="pageno" id="pageno"></div>
 </div>
-<script src="deck.js?v=5"></script>
+<script src="deck.js?v=6"></script>
 </body>
 </html>
