@@ -1050,18 +1050,31 @@ h2{font-size:50px;font-weight:800;letter-spacing:-.03em;line-height:1.08;margin-
 .gcbefore{display:flex;align-items:center;gap:9px;margin-top:2px}
 .gcbefore img{width:96px;aspect-ratio:16/9;object-fit:cover;border-radius:6px;border:1px solid var(--hairline-2);display:block}
 .gcbefore small{font-size:9.5px;color:var(--faint);font-weight:600}
-.gctrail{display:flex;align-items:center;gap:5px;font-size:9px;color:var(--faint)}
-.gctrail em{font-style:normal;border-radius:999px;padding:2px 8px;font-size:9.5px;font-weight:600}
-.gctrail em.ok{background:var(--pill-sage-bg);color:var(--pill-sage-tx)}
-.gctrail em.dis{background:var(--pill-yellow-bg);color:var(--pill-yellow-tx)}
 .gcrow.pend{opacity:.55}
 
-/* slide 11 plays the change: before frame, editor click, soft swap to after */
+/* slide 11 plays the change: before frame, editor click, model works ~5s, soft swap to after */
 .sb11 .sbframe{position:relative}
 .sb11 .sbframe .after{position:absolute;inset:0;opacity:0}
-.ds.on .sb11 .sbframe .after{animation:sbReveal 1.6s cubic-bezier(.22,1,.36,1) 3.1s both}
-.ds.on .sb11 .gcbtn{animation:btnPress .45s cubic-bezier(.22,1,.36,1) 2.7s both}
-.sb11 .vchip,.sb11 .gcrow.cur .gck b{opacity:0}
-.ds.on .sb11 .vchip,.ds.on .sb11 .gcrow.cur .gck b{animation:sbReveal .5s ease 3.7s both}
+.ds.on .sb11 .sbframe .after{animation:sbReveal 1.6s cubic-bezier(.22,1,.36,1) 7.3s both}
+.ds.on .sb11 .gcbtn{animation:btnPress .45s cubic-bezier(.22,1,.36,1) 1.8s both}
+.sb11 .vchip{opacity:0}
+.ds.on .sb11 .vchip{animation:sbReveal .5s ease 7.6s both}
+.sbwork{position:absolute;inset:0;opacity:0;background:rgba(252,251,247,.4);overflow:hidden;display:flex;align-items:center;justify-content:center}
+.ds.on .sb11 .sbwork{animation:sbWorkVis 5.1s linear 2.2s both}
+.sbwork i{position:absolute;inset:0;background:linear-gradient(105deg,transparent 42%,rgba(255,255,255,.8) 50%,transparent 58%);animation:sbSheen 1.25s linear infinite}
+.sbwork em{position:relative;font-style:normal;display:inline-flex;align-items:center;gap:6px;background:var(--surface);border:1px solid var(--hairline-2);border-radius:999px;padding:6px 13px;font-size:10.5px;font-weight:600;color:var(--ink-soft);box-shadow:0 6px 18px rgba(0,0,0,.1)}
+.sbwork em .icl{width:12px;height:12px;animation:sbSpin 1s linear infinite}
+.ckb{position:relative;width:13px;height:13px;flex-shrink:0;margin-top:2px}
+.ckb .icl{position:absolute;inset:0;width:13px;height:13px}
+.ckb .box{color:var(--faint)}
+.ckb .done{color:var(--pill-sage-tx);opacity:0}
+.ckb.static .box{opacity:0}
+.ckb.static .done{opacity:1}
+.ds.on .sb11 .gcrow.cur .ckb .done{animation:sbReveal .35s ease 8.9s both}
+.ds.on .sb11 .gcrow.cur .ckb .box{animation:sbHide .35s ease 8.9s both}
 @keyframes sbReveal{from{opacity:0}to{opacity:1}}
+@keyframes sbHide{from{opacity:1}to{opacity:0}}
+@keyframes sbWorkVis{0%{opacity:0}6%{opacity:1}94%{opacity:1}100%{opacity:0}}
+@keyframes sbSheen{from{transform:translateX(-100%)}to{transform:translateX(100%)}}
 @keyframes btnPress{0%,100%{transform:scale(1)}45%{transform:scale(.95)}}
+@keyframes sbSpin{from{transform:rotate(0)}to{transform:rotate(360deg)}}

@@ -373,3 +373,16 @@ Deck is now 22 slides. New slide inserted after "Shows what may be flagged, and 
 |---|---|---|---|
 | Before image first, then soft swap on editor click | implemented | 11, css | Canvas opens on frame17-before; gcbtn presses itself (scale pulse) at 2.7s; after image crossfades in over 1.6s from 3.1s; v2 chip + applied ✓ fade in at 3.7s; restarts on each slide visit |
 | Cache-bust to ?v=13 | implemented | index.html | styles.css + deck.js |
+
+## v11.2 · Slide 11 model-working phase + checkbox rail
+
+| Change | Detail |
+|---|---|
+| Model-working phase | 5-second working animation between the button press and the reveal: `.sbwork` overlay (light wash, diagonal sheen sweep, spinning-loader pill reading "Applying changes") visible ~2.2s–7.3s via `sbWorkVis 5.1s`; after-image reveal moved to 7.3s (done ~8.9s), v2 chip at 7.6s |
+| Card 1 wording | "Frame 17 artwork revised, condom box added to her bag" shortened to "Condom box added to her bag" |
+| Committee note chip | Removed from card 1 |
+| Checkbox rail | Checkmark replaced by a checkbox system (`.ckb`, stacked lucide square + square-check svgs): card 1 opens unchecked and flips to checked at 8.9s, after the image finishes; card 2 statically checked; card 3 permanently open (replaces the clock icon), keeping the whole rail on one visual grammar |
+| Card 2 trimmed | Medical chip and the Accept → Discuss → Accept trail removed; card reads "Dialogue updated to the accepted alt" only |
+| CSS cleanup | Unused `.gctrail` rules removed; cache-bust bumped to ?v=14 |
+
+Verified via timed headless screenshots (warm-up shot absorbs first-shot overhead): 1.2s before-state, 4.8s working phase (before artwork under the wash, pill centered, boxes open, no chip), 10.2s done-state (after artwork, v2 chip, card 1 checked, card 3 open and muted).
