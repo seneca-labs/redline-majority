@@ -1,4 +1,4 @@
-# Redline × Majority deck — compliance audit (v4 build)
+# Redline × Majority deck — compliance audit (v5 build)
 
 One row per instruction in the v3 change brief and the v4 correction brief, plus the v2 guardrails (v4 §7) and Calvary's mid-build directives from 2026-07-16. Slide numbers are the final 29-slide deck. "v2 S-numbers" from the v3 brief are mapped: S7/S22/S27 deleted, money slide inserted at 28, so v2 S31 = final 29.
 
@@ -178,3 +178,49 @@ Statuses: implemented · partial · skipped · superseded (a v3 instruction over
 | Slide 3 "From our first call and Nikki's follow-up." removed (Cal directive) | implemented | 3 | whis line deleted |
 | Transition overlap fixed: outgoing slide hides instantly, incoming fades in (Cal directive) | implemented | all | .ds transition:none off-state; .on carries the fade |
 | Global color pass: titles black (--ink), all other text --ink-soft #3d3d3d (Cal directive) | implemented | all | 53 color swaps; h2/.word pinned to --ink; border-colors untouched |
+
+## v5 addendum
+
+Deck is now 25 slides: trilogy replaces the two pill-row timelines at 4–6 (+1), the Calendar/inbox slide lands at 16 (+1). Slide numbers below are the 25-slide deck: 1 Cover · 2 Agenda · 3 What we heard · 4–6 Trilogy A/B/C · 7 What Redline is · 8 Three jobs · 9 Upload+Requirements · 10 Builds the deck · 11 Reads committee · 12 Flags · 13 Track feedback · 14 Sticky to answer · 15 Carries changes · 16 Calendar/inbox · 17 Sources · 18 Learns patterns · 19 Adapts · 20 Drafts/decides · 21 MSA · 22 Three seats · 23 Proven/demo · 24 Build plan · 25 Investment.
+
+| Item | Status | Where | Notes |
+|---|---|---|---|
+| §1 · Pill-row slides cut; three-slide trilogy on ONE identical scaffold | implemented | 4, 5, 6 | Same .wf scaffold markup on all three; only chip/callout classes change between slides |
+| §1 · Horizontal spine, ten steps, icons alternating above/below | implemented | 4–6 | Odd steps above, even below, per Cal's sketch rotated to 16:9 |
+| §1 · Lucide icons 24–28px ink in soft circular chips, labels + muted sub-labels | implemented | 4–6 | 10 new sprite symbols (hash, calendar-days, palette, layout-template, pen-line, users, eye, send, scale, rotate-ccw), exact lucide path data, 2.5px stroke |
+| §1 · Return arc from step 10 back to step 9, under the spine | implemented | 4–6 | SVG arc + arrowhead below the below-line zone |
+| §1 · Paper bg, v4 tokens only; external steps (client, PRC) lavender on all three | implemented | 4–6 | Steps 7 + 9 use --pill-lavender consistently |
+| §1 · Ten steps with brief-verbatim labels + sub-labels | implemented | 4–6 | Incl. Tue/Thu/day-before cadence on step 2 and committee names on step 9 |
+| §1 · Slide A: all neutral, no pain markers, footer "Your workflow, in your words." | implemented | 4 | |
+| §1 · Slide B: rose on 3/4/5/8/10; callouts in alternating empty space with hairline connectors | implemented | 5 | Step 4 carries two pains (scramble + box-by-box) merged in one callout per the brief's space clause; all callout copy brief-verbatim |
+| §1 · Slide B loop badge: "round 2 · round 3 · round 4…" + one-missed-callout line | implemented | 5 | Rose badge on the return arc |
+| §1 · Slide C: rose→sage, count unchanged, 1:1 positioned resolution swaps, no metrics | implemented | 6 | Same position/shape/connector per pain; no duration chips, no strikethroughs, no numbers. Step-count reassurance in speaker note 6 |
+| §1 · Animation (optional): chip-color transitions on entry | skipped | 4–6 | Static-safe frames ship (v4 G4); each slide reads complete alone. Deliberately omitted — same PDF/projector reasoning as v4 §5.1 |
+| §2.1 · Pain 1 (time/annotation) at timeline + product moments | partial | 5 (step 4), 10, 12 | Timeline B step 4 + Build/Annotate screens ✓. Money slide no longer exists (Cal removed it 2026-07-16), so that home is gone. "Duration chips on Timeline C" contradicts §1's "no duration chips… anywhere" — §1 followed as the explicit, newer design instruction |
+| §2.2 · Pain 2 (granularity / hums-3x) at timeline + Adapts slide + verbatim speaker note | implemented | 5 (steps 3/4), 19 | "Built to submission granularity — every beat of the cut in the board, every size, every hold." added to Adapts; hum story verbatim in note 19 |
+| §2.3 · Pain 3 (PRC training gap) at timeline + Requirements panel | implemented | 5 (step 4), 9 | |
+| §2.4 · Pain 4 (knowledge transfer) at timeline B+C, Annotate, What-stays-human | implemented | 5+6 (step 5), 12, 20 | Annotate flags carry source chips; note 20 names the knowledge-transfer answer |
+| §3 · Requirements panel on New Submission, 4 rows with source chips | implemented | 9 | All four rows + chips brief-verbatim (precedent chips lavender, House rule neutral) |
+| §3 · Muted no-precedent boundary line | implemented | 9 | "No precedent yet for interactive product — flagged for your call." |
+| §3 · Concept / Final submission-state toggle | implemented | 9 | Segmented toggle in the Format row, Final active |
+| §3 · Panel as planned demo beat | implemented | speaker-notes §9 | |
+| §4 · Reviewer roles = exactly Regulatory/Legal/Editorial/Compliance everywhere | implemented | 12, 18, 5+6 (step 9) | Flags copy Medical→Legal; KB cards remapped A Regulatory / B Legal / C Editorial / D Compliance; no Medical/Commercial labels remain in deck or docs. demo/ app deliberately untouched — live-demo risk; flag for Cal if it renders reviewer labels |
+| §5 · New Editor slide "It runs the calendar. It works the inbox." after Check-changes… placement | implemented | 16 | Check-changes was removed by Cal 2026-07-16, so placed per the surviving anchor: after Carries-changes (15), before the knowledge-base slides (17–18) |
+| §5 · Left: Calendar screen, §3-sidebar, Calendar active, real cadence | implemented | 16 | Tue cutoffs, Thu reviews (committees verbatim), client shares the day before, round numbers |
+| §5 · Right: Gmail thread — account-lead msg w/ attachment + Redline reply | implemented | 16 | Both messages brief-verbatim incl. "→ Open your worklist"; rendered as Gmail thread view |
+| §5 · Three capability lines under the headline | implemented | 16 | CC-files-itself / @redline in Chat / follows-up-on-its-own, verbatim |
+| §5 · Honesty + trust guardrails as speaker note | implemented | speaker-notes §16 | Verified senders + provenance; part-number matching w/ confirm-not-silent; allowlisted verbs + in-app human approval; CC-in-email vs @redline-in-Chat distinction |
+| §5 · Scope guard: submission vocabulary only, no Agency OS | implemented | 16 + notes | No projects/routing/resourcing language anywhere on the slide or notes |
+| §5 · Investment: three inbox/chat/follow-up bullets on the Editor | implemented | 25 | |
+| §6 · Proven slide: slim phone mockup (status, approval, prompt-change box) + caption | implemented | 23 | "Change every 'prep' to 'PrEP'" prompt box; "Urgent change from wherever the round finds you." |
+| §6 · Investment mobile-ready line | implemented | 25 | Editor tier bullet |
+| §6 · LA passenger-seat speaker note on case-study/demo slide | implemented | speaker-notes §23 | With the no-native-app / no-offline / no-mobile-editing boundary stated |
+| §7 · Tue/Thu/day-before cadence consistent: timeline, Calendar, Home dashboard | implemented | 4–6, 16, 7 | Home "Upcoming PRC windows" rows added (client share Mon 27 · cutoff Tue 28 · review Thu 30) |
+| §7 · "Recirculate to the Marketing Team for approval" in reconcile speaker note | implemented | speaker-notes §4 | Their phrase verbatim |
+| §7 · Reference-material part numbers in Requirements panel | implemented | 9 | Row 4 |
+| §7 · Audit rows for every numbered v5 section | implemented | this table | |
+| §8.1 · Two included waves on the build timeline | implemented | 24 | Editor lane: Wave 1 weeks 1–6 (acceptance bar) + lighter "Wave 2 · included" segment weeks 7–12 (inbox agent, mobile, meeting capture, claims-library maturation); Engine lane single 6-week delivery; never framed optional/extra/roadmap. Slide is the build-plan slide — "How we measure success" was removed by Cal 2026-07-16 |
+| §8.1 · Week-6 acceptance criteria apply to Wave 1 | implemented | 24 | Stat now "6 weeks · to acceptance, fixed" + Acceptance tick at week 6 on the Editor lane |
+| §8.2 · Launch-partner line under the Editor price pill | implemented | 25 | "Launch-partner pricing · Majority is agency one"; no other commercial notes returned |
+| §8.3 · Why-only-$100K-more speaker answer | implemented | speaker-notes §25 | One sentence, no elaboration |
+| §8 · Prices hold: Engine $400K · Editor $500K | implemented | 25 | Unchanged |

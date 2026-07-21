@@ -732,18 +732,101 @@ h2{font-size:50px;font-weight:800;letter-spacing:-.03em;line-height:1.08;margin-
 .railcall b{display:block;font-size:12px;font-weight:700}
 .railcall p{font-size:11px;color:var(--muted);line-height:1.45;margin-top:3px}
 .railcall .cbtn{margin-top:10px;border-color:var(--surface);box-shadow:0 1px 2px rgba(0,0,0,.06)}
-/* ---------- v3: timeline scaffold (S4, S5, S25, S30) ---------- */
-.tline2{position:relative;margin-top:40px}
-.tpills{display:grid;grid-template-columns:repeat(10,1fr);gap:6px}
-.tp{display:flex;align-items:center;justify-content:center;text-align:center;height:48px;border-radius:999px;background:var(--chrome);color:var(--muted);font-size:11.5px;font-weight:600;line-height:1.2;padding:0 10px}
-.tp.rose{background:var(--pill-rose-bg);color:var(--pill-rose-tx)}
-.tp.sage{background:var(--pill-sage-bg);color:var(--pill-sage-tx)}
-.tp.blue{background:var(--pill-blue-bg);color:var(--pill-blue-tx)}
-.tp.yellow{background:var(--pill-yellow-bg);color:var(--pill-yellow-tx)}
-.tlooprow{position:relative;height:66px}
-.tloop2{position:absolute;left:65%;width:30%;top:12px;height:38px;border:1.5px solid #d0cec9;border-top:0;border-radius:0 0 160px 160px}
-.tloop2::before{content:'';position:absolute;left:-5px;top:-8px;border-left:5px solid transparent;border-right:5px solid transparent;border-bottom:8px solid #b3b0aa}
-.tloop2 em{position:absolute;left:50%;bottom:-7px;transform:translateX(-50%);font-style:normal;font-size:11px;color:var(--faint);background:var(--paper);padding:0 8px;white-space:nowrap}
+/* ---------- v5 §1: workflow trilogy scaffold (S4–S6) ---------- */
+.wf{position:relative;margin-top:4px}
+.wfline{position:absolute;left:6px;right:6px;top:50%;height:1.5px;background:var(--hairline-4)}
+.wfgrid{display:grid;grid-template-columns:repeat(10,1fr);position:relative}
+.wfcol{position:relative}
+.wfcol::after{content:'';position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:7px;height:7px;border-radius:50%;background:var(--hairline-4)}
+.wfzone{height:232px;display:flex;flex-direction:column;align-items:center;position:relative}
+.wfzone.t{justify-content:flex-end}
+.wfzone.b{justify-content:flex-start}
+.wfstep{display:flex;flex-direction:column;align-items:center;text-align:center}
+.wfchip{width:48px;height:48px;border-radius:50%;background:var(--surface);border:1px solid var(--hairline-3);display:flex;align-items:center;justify-content:center;color:var(--ink);box-shadow:0 2px 6px rgba(0,0,0,.04);flex-shrink:0}
+.wfchip .ic{width:24px;height:24px;stroke-width:2.5}
+.wfchip.lv{background:var(--pill-lavender-bg);border-color:transparent;color:var(--pill-lavender-tx)}
+.wfchip.rs{background:var(--pill-rose-bg);border-color:transparent;color:var(--pill-rose-tx)}
+.wfchip.sg{background:var(--pill-sage-bg);border-color:transparent;color:var(--pill-sage-tx)}
+.wfstep b{font-size:12px;font-weight:700;color:var(--ink);line-height:1.25;letter-spacing:-.01em;margin-top:8px;max-width:122px}
+.wfstep small{font-size:9.5px;color:var(--muted);line-height:1.4;margin-top:4px;max-width:120px}
+.wfstem{display:block;width:1.5px;background:var(--hairline-4);height:16px;flex-shrink:0}
+.wfzone.t .wfstem{margin-top:9px}
+.wfzone.b .wfstem{margin-bottom:9px}
+.wfcall{display:flex;flex-direction:column;align-items:center;text-align:center;max-width:146px}
+.wfcall .wfstem{height:13px}
+.wfcall p{font-size:10px;line-height:1.4;font-weight:600;color:var(--pill-rose-tx);background:var(--rose-wash);border-radius:10px;padding:7px 9px}
+.wfcall p + p{margin-top:5px}
+.wfcall.sg p{color:var(--pill-sage-tx);background:var(--pill-sage-bg)}
+.wfarcwrap{position:absolute;left:80%;width:20%;top:50%;height:208px;pointer-events:none}
+.wfarcwrap svg{width:100%;height:100%;overflow:visible}
+.wfarcpath{stroke:var(--hairline-4);stroke-width:1.5;fill:none}
+.wfloop{position:absolute;left:80%;width:20%;top:calc(50% + 152px);display:flex;flex-direction:column;align-items:center;gap:4px;text-align:center;z-index:3}
+.wfloop b{font-size:10.5px;font-weight:700;background:var(--pill-rose-bg);color:var(--pill-rose-tx);border-radius:999px;padding:4px 12px;white-space:nowrap}
+.wfloop small{font-size:9.5px;color:var(--pill-rose-tx);font-weight:600;line-height:1.35;background:var(--paper);padding:0 4px}
+.wfloop.sg b{background:var(--pill-sage-bg);color:var(--pill-sage-tx)}
+.wffoot{margin-top:12px;font-size:13px;color:var(--faint);font-weight:500}
+
+/* ---------- v5 §3: requirements panel + concept/final toggle ---------- */
+.segtog{display:inline-flex;background:var(--wash);border:1px solid var(--hairline-2);border-radius:999px;padding:2px;gap:2px}
+.segtog i{font-style:normal;font-size:10.5px;font-weight:700;color:var(--muted);border-radius:999px;padding:3px 12px}
+.segtog i.cur{background:var(--surface);color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.08)}
+.reqgrid{display:grid;grid-template-columns:1fr 1fr;gap:6px 12px;margin-top:8px}
+.reqrow{display:flex;align-items:center;justify-content:space-between;gap:10px;background:var(--surface);border:1px solid var(--hairline-2);border-radius:10px;padding:8px 12px}
+.reqrow p{font-size:11.5px;font-weight:600;color:var(--ink-soft);line-height:1.3}
+.reqnone{margin-top:7px;font-size:10.5px;color:var(--faint);font-style:italic}
+
+/* ---------- v5 §5: calendar + gmail thread ---------- */
+.calmail{display:flex;gap:26px;align-items:flex-start;justify-content:flex-start}
+.calist{padding:4px 20px 16px;display:flex;flex-direction:column}
+.calrow{display:flex;align-items:center;gap:14px;padding:9px 4px;border-bottom:1px solid var(--hairline)}
+.calrow:last-child{border-bottom:0}
+.cald{flex-shrink:0;width:58px}
+.cald b{font-size:11px;font-weight:800;color:var(--ink-soft)}
+.calrow p{flex:1;min-width:0;font-size:12px;font-weight:600;color:var(--ink-soft);line-height:1.3}
+.calrow p em{display:block;font-style:normal;font-size:10px;color:var(--faint);font-weight:500;margin-top:1px}
+.calrow .chip{flex-shrink:0}
+.gmthread{background:var(--surface);padding:16px 18px 18px}
+.gmsubj{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-bottom:12px;border-bottom:1px solid var(--hairline)}
+.gmsubj b{font-size:14.5px;font-weight:700;letter-spacing:-.01em;color:var(--ink)}
+.gmmsg{display:flex;gap:11px;padding:13px 0 0;align-items:flex-start}
+.gmmsg .av{width:30px;height:30px;font-size:10.5px;flex-shrink:0}
+.gmbody{flex:1;min-width:0}
+.gmhead b{font-size:12.5px;font-weight:700;color:var(--ink)}
+.gmhead small{font-size:10.5px;color:var(--faint);margin-left:8px}
+.gmbody p{font-size:12.5px;line-height:1.55;color:var(--ink-2);margin-top:5px;font-weight:500}
+.gmatt{display:inline-flex;align-items:center;gap:7px;margin-top:9px;border:1px solid var(--hairline-3);border-radius:999px;padding:5px 13px;font-size:11px;font-weight:600;color:var(--ink-soft)}
+.gmatt .ic{width:12px;height:12px;color:var(--faint)}
+.gmlink{font-weight:700;color:var(--pill-blue-tx)}
+.caprows{margin-top:18px;max-width:1240px}
+.caprows p{font-size:14px;font-weight:500;color:var(--ink-2);line-height:1.5;padding:8px 2px;border-bottom:1px solid var(--hairline)}
+.caprows p:last-child{border-bottom:0}
+
+/* ---------- v5 §6: mobile companion ---------- */
+.provpair{display:flex;gap:20px;align-items:stretch}
+.provpair .provwin{flex:1;min-width:0}
+.phone{flex-shrink:0;width:168px;background:var(--ink);border-radius:22px;padding:7px;box-shadow:0 20px 44px rgba(0,0,0,.12)}
+.phscreen{background:var(--paper);border-radius:16px;padding:12px 11px;display:flex;flex-direction:column;gap:8px;height:100%}
+.phtop{font-size:9px;font-weight:800;color:var(--faint)}
+.phtitle{font-size:11.5px;font-weight:800;color:var(--ink);letter-spacing:-.01em}
+.phrow{display:flex;align-items:center;gap:6px;font-size:9px;color:var(--muted);font-weight:600}
+.phcard{background:var(--surface);border:1px solid var(--hairline-2);border-radius:10px;padding:8px 9px;font-size:9.5px;color:var(--ink-soft);font-weight:600;line-height:1.4}
+.phbtn{background:var(--ink);color:var(--surface);border-radius:999px;text-align:center;font-size:10px;font-weight:700;padding:7px}
+.phprompt{border:1px solid var(--hairline-3);background:var(--surface);border-radius:10px;padding:7px 9px;font-size:9.5px;color:var(--muted);font-style:italic;line-height:1.4}
+
+/* ---------- v5 §8: two included waves ---------- */
+.wavetl{margin-top:30px;display:flex;flex-direction:column;gap:12px;border-top:1px solid var(--hairline-2);padding-top:24px}
+.wlane{display:grid;grid-template-columns:110px 1fr;gap:18px;align-items:center}
+.wlab{font-size:12px;font-weight:800;color:var(--ink-soft)}
+.wbar{position:relative;display:flex;gap:4px;background:var(--wash);border-radius:12px;padding:3px}
+.wseg{border-radius:9px;padding:8px 14px;background:var(--pill-lavender-bg)}
+.wseg.eng{background:var(--pill-yellow-bg)}
+.wseg.eng b{color:var(--pill-yellow-tx)}
+.wseg.lt{background:#f4f2fc}
+.wseg b{display:block;font-size:12px;font-weight:800;color:var(--pill-lavender-tx)}
+.wseg small{display:block;font-size:10.5px;color:var(--muted);margin-top:2px;line-height:1.4}
+.wtick{position:absolute;left:50%;top:-5px;bottom:-5px;width:1.5px;background:var(--hairline-4)}
+.wmark{position:absolute;left:50%;top:-16px;transform:translateX(-50%);font-size:9.5px;font-weight:800;color:var(--faint);background:var(--paper);padding:0 8px;z-index:2;white-space:nowrap}
+.tpartner{font-size:11px;color:var(--faint);font-weight:600;margin-top:-2px}
 
 /* ---------- v3: two-column typographic declaration (S23) ---------- */
 .decl{display:grid;grid-template-columns:1fr 1fr;gap:60px;margin-top:44px;padding-bottom:20px;border-top:1px solid var(--hairline-2);padding-top:36px;border-bottom:1px solid var(--hairline-2);padding-bottom:36px}
@@ -904,7 +987,7 @@ h2{font-size:50px;font-weight:800;letter-spacing:-.03em;line-height:1.08;margin-
 .tprice2.py{background:var(--pill-yellow-bg);color:var(--pill-yellow-tx)}
 .tprice2.pl{background:var(--pill-lavender-bg);color:var(--pill-lavender-tx)}
 .tierdecl ul{list-style:none;padding:0}
-.tierdecl li{font-size:13.5px;color:var(--ink-soft);line-height:1.5;padding:9px 0;border-bottom:1px solid var(--hairline);font-weight:500;display:flex;gap:10px}
+.tierdecl li{font-size:13px;color:var(--ink-soft);line-height:1.45;padding:7px 0;border-bottom:1px solid var(--hairline);font-weight:500;display:flex;gap:10px}
 .tierdecl li:last-child{border-bottom:0}
 .tierdecl li b{font-weight:700}
 .tierdecl li::before{content:'✓';font-weight:800;flex-shrink:0}
