@@ -1037,3 +1037,21 @@ h2{font-size:50px;font-weight:800;letter-spacing:-.03em;line-height:1.08;margin-
   .uistage{animation:none!important}
 }
 .subrnd{font-size:11.5px;font-weight:600;background:var(--pill-yellow-bg);color:var(--pill-yellow-tx);padding:2px 8px;border-radius:999px;white-space:nowrap}
+
+/* ---------- v11: staged-changes storyboard slide ---------- */
+.sbpage{position:relative;width:100%;max-width:500px;background:var(--surface);border:1px solid var(--hairline-2);box-shadow:0 12px 32px rgba(0,0,0,.08);padding:16px 16px 14px}
+.sbhead{display:flex;align-items:center;justify-content:space-between;margin-bottom:9px}
+.sbhead b{font-size:11px;font-weight:800;color:var(--ink-soft)}
+.vchip{background:var(--chrome);color:var(--muted);border-radius:999px;padding:2.5px 9px;font-size:9.5px;font-weight:600;white-space:nowrap}
+.sbframe{width:100%;aspect-ratio:16/9;overflow:hidden;border:1px solid var(--hairline-2);border-radius:3px;background:var(--paper)}
+.sbframe img{width:100%;height:100%;object-fit:cover;display:block}
+.sbcap{margin-top:9px;font-size:10px;line-height:1.55;color:var(--ink-2)}
+.sbcap b{font-weight:700}
+.gcbefore{display:flex;align-items:center;gap:9px;margin-top:2px}
+.gcbefore img{width:96px;aspect-ratio:16/9;object-fit:cover;border-radius:6px;border:1px solid var(--hairline-2);display:block}
+.gcbefore small{font-size:9.5px;color:var(--faint);font-weight:600}
+.gctrail{display:flex;align-items:center;gap:5px;font-size:9px;color:var(--faint)}
+.gctrail em{font-style:normal;border-radius:999px;padding:2px 8px;font-size:9.5px;font-weight:600}
+.gctrail em.ok{background:var(--pill-sage-bg);color:var(--pill-sage-tx)}
+.gctrail em.dis{background:var(--pill-yellow-bg);color:var(--pill-yellow-tx)}
+.gcrow.pend{opacity:.55}

@@ -1,9 +1,9 @@
-# Redline v10 speaker notes · 21 slides
+# Redline v11 speaker notes · 22 slides
 
 One deck, three questions to answer by the end: is it safe, is it worth it, are we ready.
 Real reviewer names are spoken out loud only, never on screen. The slides say Reviewer A–D.
 Committee names on screen are exactly: Regulatory · Legal · Editorial · Compliance.
-The live demo has no slide. It runs verbally between the personas slide (18) and the build plan (19); the run script is in presenter-prep.md.
+The live demo has no slide. It runs verbally between the personas slide (19) and the build plan (20); the run script is in presenter-prep.md.
 The "what we heard" promise ledger no longer has a slide. It is a spoken recap while the agenda is up.
 
 ---
@@ -40,16 +40,19 @@ SPOKEN ONLY: this is where you can name the real reviewers: "you told us who fla
 ## 10 · Shows what may be flagged, and why
 The page carries the flags in place; the rail on the right is every suggested change as a row with a source chip: a sticky, a house rule, the kickoff transcript. Open any row and the original source is right there. Nothing is a black box; that's what grounded means. Say it plainly: "it doesn't hand you a list of problems, it hands you the corrected material, and you approve, adjust, or hand the whole list to Redline in one click." The subtext line is the format answer: decks can be created for any asset type. Verbal add if formats come up: platform UX templates stay current automatically, so screenshots never get flagged as the wrong version. SPOKEN ONLY: real reviewer names verbal, never on screen.
 
-## 11 · Track the feedback
+## 11 · Implement changes, with or without AI
+This is your March submission, this exact sticky. The frame redrew itself, the accepted line landed in the caption, and the third card is still open because marketing hasn't decided on the Frame 4 alt. It doesn't guess.
+
+## 12 · Track the feedback
 Every comment from every source lands in one worklist, matched to its slide, with an owner, a complexity, and an area. Nothing lives on a sticky that only one person can decode. Verbal add: the checklist view of this is formatted for Veeva, ready to paste. Pasted by your submitter, with full context, not synced.
 
-## 12 · From sticky to answer
+## 13 · From sticky to answer
 Sticky 14 becomes a drafted response with its source. The zoom callout: one click, the whole response set pastes into Veeva in one pass.
 
-## 13 · Integrated in what you already use
+## 14 · Integrated in what you already use
 Left column, under the purple pill: what Redline pulls from. Teams, Zoom, Meet, and Gmail lead the list now: the conversations are a source, not a memory. Drive and Slides stay where work lives; Veeva remains the system of record. The brace hands it to the green pill: what Redline makes. Validated requirements, learned reviewer patterns, reusable precedents, easy-to-edit assets, action items for creatives, conflicts surfaced for their call. Only approved folders are indexed, and nothing becomes a reusable rule without a human validating it.
 
-## 14 · Communicates and receives information where you do. (THE EDITOR)
+## 15 · Communicates and receives information where you do. (THE EDITOR)
 Left is Redline living inside their Google Calendar, not a calendar screen in our app. Point at the cadence: submit Tuesday, review Thursday, client sees it the day before, and every event placed and kept current by Redline. Right is the "feels alive" moment: a real Gmail thread. Nikki asks the questions every new format raises: does the board go in before the video, and do we show every size if only the size changes. Redline answers from their own PRC training deck, page-cited, and offers to draft the note to compliance to confirm. This is where the requirements question lives now; you ask it where you already work, and the answer arrives grounded in their own material.
 
 **Trust guardrails, say these; they strengthen the compliance story:**
@@ -60,16 +63,16 @@ Left is Redline living inside their Google Calendar, not a calendar screen in ou
 
 Vocabulary discipline: rounds, items, stickies, cutoffs, approvals. Never "projects" or "routing." This is the submission workflow, nothing broader.
 
-## 15 · Learns the review patterns that matter
+## 16 · Learns the review patterns that matter
 SPOKEN ONLY: real reviewer names allowed verbally here. On screen, anonymous by design; that's a feature to point at, not around: "notice we don't put your reviewers' names in decks. Neither will Redline." The knowledge base sits under the client in the nav: isolation you can see. The four committees on the cards are exactly theirs: Regulatory, Legal, Editorial, Compliance.
 
-## 16 · Redline drafts. Your team decides.
+## 17 · Redline drafts. Your team decides.
 Slow down here. This is the answer to "does it replace people." It doesn't. Two tables: read Redline's column, then Majority's. Redline does the mechanics; Majority makes every call that matters. This is also the knowledge-transfer answer: the annotator no longer has to hold the knowledge; the system holds it, creative reviews, account validates. Read the landing line and stop: nothing ships without your sign-off.
 
-## 17 · Built to survive your MSA review
+## 18 · Built to survive your MSA review
 Friday question one: is it safe. The product's own annotation marks answering the legal objection is the joke and the point; let them notice it. Read the seven checks plainly, don't improvise claims beyond them. Close with: "Bring your MSA. We built for that conversation."
 
-## 18 · One workflow, three seats
+## 19 · One workflow, three seats
 Quick pass. Each seat has its own color; each person in the room should find theirs. The landing line is the reassurance: same team, new ways of working together. Then bridge straight into the demo.
 
 ## THE LIVE DEMO (no slide)
@@ -84,17 +87,17 @@ Run the four beats verbally: build, annotate, read, reconcile. If the model is s
 
 **Bridge coming out of the demo:** "That was the Engine. The Editor changes the assets themselves."
 
-## 19 · Build out
+## 20 · Build out
 Friday question three: are we ready. This slide now sits inside the Investment stop; the kick reads 04 · Investment. 6–8 weeks to acceptance. Four engineers, two designers. Verbal adds, keep them short: the weeks 1–2 calibration sprint is included, not extra; "Nikki already sent most of what we need for the first two weeks"; their team runs acceptance, not ours, and they own the product at handoff. Everything in the Editor tier ships as part of the one build; nothing on the list is optional or extra cost.
 
 **Bridge into pricing (say this leaving the slide):** "So here's what it costs to buy those hours back." If ROI math comes up, do it live on a whiteboard with their numbers.
 
-## 20 · Investment
+## 21 · Investment
 Two tiers. The Engine, $400K, works from what you give it: the current submission, this round's feedback, your guidelines. The Editor, $500K, ingests the full PRC archive and compounds per client, manages the calendar, works the inbox, and edits the assets themselves. One-time build either way; they own it.
 
 **If asked why the Editor is only $100K more:** "Because you're first. Agency two pays more. We get the case study; you get the price." One sentence, no elaboration.
 
 **Agency OS line (verbal only, after pricing, only if the room pulls that direction):** "There's a bigger, agency-wide version of this behind the pilot. We'll earn the right to that conversation after Redline ships."
 
-## 21 · Thank you
+## 22 · Thank you
 The close now has a slide. Leave it up while you land the working session the week of July 20, per Nikki's email. Set the kickoff and first-live-submission dates in the room if the energy is there.

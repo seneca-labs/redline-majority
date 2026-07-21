@@ -340,3 +340,27 @@ Deck is now 21 slides. Agenda merges to four stops (Problem, Solution, Redline, 
 | Slide 6 loop felt stuck on Home | implemented | css | Loop was advancing but the Home hold was too long to notice; cycle 44s → 28s (Home 15s → 8s, other screens ~5s each, same ~0.8s crossfades); verified live: submission at ~10s, deck studio at ~15s |
 | Speaker notes v10 | implemented | notes | §5 spoken bridge + noun buckets; header bumped |
 | Cache-bust to ?v=10 | implemented | index.html | styles.css + deck.js |
+
+---
+
+## v11 · 2026-07-21 · new slide 11, the staged round
+
+Deck is now 22 slides. New slide inserted after "Shows what may be flagged, and why"; it supersedes all earlier storyboard/asset-editing slide specs.
+
+| Item | Status | Where | Notes |
+|---|---|---|---|
+| New slide: "Implement changes, with or without AI." | implemented | 11 | Deck studio view matching the evolved Feed kiosk mockup UI: Menus toolbar, Share/Comment, DR/MK/SO collaborator avatars, filmstrip, Suggested changes rail, black editor button, v4 sidebar with submission section |
+| Window chrome + doc title | implemented | 11 | Redline · Deck studio · US-UNBC-3951 · C4TC Up to Date storyboards; title bar US-UNBC-3951_HIV PrEP_C4TC_Up to Date_Longform_Storyboards_March 2026 |
+| Sidebar submission section | implemented | 11 | US-UNBC-3951 · C4TC Up to Date storyboards · Round 1 reconcile, Deck studio active |
+| Filmstrip, Frame 17 page selected | implemented | 11 | 5 thumbs (Frames 13-14 through 19-20), page 9 · Frame 17 cur |
+| Canvas: Frame 17 current state | implemented | 11 | assets/provided/frame17-after.png crop-fit 16:9 (object-fit:cover, no stretch); Frame 17 label; accepted NICOLE line as caption; v2 · Round 1 reconcile chip |
+| Rail card 1 (done, artwork) | implemented | 11 | "Frame 17 artwork revised, condom box added to her bag" · Committee note chip · before-thumb (frame17-before.png) · source quote "Round 1 sticky" |
+| Rail card 2 (done, dialogue) | implemented | 11 | "Dialogue updated to the accepted alt" · Medical chip · state trail rendered Accept → Discuss → Accept |
+| Rail card 3 (pending, required) | implemented | 11 | Muted: "Frame 4 text alt, held for marketing decision, both alts staged" · Open decision chip; rail-bottom fade mask disabled so it stays fully readable |
+| Button | implemented | 11 | Implement changes with the editor |
+| Supplied assets, not synthesized | implemented | assets | Copied from Desktop to assets/provided/frame17-before.png (654×368) and frame17-after.png (2678×1504); no placeholders needed |
+| Role attributions only | implemented | 11 | Chips are Committee note / Medical / Open decision; no reviewer names anywhere in rendered UI |
+| Excluded from public/portfolio export | implemented | 11 | Section carries data-noexport="1"; any future export build must skip sections with this attribute (no export build exists in-repo today) |
+| No em dashes on slide | implemented | 11 | Copy uses commas and colons; filmstrip ranges use hyphens |
+| Speaker notes 22 slides | implemented | notes | New §11 verbatim; §§11–21 renumbered to 12–22; demo bridge now (19)/(20) |
+| Cache-bust to ?v=12 | implemented | index.html | styles.css + deck.js |
